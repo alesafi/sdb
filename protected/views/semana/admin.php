@@ -47,14 +47,14 @@ Yii::app()->clientScript->registerScript('search', "
 				array(
 						'header'=>'Fecha de inicio'.CHtml::image(Yii::app()->request->baseUrl."/imagenes/aplicacion/up-down.png", 'arriba-abajo', array('width'=>20)),
 						'name'=>'fecha_ini',
-						'filter'=>"<input type='date' name='Semana[fecha_ini]' min='2014-05-11' max='2014-05-25' value='".$model->fecha_ini."'>",
+						'filter'=>"<input type='date' name='Semana[fecha_ini]' min='2015-05-20' max='2015-05-24' value='".$model->fecha_ini."'>",
 						'value'=>'SemanaController::fechaEvento($data->fecha_ini)',
 						'htmlOptions'=>array('style'=>'width:20px'),
 				),
 				array(
 						'header'=>'Fecha de término'.CHtml::image(Yii::app()->request->baseUrl."/imagenes/aplicacion/up-down.png", 'arriba-abajo', array('width'=>20)),
 						'name'=>'fecha_fin',
-						'filter'=>"<input type='date' name='Semana[fecha_fin]' min='2014-05-11' max='2014-05-25' value='".$model->fecha_fin."'>",
+						'filter'=>"<input type='date' name='Semana[fecha_fin]' min='2015-05-20' max='2015-05-24' value='".$model->fecha_fin."'>",
 						'value'=>'SemanaController::fechaEvento($data->fecha_fin)',
 						'htmlOptions'=>array('style'=>'width:20px'),
 				),

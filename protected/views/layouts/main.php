@@ -48,14 +48,7 @@ function MM_swapImage() { //v3.0
 
 <!-- blueprint CSS framework -->
 
-<link rel="stylesheet" type="text/css"
-	href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css"
-	media="print" />
-<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php //echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-<link rel="stylesheet" type="text/css"
-	href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+
 
 
 <?php $estadisticas=Controller::valoresGraficaEventos(); ?> 
@@ -78,7 +71,7 @@ var pie = <?php echo $estadisticas['pie']; ?>;
 
 		<!-- Header -->
 			<header id="header">
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/usuarios/create" class="image avatar"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/imgCirculo.png" alt="" /></a>
+				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/imgCirculo.png" alt="" /></a>
 			</header>
 
 		<!-- Main -->

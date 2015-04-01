@@ -1,6 +1,6 @@
 <div class="row" align="justify">
 	<?php echo $form->labelEx($model,'logo'); ?>
-	<span style="font-size:11;"><em>Se recomienda una imagen de 150px por 150px con un peso máximo de 5MB, solo para jpg, jpeg, png, gif</em> </span><br>
+	<span style="font-size:11;"><em>Se recomienda una imagen de 150px por 150px con un peso máximo de 5MB, solo para jpg, png, gif</em> </span><br>
 	<?php echo $form->fileField($model, 'logo'); ?>
 
 	<?php //if (!$model->isNewRecord && !empty($model->logo)) { 

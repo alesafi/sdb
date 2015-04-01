@@ -99,8 +99,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2014-05-11',
-						'maxDate'=>'2014-05-25',
+						'minDate'=>'2015-05-20',
+						'maxDate'=>'2015-05-24',
 				),
 				'htmlOptions'=>array(
 					'style'=>'height:20px;',
@@ -130,8 +130,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2014-05-11',
-						'maxDate'=>'2014-05-25',
+						'minDate'=>'2015-05-20',
+						'maxDate'=>'2015-05-24',
 				),
 				'htmlOptions'=>array(
 					'style'=>'height:20px',

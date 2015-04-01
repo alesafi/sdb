@@ -217,50 +217,20 @@ class SemanaController extends Controller
 	{
 		switch ((int) substr($fecha, 8, 2))
 		{
-			case 11:
-				return 'Domingo 11 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 12:
-				return 'Lunes 12 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 13:
-				return 'Martes 13 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 14:
-				return 'Miércoles 14 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 15:
-				return 'Jueves 15 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 16:
-				return 'Viernes 16 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 17:
-				return 'Sábado 17 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 18:
-				return 'Domingo 18 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 19:
-				return 'Lunes 19 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
 			case 20:
-				return 'Martes 20 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Miércoles 20 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 21:
-				return 'Miércoles 21 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Jueves 21 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 22:
-				return 'Jueves 22 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Viernes 22 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 23:
-				return 'Viernes 23 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Sábado 23 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 24:
-				return 'Sábado 24 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 25:
-				return 'Domingo 25 de Mayo de 2014 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Domingo 24 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			default:
 				return 'Fecha incorrecta, favor de verificar';
