@@ -1,26 +1,14 @@
-<?php
-/* @var $this SemanaController */
-/* @var $model Semana */
-
-$this->menu=array(
-		array('label'=>'Conoce los eventos', 'url'=>array('admin')),
-		array('label'=>'Tus eventos', 'url'=>array('index')),
-		array('label'=>'Crea un evento', 'url'=>array('create')),
-		//array('label'=>'Modifica este evento', 'url'=>array('update', 'id'=>$model->id)),
-		//array('label'=>'Elimina este evento', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'¿Estás seguro de querer eliminar este evento?')),
-);
-?>
 <div class="imagenes">
 	<h1>
 		<table style="display: table-row;">
 			<tr>
-				<td><?php 
+				<td style="background-color: #E8E4D0;"><?php 
 				if (!empty($model->logo)) {
 				echo CHtml::image($model->ruta,
 				$model->institucion, array('align'=>'right', 'width'=>150)); ?> <?php } else {
 					echo CHtml::image(Yii::app()->request->baseUrl.'/imagenes/aplicacion/blank-logo.png', 'sin foto de institución', array('width'=>'100px', 'align'=>'right'));
 				}?></td>
-				<td width="80%"><?php 
+				<td width="80%" style="background-color: #E8E4D0;"><?php 
 				echo "<span style='font-size:20px;'>".$model->institucion."</span>";
 				?>
 				</td>
