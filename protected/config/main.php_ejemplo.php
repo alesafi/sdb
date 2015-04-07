@@ -7,10 +7,11 @@
 // CWebApplication properties can be configured here.
 return array(
 		'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-		'name'=>'Nombre de tu sitio',
-		'defaultController'=>'site',
-
-		//parte de recordar estado de los filtros de cgridview
+		'name'=>'#a. Semana de la Biodiversidad Biológica',
+		'defaultController'=>'semana/inicio',
+		'homeUrl'=>array('semana/inicio'),
+		
+		//parte de recordar estado de cgridview
 		'import'=>array('application.components.ERememberFiltersBehavior'),
 		//limpia los estaods de los filtros del cgridview
 		'import' =>array('application.components.EButtonColumnWithClearFilters'),
@@ -39,12 +40,12 @@ return array(
 		'modules'=>array(
 		// uncomment the following to enable the Gii tool
 
-		'gii'=>array(
-		'class'=>'system.gii.GiiModule',
-		'password'=>'tu-passwd',
+		//'gii'=>array(
+		//'class'=>'system.gii.GiiModule',
+		//'password'=>'RP#86.lq',
 		// If removed, Gii defaults to localhost only. Edit carefully to taste.
 		//'ipFilters'=>array('127.0.0.1','::1'),
-		),
+		//),
 
 		),
 		// application components
@@ -52,11 +53,11 @@ return array(
 		'user'=>array(
 		// enable cookie-based authentication
 		'allowAutoLogin'=>true,
-		'authTimeout' => 200,
+		'authTimeout' => 100000000,
 		),
-
+		
 		'session' => array(
-		'timeout' => 200,
+				'timeout' => 100000000,
 		),
 
 		'email'=>array(
@@ -66,7 +67,7 @@ return array(
 		),
 
 		// uncomment the following to enable URLs in path-format
-
+/*
 		'urlManager'=>array(
 		'urlFormat'=>'path',
 		'rules'=>array(
@@ -75,7 +76,7 @@ return array(
 		'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 		),
 		),
-
+*/
 
 		/*
 		 'db'=>array(
@@ -88,7 +89,7 @@ return array(
 		'db'=>array(
 		'connectionString' => 'mysql:host=localhost;dbname=tu-base',
 		'emulatePrepare' => true,
-		'username' => 'usuario',
+		'username' => 'tu-usuario',
 		'password' => 'tu-passwd',
 		'charset' => 'utf8',
 		),
@@ -105,11 +106,11 @@ return array(
 		'levels'=>'error, warning',
 		),
 		// uncomment the following to show log messages on web pages
-		/*
+	/*	
 		array(
 		'class'=>'CWebLogRoute',
-		),*/
-
+		),
+	*/
 		),
 		),
 		),
@@ -118,6 +119,7 @@ return array(
 		// using Yii::app()->params['paramName']
 		'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'tu-correo-admin',
+		'adminEmail'=>'calonso@conabio.gob.mx',
+		'cual_semana'=>'#',
 		),
 );
