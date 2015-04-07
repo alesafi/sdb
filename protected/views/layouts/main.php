@@ -69,7 +69,7 @@ var pie = <?php echo $estadisticas['pie']; ?>;
 
 		<!-- Header -->
 			<header id="header">
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/imgCirculo.png" alt="" /></a>
+				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/imgCirculo.png" alt="" /></a>
 			</header>
 
 		<!-- Main -->

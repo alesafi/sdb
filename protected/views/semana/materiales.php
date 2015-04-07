@@ -3,7 +3,7 @@
 
 <!-- Two -->
 					<section id="two">
-					  <article><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/titVideos.png" width="138" height="114"></article>
+					  <article><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/titVideos.png" width="138" height="114"></article>
 					  <div class="row">
                       	  <article class="6u 12u$(xsmall) work-item">
 						   <iframe class="image fit thumb" width="350" height="197" src="https://www.youtube.com/embed/N2nuRrIIams?rel=0" frameborder="0" allowfullscreen></iframe>
