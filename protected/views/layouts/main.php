@@ -92,7 +92,8 @@ var pie = <?php echo $estadisticas['pie']; ?>;
 					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/imgMatDisp_03.png" name="materiales" width="90" height="82" id="materiales" onMouseOver="MM_swapImage('materiales','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titMateriales_03.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
 					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/mat_ninos"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/imgNinos_03.png" name="ninos" width="90" height="82" id="ninos" onMouseOver="MM_swapImage('sinnombre &lt;img&gt;','','/Imagenes/titMaterialNinos_03.png','ninos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titMaterialNinos_03.png',1)" onMouseOut="MM_swapImgRestore()"></a></p>
 						<?php if (!Yii::app()->user->isGuest) { ?>
-					    	<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/logout">Cerrar sesión</a>
+							<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/index">Ver tus eventos</a>
+					    	| <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/logout">Cerrar sesión</a>
 					    <?php } ?>
 				<?php echo $content; ?>			
 
