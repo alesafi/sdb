@@ -39,7 +39,7 @@ Yii::app()->clientScript->registerScript('search', "
 				array(
 						'type'=>'raw',
 						'name'=>'actividad',
-						'value'=>'$data->actividad == "0" ? "<b>".$data->otra_actividad."</b><br>".$data->descripcion : "<b>".Semana::actividades($data->actividad)."</b><br>".$data->descripcion',
+						'value'=>'$data->actividad == "0" ? "<b>".$data->otra_actividad."</b><br>".(strlen($data->descripcion) <= 90 ? $data->descripcion: substr($data->descripcion,0,90))." ..." : "<b>".Semana::actividades($data->actividad)."</b><br>".(strlen($data->descripcion) <= 90 ? $data->descripcion: substr($data->descripcion,0,90))." ..."',
 						'filter'=>Semana::actividades(),
 						//'htmlOptions'=>array('style'=>'width:40px'),
 						'sortable'=>false,
