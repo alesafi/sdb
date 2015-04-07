@@ -32,26 +32,26 @@ if (isset($_GET['situacion']))
 	),
 )); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'usuario'); ?>
+	<div>
+		<?php echo $form->labelEx($model,'usuario'); ?><br>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
-
-	<div class="row">
-		<label>Contrase&ntilde;a</label>
+	
+	<div >
+		<label>Contrase&ntilde;a</label><br>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		
 	</div>
 
-	<div class="row rememberMe">
+	<div rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
 		<label for="LoginForm_rememberMe">Recordarme la próxima vez</label>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
-	<div class="row buttons">
+	<div class="buttons" align="right">
 		<?php echo CHtml::submitButton('Entra'); ?>
 		<?php //echo CHtml::resetButton('Limpia'); ?>
 	</div>

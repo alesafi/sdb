@@ -21,42 +21,42 @@
 	if($model->isNewRecord) {
 		?>
 		
-	<div class="row">
-		<?php echo $form->labelEx($model,'usuario'); ?>
+	<div>
+		<?php echo $form->labelEx($model,'usuario'); ?><br>
 		<span><em>Por favor omite los espacios y caracteres extraños</em> </span><br>
 		<?php echo $form->textField($model,'usuario',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'usuario'); ?>
 	</div>
-
+	<br>
 	<?php 
 	}
 		?>
 		
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
+	<div>
+		<?php echo $form->labelEx($model,'email'); ?><br>
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'passwd'); ?>
+	<br>
+	<div>
+		<?php echo $form->labelEx($model,'passwd'); ?><br>
 		<?php echo $form->passwordField($model,'passwd',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'passwd'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'nombre'); ?>
+	<br>
+	<div>
+		<?php echo $form->labelEx($model,'nombre'); ?><br>
 		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'nombre'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'apellido'); ?>
+	<br>
+	<div>
+		<?php echo $form->labelEx($model,'apellido'); ?><br>
 		<?php echo $form->textField($model,'apellido',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'apellido'); ?>
 	</div>
-
-	<div class="row buttons">
+	<br>
+	<div align="right">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear registro' : 'Guardar cambios'); ?>
 	</div>
 

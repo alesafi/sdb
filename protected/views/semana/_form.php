@@ -34,7 +34,7 @@
 	<table>
 		<tr>
 			<td>
-				<div class="row">
+				<div>
 					<?php echo $form->labelEx($model,'institucion'); ?>
 					<?php echo $form->textField($model,'institucion',array('size'=>60,'maxlength'=>255)); ?>
 					<?php echo $form->error($model,'institucion'); ?>
@@ -46,43 +46,42 @@
 		</tr>
 	</table>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'estado_id'); ?>
 		<?php echo $form->dropDownList($model, 'estado_id',  CHtml::listData(Estado::model()->findAll(), 'id', 'nombre'), 
 				array('empty'=>'---Selecciona un estado---', 'id'=>'estado')); ?>
 		<?php echo $form->error($model,'estado_id'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'direccion'); ?>
+	<br>
+	<div>
+		<?php echo $form->labelEx($model,'direccion'); ?><br>
 		<?php echo $form->textArea($model,'direccion',array('rows'=>4, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'direccion'); ?>
 	</div>
-
-	<div class="row">
+	<br>
+	<div>
 		<?php echo $form->labelEx($model,'actividad'); ?>
 		<?php echo $form->dropDownList($model, 'actividad', Semana::actividades(), 
 				array('empty'=>'---Selecciona una actividad---', 'id'=>'actividad')); ?>
 		<?php echo $form->error($model,'actividad'); ?>
 	</div>
-
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'otra_actividad'); ?>
 		<span><em>Solo si tu actividad no se encuentra en la lista</em> </span><br>
 		<?php echo $form->textField($model,'otra_actividad',array('size'=>60,'maxlength'=>255, 'disabled'=>$model->actividad == '0' ? false : true)); ?>
 		<?php echo $form->error($model,'otra_actividad'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'descripcion'); ?>
+	<br>
+	<div>
+		<?php echo $form->labelEx($model,'descripcion'); ?><br>
 		<?php echo $form->textArea($model,'descripcion',array('rows'=>4, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
-
+	<br>
 	<table cellpadding="20">
 		<tr>
 			<td>
-				<div class="row">
+				<div>
 					<?php echo $form->labelEx($model,'fecha_ini'); ?>
 					<?php 
 					$this->widget(
@@ -113,7 +112,7 @@
 				</div>
 			</td>
 			<td>
-				<div class="row">
+				<div>
 					<?php echo $form->labelEx($model,'fecha_fin'); ?>
 					<?php 
 					$this->widget(
@@ -145,27 +144,27 @@
 		</tr>
 	</table>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'informes'); ?>
-		<span><em>Referencia en caso de dudas o sugerencias</em> </span><br>
+		<span><em>, Referencia en caso de dudas o sugerencias</em> </span><br>
 		<?php echo $form->textArea($model,'informes',array('rows'=>4, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'informes'); ?>
 	</div>
-
-	<div class="row">
+	<br>
+	<div>
 		<?php echo $form->labelEx($model,'url'); ?>
 		<span><em>Se vinculará el evento con la URL de su página web (ej. http://www.biodiversidad.gob.mx)</em> </span><br>
 		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'url'); ?>
 	</div>
-	
+	<br>
 	<?php $this->renderPartial('_materiales',array(
 					'model'=>$model, 'form'=>$form, 'model_materiales' => isset($model_materiales) ? $model_materiales : array(),
 			)); ?>
 
 	<?php echo $form->hiddenField($model,'usuarios_id', array('value' => $usuario)); ?>
 
-	<div class="row buttons" align="right">
+	<div align="right">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear evento' : 'Actualizar evento'); ?>
 	</div>
 

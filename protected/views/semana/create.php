@@ -8,6 +8,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Crea un evento para la 4ta. Semana <br><br>de la Biodiversidad</h1>
+<h1>Crea un evento <?php Yii::app()->name; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model, 'usuario'=>$usuario)); ?>
