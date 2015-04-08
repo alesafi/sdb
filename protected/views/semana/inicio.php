@@ -14,17 +14,17 @@ Por su parte la Organizaci&oacute;n de las Naciones Unidas para  la Alimentaci&o
 					<section id="two">
 					  <div class="row">
 						  <article class="6u 12u$(xsmall) work-item">
-								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/fulls/imgOficialGde.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/thumbs/imgOficial.png" alt="" /></a>
+								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/fulls/imgOficialGde.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgOficial.png" alt="" /></a>
 							<p>Conferencias | Exposiciones | Cursos y talleres | Recorridos</p>
 						</article>
 							
                         <article class="6u$ 12u$(xsmall) piesImg">
-								<p class="image fit"><a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/materiales.html"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/thumbs/imgMateriales_1.png" alt="" /></a></p>
-                                <p><a href="materiales.html" target="_top">Aprende m&aacute;s sobre el tema</a>. Recursos para todo p&uacute;blico</p>
+								<p class="image fit"><a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/index.php?r=semana/materiales"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgMateriales_1.png" alt="" /></a></p>
+                                <p><a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/index.php?r=semana/materiales" target="_top">Aprende m&aacute;s sobre el tema</a>. Recursos para todo p&uacute;blico</p>
 						</article>                      
                        
                         <article class="6u$ 12u$(xsmall) work-item">
-								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/fulls/imgRegistroGde_ok.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/images/thumbs/imgRegistro_ok.png" alt="" /></a>
+								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/fulls/imgRegistroGde_ok.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgRegistro_ok.png" alt="" /></a>
 							  <p>S&uacute;mate a la semana de la Diversidad Biol&oacute;gica, reg&iacute;strate y publica tus actividades</p>
 						</article>
                         
