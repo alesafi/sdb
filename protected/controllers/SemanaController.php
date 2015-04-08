@@ -140,7 +140,7 @@ class SemanaController extends Controller
 	public function actionIndex()
 	{
 		$this->dameInfoUsuario();
-		$dataProvider=new CActiveDataProvider('Semana', array('criteria' => array ('condition'=>'usuarios_id='.Yii::app()->user->id_usuario)));
+		$dataProvider=new CActiveDataProvider('Semana', array('criteria' => array ('condition'=>'usuarios_id='.Yii::app()->user->id_usuario." AND cual_semana='".Yii::app()->params->cual_semana."'")));
 		$this->render('index',array(
 				'dataProvider'=>$dataProvider,
 		));

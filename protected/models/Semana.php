@@ -157,13 +157,13 @@ class Semana extends CActiveRecord
 
 		if (!empty($this->fecha_ini) && !empty($this->fecha_fin))
 		{
-			if (!preg_match("/^2014-05-(1[1-9]|2[0-5]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_ini))
+			if (!preg_match("/^2015-05-(1[1-9]|2[0-5]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_ini))
 			{
 				$this->addError('fecha_ini', 'La fecha de inicio es incorrecta, por favor selecciona la fecha en el calendario que se despliega.');
 				$valido = false;
 			}
 
-			if (!preg_match("/^2014-05-(1[1-9]|2[0-5]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_fin))
+			if (!preg_match("/^2015-05-(1[1-9]|2[0-5]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_fin))
 			{
 				$this->addError('fecha_fin', 'La fecha de término es incorrecta, por favor selecciona la fecha en el calendario que se despliega.');
 				$valido = false;
@@ -209,10 +209,10 @@ class Semana extends CActiveRecord
 				{
 					if ($valido)
 					{
-						$path=dirname(__FILE__).'/../../imagenes/usuarios/semana/logos/';
+						$path=Yii::getPathOfAlias('webroot').'/imagenes/usuarios/semana/logos/';
+						$url=Yii::app()->request->baseUrl.'/imagenes/usuarios/semana/logos/';
 						if (!file_exists($path.$this->usuarios_id))
 							mkdir($path.$this->usuarios_id);
-
 
 						$fecha=date("Y-m-d_H-i-s");
 						$identificador=$fecha.'_';
@@ -220,16 +220,15 @@ class Semana extends CActiveRecord
 						$this->formato=$formato;
 						$this->peso=$peso;
 						$this->cadena=$identificador;
-						$ruta=$path.$this->usuarios_id.'/'.$identificador.$archivo;
-						$this->ruta='../../imagenes/usuarios/semana/logos/'.$this->usuarios_id.'/'.$identificador.$archivo;
-						$archivo->saveAs($ruta);
+						$this->ruta=$url.$this->usuarios_id.'/'.$identificador.$archivo;
+						$archivo->saveAs($path.$this->usuarios_id.'/'.$identificador.$archivo);
 					}
 				} else {
 					$this->addError('logo', 'El logo debe pesar a lo más 5MB');
 					$valido = false;
 				}
 			} else {
-				$this->addError('logo', 'El logo solo admite archivos jpg, jpeg, png y gif');
+				$this->addError('logo', 'El logo solo admite archivos jpg, png y gif');
 				$valido = false;
 			}
 		}
@@ -280,6 +279,7 @@ class Semana extends CActiveRecord
 		if ($valido && $this->isNewRecord)
 		{
 			$this->fec_alta=Controller::fechaAlta();
+			$this->cual_semana=Yii::app()->params->cual_semana;
 		}
 
 		$this->materiales=$materiales;
@@ -301,7 +301,8 @@ class Semana extends CActiveRecord
 				$peso = $archivo->getSize();
 				if ($peso <= 5024684)
 				{
-					$path=dirname(__FILE__).'/../../imagenes/usuarios/semana/materiales/';
+					$path=Yii::getPathOfAlias('webroot').'/imagenes/usuarios/semana/materiales/';
+					$url=Yii::app()->request->baseUrl.'/imagenes/usuarios/semana/materiales/';
 					if (!file_exists($path.$mod->usuarios_id))
 						mkdir($path.$mod->usuarios_id);
 
@@ -320,12 +321,11 @@ class Semana extends CActiveRecord
 					$model->formato=$formato;
 					$model->peso=$peso;
 					$model->cadena=$identificador;
-					$model->ruta='../../imagenes/usuarios/semana/materiales/'.$mod->usuarios_id.'/'.$identificador.$archivo;
+					$model->ruta=$url.$mod->usuarios_id.'/'.$identificador.$archivo;
 					$model->fec_alta=Controller::fechaAlta();
 					$model->numero_material=$mat;
-					$ruta=$path.$this->usuarios_id.'/'.$identificador.$archivo;
 
-					return array('valido'=>true, 'con'=>true, 'model'=>$model, 'ruta'=>$ruta, 'archivo'=>$archivo);
+					return array('valido'=>true, 'con'=>true, 'model'=>$model, 'path'=>$path.$this->usuarios_id.'/'.$identificador.$archivo, 'archivo'=>$archivo);
 				} else
 					return array('valido'=>false, 'error'=>'debe pesar a lo más 5MB');
 			} else
@@ -348,7 +348,7 @@ class Semana extends CActiveRecord
 				$model->semana_id=$this->id;
 
 				if ($model->save(false))
-					$material['archivo']->saveAs($material['ruta']);
+					$material['archivo']->saveAs($material['path']);
 				else {
 					$this->addError('material1', 'Lo sentimos, alguno de los materiales no pudo ser guardado');
 					return false;
