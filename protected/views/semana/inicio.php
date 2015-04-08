@@ -1,4 +1,4 @@
-<p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad CONABIO te invita a participar activamente en la&nbsp;<strong>5&ordf; Semana de la Diversidad Biol&oacute;gica</strong>,  durante el per&iacute;odo del <strong>20 al 24 de mayo </strong>del a&ntilde;o en curso,  realizando actividades de divulgaci&oacute;n con el tema&nbsp;<strong>Suelos sanos para una vida sana.</strong><br>
+<p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad CONABIO te invita a participar activamente en la&nbsp;<strong>5&ordf; Semana de la Diversidad Biol&oacute;gica</strong>,  durante el per&iacute;odo del <strong>20 al 24 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/index.php?r=usuarios/create#actividades">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Suelos sanos para una vida sana.</strong><br>
                           <br>
 Desde 2011 hasta el 2020 se ha designado la <strong>d&eacute;cada de la diversidad biol&oacute;gica</strong>. El prop&oacute;sito de la d&eacute;cada es  aumentar las actividades de difusi&oacute;n para que todos conozcamos la situaci&oacute;n de  la diversidad biol&oacute;gica y participemos en su manejo sustentable, restauraci&oacute;n y  conservaci&oacute;n.<br>
 <br>
@@ -11,23 +11,4 @@ Por su parte la Organizaci&oacute;n de las Naciones Unidas para  la Alimentaci&o
                           Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;benos a:&nbsp;<a href="mailto:sdb@conabio.gob.mx">sdb@conabio.gob.mx</a></p></section>
 
 				<!-- Two -->
-					<section id="two">
-					  <div class="row">
-						  <article class="6u 12u$(xsmall) work-item">
-								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/fulls/imgOficialGde.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgOficial.png" alt="" /></a>
-							<p>Conferencias | Exposiciones | Cursos y talleres | Recorridos</p>
-						</article>
-							
-                        <article class="6u$ 12u$(xsmall) piesImg">
-								<p class="image fit"><a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/index.php?r=semana/materiales"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgMateriales_1.png" alt="" /></a></p>
-                                <p><a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/index.php?r=semana/materiales" target="_top">Aprende m&aacute;s sobre el tema</a>. Recursos para todo p&uacute;blico</p>
-						</article>                      
-                       
-                        <article class="6u$ 12u$(xsmall) work-item">
-								<a href="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/fulls/imgRegistroGde_ok.png" class="image fit thumb"><img src="http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/thumbs/imgRegistro_ok.png" alt="" /></a>
-							  <p>S&uacute;mate a la semana de la Diversidad Biol&oacute;gica, reg&iacute;strate y publica tus actividades</p>
-						</article>
-                        
-                       
-					  </div>
-					</section>
+					<section id="two"></section>
