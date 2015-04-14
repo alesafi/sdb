@@ -72,6 +72,7 @@ class UsuariosController extends Controller
 		{
 			$model->attributes=$_POST['Usuarios'];
 			$model->fec_alta=self::fechaAlta();
+			$model->cual_semana = Yii::app()->params->cual_semana;
 				
 			if($model->save()) 
 			{

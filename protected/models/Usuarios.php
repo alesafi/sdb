@@ -64,10 +64,6 @@ class Usuarios extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-				'documental' => array(self::HAS_MANY, 'Documental', 'usuarios_id'),
-				'directorios' => array(self::HAS_MANY, 'Directorio', 'usuarios_id'),
-				'listas' => array(self::HAS_MANY, 'Listas', 'usuarios_id'),
-				'medioses' => array(self::HAS_MANY, 'Medios', 'usuarios_id'),
 				'roles' => array(self::BELONGS_TO, 'Roles', 'roles_id'),
 		);
 	}
@@ -98,21 +94,30 @@ class Usuarios extends CActiveRecord
 	{
 		if (!empty($this->usuario))
 		{
-			$usuario = Usuarios::findByAttributes(array('usuario'=>$this->usuario));
-			if (isset($usuario->id))
+			$usuarios = Usuarios::findAllByAttributes(array('usuario'=>$this->usuario));
+
+			foreach ($usuarios as $usuario)
 			{
-				$this->addError('usuario', 'El usuario '.$this->usuario.' ya existe, por favor elige otro');
-				return false;
+				if (isset($usuario->id) && $usuario->cual_semana == Yii::app()->params->cual_semana)
+				{
+					$this->addError('usuario', 'El usuario '.$this->usuario.' ya existe, por favor elige otro');
+					return false;
+				}
 			}
 		}
 
 		if (!empty($this->email)) {
 			if ($this->validaCorreo($this->email))
 			{
-				$email = Usuarios::findByAttributes(array('email'=>$this->email));
-				if (isset($email->id)) {
-					$this->addError('email', 'El correo '.$this->email.' ya existe, y esta vinculado con el usuario: "'.$email->usuario.'", si no recuerdas tu usuario/contraseña manda un correo a sbd@conabio.gob.mx');
-					return false;
+				$emails = Usuarios::findAllByAttributes(array('email'=>$this->email));
+				
+				foreach ($emails as $email)
+				{
+					if (isset($email->id) && $email->cual_semana == Yii::app()->params->cual_semana) 
+					{
+						$this->addError('email', 'El correo '.$this->email.' ya existe, y esta vinculado con el usuario: "'.$email->usuario.'", si no recuerdas tu usuario/contraseña manda un correo a sbd@conabio.gob.mx');
+						return false;
+					}
 				}
 			} else {
 				$this->addError('email', 'El correo que pusisite no es válido');

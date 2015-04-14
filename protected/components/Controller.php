@@ -39,7 +39,7 @@ class Controller extends CController
 		->select('r.*')
 		->from('usuarios u')
 		->leftJoin('roles r', 'u.roles_id=r.id')
-		->where('u.id='.Yii::app()->user->id_usuario)
+		->where('u.id='.Yii::app()->user->id_usuario." AND u.cual_semana='".Yii::app()->params->cual_semana."'")
 		->queryRow();
 
 		return $results;
@@ -51,7 +51,7 @@ class Controller extends CController
 	 */
 	public function setIdUsuario($usuario)
 	{
-		$model = Usuarios::model()->findByAttributes(array('usuario'=>$usuario));
+		$model = Usuarios::model()->findByAttributes(array('usuario'=>$usuario, 'cual_semana'=>Yii::app()->params->cual_semana));
 		Yii::app()->user->setState('id_usuario', $model->id);
 	}
 
@@ -104,24 +104,20 @@ class Controller extends CController
 	{
 		$eventos='';
 		$estados='';
-		$pie='';
+		$barras='';
 	
 		$resultados=Yii::app()->db->createCommand()
 		->select('count(*) AS eventos, estado_id AS estado')
 		->from('semana s')
+		->where("cual_semana='".Yii::app()->params->cual_semana."'")
 		->group('estado_id')
 		->order('count(*) DESC')
 		->queryAll();
 	
 		foreach ($resultados as $k => $data)
-		{
-			//para la grafica de barras
-			//$eventos.=$data['eventos'].', ';
-			//$estados.="'".Estado::model()->findByPk($data['estado'])->nombre."', ";
-			$pie.="['".Estado::model()->findByPk($data['estado'])->nombre."', ".$data['eventos'].'], ';
-		}
-		//return array('eventos'=>'['.substr($eventos, 0, -2).']', 'estados'=>'['.substr($estados, 0, -2).']');
-		return array('pie'=>'['.substr($pie, 0, -2).']');
+			$barras.="['".Estado::model()->findByPk($data['estado'])->nombre."', ".$data['eventos'].'], ';
+
+		return array('barras'=>'['.substr($barras, 0, -2).']');
 	}
 
 }
