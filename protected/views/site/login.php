@@ -53,8 +53,11 @@ if (isset($_GET['situacion']))
 
 	<div class="buttons" align="right">
 		<?php echo CHtml::submitButton('Entra'); ?>
-		<?php //echo CHtml::resetButton('Limpia'); ?>
 	</div>
 	
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+
+<div>
+¿Haz olvidado tu contrase&ntilde;a? Sigue este <a href="<?php echo Yii::app()->request->baseUrl.'/index.php?r=site/recupera'; ?>">enlace</a>
+</div>

@@ -120,4 +120,74 @@ class SiteController extends Controller
 	{
 		$this->render('maintenance');
 	}
+	
+	/**
+	 * Para recuperar la contrasenia
+	 */
+	public function actionRecupera()
+	{
+		$this->render('recupera');
+	}
+	
+	/**
+	 * Para mandar el correo a la direccion que anoto
+	 */
+	public function actionEnvia_correo()
+	{
+		if(isset($_GET['correo']) &&$_GET['correo'] != "")
+		{
+			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo'], 'cual_semana'=>Yii::app()->params->cual_semana));
+			if (isset($usuario->id))
+			{
+				$usuario->send_mail();
+				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo esta en proces de enviarse.");
+			}
+			else
+				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo proporcionado no se encuentra registrado.");	
+		} else
+			$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo no puede ser vacio.");
+	}
+	
+	/**
+	 * Cuando le da click al enlace del correo
+	 */
+	public function actionReset()
+	{
+		if (isset($_GET['id']) && !empty($_GET['id']) && isset($_GET['fec_alta']) && !empty($_GET['fec_alta']))
+		{
+			$usuario = Usuarios::model()->findByPk($_GET['id']);
+			if ($usuario == NULL)
+				throw new CHttpException(404,'Hubo un error en la petición.');
+			elseif ($usuario->fec_alta == urldecode($_GET['fec_alta']) && $usuario->cual_semana == Yii::app()->params->cual_semana)
+				$this->render('reset', array('usuario'=>$usuario));
+			else
+				throw new CHttpException(404,'Hubo un error en la petición.');
+		} else
+			throw new CHttpException(404,'Hubo un error en la petición.');
+	}
+	
+	/**
+	 * Cuando envio la nueva contrasenia
+	 */
+	public function actionNueva_contrasenia()
+	{
+		if (isset($_GET['id']) && !empty($_GET['id']) && isset($_GET['fec_alta']) && !empty($_GET['fec_alta']) && isset($_GET['passwd']) && !empty($_GET['passwd']))
+		{
+			$usuario = Usuarios::model()->findByPk($_GET['id']);
+			if ($usuario == NULL)
+				throw new CHttpException(404,'Hubo un error en la petición.');
+			elseif ($usuario->fec_alta == $_GET['fec_alta'] && $usuario->cual_semana == Yii::app()->params->cual_semana)
+			{
+				$usuario->passwd = $_GET['passwd'];
+				$usuario->solo_passwd = true;
+				
+				if ($usuario->save())
+					$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=Tu contraseña ha sido cambiada con exito. Ahora puedes ingresar");
+				else
+					throw new CHttpException(404,'Hubo un error en la petición.');
+			} else
+				throw new CHttpException(404,'Hubo un error en la petición.');
+		} else
+			throw new CHttpException(404,'Hubo un error en la petición.');
+	}
 }

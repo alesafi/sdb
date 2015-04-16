@@ -19,6 +19,7 @@
  */
 class Usuarios extends CActiveRecord
 {
+	public $solo_passwd = false;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -92,39 +93,45 @@ class Usuarios extends CActiveRecord
 	 */
 	public function afterValidate()
 	{
-		if (!empty($this->usuario))
+		if (!$this->solo_passwd)
 		{
-			$usuarios = Usuarios::findAllByAttributes(array('usuario'=>$this->usuario));
-
-			foreach ($usuarios as $usuario)
+			if (!empty($this->usuario))
 			{
-				if (isset($usuario->id) && $usuario->cual_semana == Yii::app()->params->cual_semana)
-				{
-					$this->addError('usuario', 'El usuario '.$this->usuario.' ya existe, por favor elige otro');
-					return false;
-				}
-			}
-		}
+				$usuarios = Usuarios::findAllByAttributes(array('usuario'=>$this->usuario));
 
-		if (!empty($this->email)) {
-			if ($this->validaCorreo($this->email))
-			{
-				$emails = Usuarios::findAllByAttributes(array('email'=>$this->email));
-				
-				foreach ($emails as $email)
+				foreach ($usuarios as $usuario)
 				{
-					if (isset($email->id) && $email->cual_semana == Yii::app()->params->cual_semana) 
+					if (isset($usuario->id) && $usuario->cual_semana == Yii::app()->params->cual_semana)
 					{
-						$this->addError('email', 'El correo '.$this->email.' ya existe, y esta vinculado con el usuario: "'.$email->usuario.'", si no recuerdas tu usuario/contraseña manda un correo a sbd@conabio.gob.mx');
+						$this->addError('usuario', 'El usuario '.$this->usuario.' ya existe, por favor elige otro');
 						return false;
 					}
 				}
-			} else {
-				$this->addError('email', 'El correo que pusisite no es válido');
-				return false;
 			}
-		}
-		return parent::afterValidate();
+
+			if (!empty($this->email)) 
+			{
+				if ($this->validaCorreo($this->email))
+				{
+					$emails = Usuarios::findAllByAttributes(array('email'=>$this->email));
+				
+					foreach ($emails as $email)
+					{
+						if (isset($email->id) && $email->cual_semana == Yii::app()->params->cual_semana) 
+						{
+							$this->addError('email', 'El correo '.$this->email.' ya existe, y esta vinculado con el usuario: '.$email->usuario.", si no recuerdas tu usuario/contrase&ntilde;a sigue el siguiente <a href=\"".Yii::app()->request->baseUrl."/index.php?r=site/recupera\">enlace</a>");
+							return false;
+						}
+					}
+				} else {
+					$this->addError('email', 'El correo que pusisite no es válido');
+					return false;
+				}
+			}
+			return parent::afterValidate();
+			
+		} else
+			return parent::afterValidate();
 	}
 
 	/**
@@ -160,5 +167,21 @@ class Usuarios extends CActiveRecord
 			return true;
 		else
 			return false;
+	}
+	
+	public function send_mail()
+	{
+		$imagen = "<table width=\"990\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">";
+		$imagen.= "<tbody><tr><td width=\"790\" align=\"center\" bgcolor=\"#FFFFFF\">";
+		$imagen.= "<img	src=\"".Yii::app()->request->baseUrl.'/imagenes/aplicacion/SDB_2015/Imagenes/bg.jpg'."\" width=\"707\">";
+		$imagen.= "</td></tr></tbody></table>";
+		$para = $this->email.", sbd@conabio.gob.mx";
+		$titulo = "5a. Semana de la Diversidad Biol&oacute;gica";
+		$mensaje = $imagen."<br><br>".$this->nombre.' '.$this->apellido.",";
+		$mensaje.= "<br><br>Para poder poner una nueva contrase&ntilde;a sigue el siguiente ";
+		$mensaje.= "<a href=\"".Yii::app()->createAbsoluteUrl('site/reset')."?id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
+		$cabeceras = "Content-type: text/html; charset=utf-8"."\r\n";
+		$cabeceras.= "From: noreply@conabio.gob.mx"."\r\n";
+		mail($para, $titulo, $mensaje, $cabeceras);
 	}
 }
