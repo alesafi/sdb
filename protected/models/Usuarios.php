@@ -179,7 +179,7 @@ class Usuarios extends CActiveRecord
 		$titulo = "5a. Semana de la Diversidad Biol&oacute;gica";
 		$mensaje = $imagen."<br><br>".$this->nombre.' '.$this->apellido.",";
 		$mensaje.= "<br><br>Para poder poner una nueva contrase&ntilde;a sigue el siguiente ";
-		$mensaje.= "<a href=\"".Yii::app()->createAbsoluteUrl('site/reset')."?id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
+		$mensaje.= "<a href=\"".Yii::app()->createAbsoluteUrl('site/reset')."&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
 		$cabeceras = "Content-type: text/html; charset=utf-8"."\r\n";
 		$cabeceras.= "From: noreply@conabio.gob.mx"."\r\n";
 		mail($para, $titulo, $mensaje, $cabeceras);
