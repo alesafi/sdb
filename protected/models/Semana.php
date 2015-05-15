@@ -377,7 +377,8 @@ class Semana extends CActiveRecord
 				'6' => 'curso / taller',
 				'7' => 'proyección de cortometrajes',
 				'8' => 'foro',
-				'9' => 'puertas abiertas'
+				'9' => 'puertas abiertas',
+				'10' => 'difusión en medios de comunicación'
 		);
 		asort($actividades);
 		return $posicion == 1000 ? $actividades : $actividades[$posicion];
