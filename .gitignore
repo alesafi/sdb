@@ -8,4 +8,4 @@ themes/classic/views/
 .project
 .settings/
 protected/config/main.php
-protected/data/*.sql
+protected/data/*
