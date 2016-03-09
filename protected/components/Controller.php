@@ -120,4 +120,12 @@ class Controller extends CController
 		return array('barras'=>'['.substr($barras, 0, -2).']');
 	}
 
+	public function vigencia()
+	{
+		$fecha = date("YmdHis");
+		if ($fecha < Yii::app()->params->fecha_termino)
+			return true;		
+		else
+			throw new CHttpException(NULL,"El tiempo para publicar tus eventos ha terminado.");
+	}
 }

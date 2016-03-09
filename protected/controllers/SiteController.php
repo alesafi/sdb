@@ -126,6 +126,7 @@ class SiteController extends Controller
 	 */
 	public function actionRecupera()
 	{
+		$this->vigencia();
 		$this->render('recupera');
 	}
 	
@@ -134,6 +135,8 @@ class SiteController extends Controller
 	 */
 	public function actionEnvia_correo()
 	{
+		$this->vigencia();
+		
 		if(isset($_GET['correo']) &&$_GET['correo'] != "")
 		{
 			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo'], 'cual_semana'=>Yii::app()->params->cual_semana));
@@ -153,6 +156,8 @@ class SiteController extends Controller
 	 */
 	public function actionReset()
 	{
+		$this->vigencia();
+		
 		if (isset($_GET['id']) && !empty($_GET['id']) && isset($_GET['fec_alta']) && !empty($_GET['fec_alta']))
 		{
 			$usuario = Usuarios::model()->findByPk($_GET['id']);
@@ -171,6 +176,8 @@ class SiteController extends Controller
 	 */
 	public function actionNueva_contrasenia()
 	{
+		$this->vigencia();
+		
 		if (isset($_GET['id']) && !empty($_GET['id']) && isset($_GET['fec_alta']) && !empty($_GET['fec_alta']) && isset($_GET['passwd']) && !empty($_GET['passwd']))
 		{
 			$usuario = Usuarios::model()->findByPk($_GET['id']);

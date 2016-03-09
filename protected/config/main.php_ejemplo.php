@@ -121,5 +121,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'calonso@conabio.gob.mx',
 		'cual_semana'=>'#',
+		'fecha_termino'=>'20150101000000'
 		),
 );
