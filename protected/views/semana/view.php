@@ -46,16 +46,16 @@
 		array(
 						'type'=>'raw',
 						'name'=>'url',
-						'value'=>!empty($model->url) ? "<span style='font-size:12px;'>".CHtml::link($model->url, $model->url, array('target'=>'_blank', 'style'=>'color:#BD5D28'))."</span>" : '',
+						'value'=>!empty($model->url) ? "<span style='font-size:12px;'>".CHtml::link($model->url, $model->url, array('target'=>'_blank', 'style'=>'color:#009BB7'))."</span>" : '',
 				),
 	),
 )); ?>
 
 <?php if ($puede_modificar) 
 {
-	echo CHtml::link('Editar', array('update', 'id'=>$model->id), array('style'=>'color:#BD5D28;font-size:11px;'));
+	echo CHtml::link('Editar', array('update', 'id'=>$model->id), array('style'=>'color:#009BB7;font-size:11px;'));
 	echo "&nbsp;&nbsp;&nbsp;";
-	echo CHtml::link('Eliminar', '#', array('style'=>'color:#BD5D28;font-size:11px;', 'submit'=>array('delete','id'=>$model->id), 'confirm'=>'¿Estás seguro que deseas eliminar este contacto?'));
+	echo CHtml::link('Eliminar', '#', array('style'=>'color:#009BB7;font-size:11px;', 'submit'=>array('delete','id'=>$model->id), 'confirm'=>'¿Estás seguro que deseas eliminar este contacto?'));
 }	
 ?>
 
@@ -66,9 +66,9 @@
 foreach ($model_materiales as $k => $material)
 {
 		if ($material->formato == "image/jpeg")
-			echo CHtml::image($material->ruta, $material->nombre, array('width'=>150)).'<br>'.CHtml::link('Ver imagen', $material->ruta, array('style'=>'color:#BD5D28', 'target'=>'_blank'));
+			echo CHtml::image($material->ruta, $material->nombre, array('width'=>150)).'<br>'.CHtml::link('Ver imagen', $material->ruta, array('style'=>'color:#009BB7', 'target'=>'_blank'));
 		if ($material->formato == "application/pdf")
-			echo CHtml::link($material->nombre, $material->ruta, array('target'=>'_blank', 'style'=>'color:#BD5D28'));
+			echo CHtml::link($material->nombre, $material->ruta, array('target'=>'_blank', 'style'=>'color:#009BB7'));
 		echo "<br><br>";
 }
 ?>
