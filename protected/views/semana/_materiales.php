@@ -22,7 +22,7 @@
 				if ($material->formato == "image/jpeg")
 					echo CHtml::image("../".$material->ruta, $material->nombre, array('width'=>150));
 				if ($material->formato == "application/pdf")
-					echo CHtml::link($material->nombre, "../".$material->ruta, array('target'=>'_blank', 'style'=>'color:#BD5D28'));
+					echo CHtml::link($material->nombre, "../".$material->ruta, array('target'=>'_blank', 'style'=>'color:#009BB7'));
 			}	
 		}
 		?>
@@ -47,7 +47,7 @@
 				if ($material->formato == "image/jpeg")
 					echo CHtml::image("../".$material->ruta, $material->nombre, array('width'=>150));
 				if ($material->formato == "application/pdf")
-					echo CHtml::link($material->nombre, "http://".$_SERVER['SERVER_ADDR'].Yii::app()->request->baseUrl.substr($material->ruta, 5), array('target'=>'_blank', 'style'=>'color:#BD5D28'));
+					echo CHtml::link($material->nombre, "http://".$_SERVER['SERVER_ADDR'].Yii::app()->request->baseUrl.substr($material->ruta, 5), array('target'=>'_blank', 'style'=>'color:#009BB7'));
 			}	
 		}
 		?>
@@ -71,7 +71,7 @@
 				if ($material->formato == "image/jpeg")
 					echo CHtml::image("../".$material->ruta, $material->nombre, array('width'=>150));
 				if ($material->formato == "application/pdf")
-					echo CHtml::link($material->nombre, "http://".$_SERVER['SERVER_ADDR'].Yii::app()->request->baseUrl.substr($material->ruta, 5), array('target'=>'_blank', 'style'=>'color:#BD5D28'));
+					echo CHtml::link($material->nombre, "http://".$_SERVER['SERVER_ADDR'].Yii::app()->request->baseUrl.substr($material->ruta, 5), array('target'=>'_blank', 'style'=>'color:#009BB7'));
 			}	
 		}
 		?>

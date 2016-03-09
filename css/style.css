@@ -10,7 +10,8 @@
 /* Basic */
 
 	body {
-		background: #E8E4D0;
+		background: #E4E4E4;
+		background: url("../imagenes/aplicacion/SDB_2015/back_textura-01.png");
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -41,18 +42,18 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #600;
+		color: #009BB7;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #CC6600 !important;
+			color: #008D36 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #CC6600;
+		color: #008D36;
 		font-weight: 400;
 	}
 
@@ -82,14 +83,17 @@
 		}
 
 	h1 {
-		font-size: 2em;
+		/*font-size: 2em;*/
 		line-height: 1.5em;
+		font-size: 1.7em;
+		color: #006633 !important;
 	}
 
 	h2 {
 		font-size: 1.7em;
 		line-height: 1.25em;
 	}
+	
 
 	h3 {
 		font-size: 1.25em;
@@ -212,8 +216,29 @@
 	header.major h2 {
 		font-family:Georgia, "Times New Roman", Times, serif;
 		font-size: 2em;
-		color: #333;
-		
+		color: #008D36;
+	}
+	
+	.verde {
+		color: #006633 !important;
+	}
+	
+	.slogan {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif !important;
+	font-style: italic;
+	color: #008D36;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	}
+	
+	.tit_materiales {
+		color: #516710;
+	}
+	
+	.conabio {
+		font-variant: small-caps;
+		font-size: 120%;
+		font-weight: bold;
 	}
 
 /* Box */
@@ -540,13 +565,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			/*border: solid 1px #efefef;*/
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				/*background-color: #f7f7f7;*/
 			}
 
 		table td {
@@ -751,9 +776,9 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #fff;
 		background-attachment: scroll, fixed;
-		background-image: url("http://www.biodiversidad.gob.mx/Difusion/SDB/2015/css/images/overlay.png"), url("http://www.biodiversidad.gob.mx/Difusion/SDB/2015/imagenes/aplicacion/SDB_2015/ilustracionTierra_pleca.png");
+		background-image: url("images/overlay.png"), url("../imagenes/aplicacion/SDB_2015/back_page-01.png");
 		background-position: top left,top left;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, auto 100%;
@@ -843,7 +868,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			/*border-top: solid 2px #efefef;*/
 			margin: 0 0 0 0;
 			padding: 2em 0 0 0;
 		}

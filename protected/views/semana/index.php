@@ -13,5 +13,5 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CListView', array(
 		'dataProvider'=>$dataProvider,
 		'itemView'=>'_view',
-		'emptyText' => 'Aún no has creado ningún evento. ¿Quieres '.CHtml::link('crear un evento', array('semana/create'), array('style'=>'color:#BD5D28;')).'?',
+		'emptyText' => 'Aún no has creado ningún evento. ¿Quieres '.CHtml::link('crear un evento', array('semana/create'), array('style'=>'color:#009BB7;')).'?',
 )); ?>

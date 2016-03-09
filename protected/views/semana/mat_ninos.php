@@ -1,39 +1,97 @@
-<br>
-<p style="color:#C60">Materiales para niños</p>
+<h1>Materiales para niños</h1>
 
 <!-- Two -->
 					<section id="two">
                     	<article>
                     	  <table width="90%" border="0">
-                    	    <tr>
-                    	      <td width="34%" bgcolor="#E8E4D0"><p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icweb_07.png" width="25" height="22"> Web</span></p>
-                    	        <p><a href="http://www.biodiversidad.gob.mx/ninos/ninos.html" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logoniños.png" width="200" height="126"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                                </a><span class="piesImg">Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)</span></p>
-                    	        <p><a href="http://www.geologia.unam.mx/igl/index.php/difusion-y-divulgacion/312-terramovil/782-terramovil" target="_blank"><br>
-                   	            <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/webTerraMovil.jpg" width="200" height="111"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                  	            </a><span class="piesImg"><strong>Terram&oacute;vil<br />
-                  	            </strong>Instituto de Geolog&iacute;a, UNAM</span></p>
-                    	        <p><a href="http://cuentame.inegi.org.mx/territorio/suelo.aspx?tema=T" target="_blank"><br>
-                   	            <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/webInegi.jpg" width="200" height="111"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                                </a><span class="piesImg"><strong>Suelos<br />
-                                </strong>Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a (INEGI)</span></p>
-                    	        <p><a href="http://www.educarchile.cl/ech/pro/app/detalle?ID=212994" target="_blank"><br>
-                   	            <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/web_educarChile.jpg" width="200" height="148"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                                </a><span class="piesImg"><strong>Formaci&oacute;n de suelos<br />
-                                </strong>Educar Chile</span></p>
-                    	        <p><a href="http://www.educarchile.cl/ech/pro/app/detalle?id=217007" target="_blank"><br>
-                   	            <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/web_educarChile_1.jpg" width="200" height="148"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                                </a><span class="piesImg"><strong>Impactos de la actividad humana sobre los suelos<br />
-                                </strong>Educar Chile</span></p></td>
-                    	      <td width="35%" valign="top" bgcolor="#E8E4D0"><p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icDoc_07.png" width="25" height="22"> Documentos</span></p>
-                                <p><a href="http://www.fao.org/fileadmin/user_upload/red-icean/docs/Crear_y_manejar_un_huerto_escolar_-_FAO.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/imgHuertosEscFAO.png" width="200" height="127"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                              </a><span class="piesImg"><strong>Crear y manejar un huerto escolar<br>
-                              </strong>Organizaci&oacute;n de las Naciones Unidas para la Agriculutra y la Alimentaci&oacute;n (FAO)</span></p>
-                              <p><a href="http://www.fao.org/docrep/field/009/as239s/as239s.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/imgEducaHuerto_FAO.png" width="200" height="127"></a><a href="https://www.youtube.com/watch?v=gsrULE0v2Tc" target="_blank"><br>
-                              </a><span class="piesImg"><strong>Educando con el huerto escoalr<br>
-                              </strong>Organizaci&oacute;n de las Naciones Unidas para la Agriculutra y la Alimentaci&oacute;n (FAO)</span>                              </p></td>
-                    	      <td width="31%" bgcolor="#E8E4D0"><p>&nbsp;</p></td>
-                  	      </tr>
-                  	    </table>
+                      	      <tr>
+                      	        <td width="34%"><p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos</p>
+                      	          <p>
+                                      <iframe width="200" height="126" src="https://www.youtube.com/embed/QDqxOGL-zGA?rel=0" frameborder="0" allowfullscreen></iframe><br>
+                                      <span class="piesImg"><strong>De sol a sol | Campo</strong><br>
+                                      <span class="conabio">Conabio</span></span>
+                                  </p>
+                                  <!--<p>
+                                      <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
+                                      <span class="piesImg"><strong>Serie Consumo Responsable<br />
+                                      </strong><span class="conabio">Conabio</span></span>
+                                  </p>-->
+								</td>
+
+                      	        <td width="35%" valign="top"><p class="tit_materiales">
+                                <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Logotipo</p>
+                      	          <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.png" width="200" height="69"><br>
+                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.png" target="_blank">PNG</a></span></p>
+                      	          <p><span style="color:#C60"><br>
+                   	              Promocional<br>
+                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_28_14.jpg" width="200" height="100"><br>
+                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_28_14.jpg" target="_blank">28 x 14 cm</a></span></p>
+                      	          <p><br>
+                      	          <span style="color:#C60"> Redes sociales<br>
+                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/rs_6aSemana-01.jpg" width="200" height="74"><br>
+                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Facebook: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/rs_6aSemana-01.jpg" target="_blank">JPG</a></span></p>
+                      	          <p><span style="color:#C60"><br>-->
+                                  
+                                  
+                   	              <!--Banners para sitios web<br>
+
+                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/refBanner.png" width="200" height="117"><br>
+
+                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg"><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_600.png" target="_blank">600 x 352 px </a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_300.png" target="_blank">300 x 176 px</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_248.png" target="_blank">248 x 312 px</a></span><br />
+
+                      	          </p>-->
+                                  </td>
+
+                      	        <td width="31%">
+
+                                <!--<p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Programa de actividades en la Biblioteca Vasconcelos</span><br />
+
+                                  <br />
+
+                                  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /></strong><strong class="piesImg" style="color:#333"><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa_5sdb_01.jpg" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa_5sdb_peq.png" width="200" height="197" /></a>
+                                  </p>
+
+                                <hr />
+
+                                <p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_audio.png"/> Audio</span><br />
+
+                                  </p>
+
+                                  <p><strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot5SDB_audio.mp3" target="_blank">Cápsula promocional de la 5a. Semana de la Diversidad Biológica</a></strong></p>
+
+                                  <hr />-->
+
+                                  <!--<p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> Web</p>
+
+                      	          <p>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/usos/alimentacion/peces/" target="_blank">Peces marinos comerciales</a><br>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.salvalacandona.net" target="_blank">Expedición Salva Lacandona</a><br>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/corredor/cbmm/aprovechamiento.html" target="_blank">Aprovechamiento sustentable (CBMM)</a><br>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/usos/maices/maiz.html" target="_blank">Maíces</a><br>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/genes/origenDiv.html" target="_blank">Origen y diversificación del maíz</a><br>
+                                  
+                                  
+                                  </p>-->
+
+                                  <!--<hr />
+
+                                  <p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icNatura.png" /> NaturaLista</span><br />
+
+                                  </p>
+
+                                <p><a href="http://naturalista.conabio.gob.mx/projects/mexico-global-snapshot-of-biodiversity-2015" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/WebNatGeoProyect.png" /><br />
+
+                                </a><strong class="piesImg" style="color:#333">Participa en el proyecto de NaturaLista con National Geographic</strong>                                </p>
+
+                                <p>&nbsp;</p>
+
+                                <p>&nbsp;</p>-->
+                                
+
+                                </td>
+
+                   	          </tr>
+
+                   	        </table>
                    	  </article>
 					</section>

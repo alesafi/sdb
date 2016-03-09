@@ -14,9 +14,9 @@ var barras = <?php echo $estadisticas['barras']; ?>;
                                                     chart: {
                                                         type: 'column',
                                                         //plotBorderWidth: '#000000',
-                                                        plotBackgroundColor: '#e9e8ca',
+                                                        plotBackgroundColor: '#C6D1C3',
                                                         selectionMarkerFill: '#000000',
-                                                        backgroundColor: '#e9e8ca',
+                                                        backgroundColor: '#C6D1C3',
                                                         //plotBorderColor: '#e9e8ca',
                                                         //plotShadow: '#e9e8ca',
                                                     },
@@ -55,7 +55,7 @@ var barras = <?php echo $estadisticas['barras']; ?>;
                                                         dataLabels: {
                                                             enabled: true,
                                                             rotation: -90,
-                                                            color: '#FFFFFF',
+                                                            color: '#ffffff',
                                                             align: 'right',
                                                             x: 3,
                                                             y: 0,
@@ -66,7 +66,8 @@ var barras = <?php echo $estadisticas['barras']; ?>;
                                                             }
                                                         }
                                                     }],
-                                                    colors: ['#6C693C']
+                                                    colors: ['#575756'],
+													stroke: ['#800000'],
                                                 });
                                             });
                                                 </script>

@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 );*/
 ?>
 
-<span style='color:#BD5D28'>
+<span style='color:#009BB7'>
 <?php 
 if (isset($_GET['situacion']))
 	echo $_GET['situacion'];  
@@ -20,7 +20,7 @@ if (isset($_GET['situacion']))
 <h1>Registro de actividades</h1>
 
 <p>Para crear, actualizar o borrar un evento es necesario <?php 
-			echo CHtml::link('registrarse.',array('/usuarios/create'), array('style'=>'color:#BD5D28'));
+			echo CHtml::link('registrarse.',array('/usuarios/create'), array('style'=>'color:#009BB7'));
 			?></p>
 
 <div class="form">

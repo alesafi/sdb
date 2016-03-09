@@ -19,9 +19,9 @@
 				<h3>
 					<?php echo CHtml::link(CHtml::encode($data->institucion), array('view', 'id'=>$data->id)); ?>
 					<br>
-					<?php echo CHtml::link('Editar', array('update', 'id'=>$data->id), array('style'=>'color:#BD5D28;font-size:11px;'))?>
+					<?php echo CHtml::link('Editar', array('update', 'id'=>$data->id), array('style'=>'color:#009BB7;font-size:11px;'))?>
 					&nbsp;
-					<?php echo CHtml::link('Eliminar', '#', array('style'=>'color:#BD5D28;font-size:11px;', 'submit'=>array('delete','id'=>$data->id), 'confirm'=>'¿Estás seguro que deseas eliminar este contacto?'))?>
+					<?php echo CHtml::link('Eliminar', '#', array('style'=>'color:#009BB7;font-size:11px;', 'submit'=>array('delete','id'=>$data->id), 'confirm'=>'¿Estás seguro que deseas eliminar este contacto?'))?>
 
 				</h3>
 				<b><?php echo CHtml::encode($data->getAttributeLabel('actividad')); ?>:</b>
