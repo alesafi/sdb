@@ -17,6 +17,12 @@
                       	        <td width="34%"><p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos</p>
 
                       	          <p>
+                                      <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNRCFBpoPEsXptvw22nSQ3p5" frameborder="0" allowfullscreen></iframe><br>
+                                      <span class="piesImg"><strong>Serie BIOS, Naturaleza y sociedad<br>
+                                      </strong><span class="conabio">Conabio</span></span>
+                                  </p>
+                                  
+                                  <p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNQv7NSPwbaARfIIveV0Mx6C" frameborder="0" allowfullscreen></iframe><br>
                                       <span class="piesImg"><strong>Serie Hábitat<br>
                                       </strong>Pronatura México A.C.</span>
@@ -88,6 +94,7 @@
                                   <p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> Web</p>
 
                       	          <p>
+                                  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/bios/" target="_blank">Bios | Naturaleza y Sociedad</a><br>
                                   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/usos/alimentacion/peces/" target="_blank">Peces marinos comerciales</a><br>
                                   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.salvalacandona.net" target="_blank">Expedición Salva Lacandona</a><br>
                                   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/corredor/cbmm/aprovechamiento.html" target="_blank">Aprovechamiento sustentable (CBMM)</a><br>
