@@ -63,6 +63,7 @@ class UsuariosController extends Controller
 	 */
 	public function actionCreate()
 	{
+		$this->vigencia();
 		$model=new Usuarios;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -93,6 +94,7 @@ class UsuariosController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+		$this->vigencia();
 		if (Yii::app()->user->id_usuario==$id)
 		{
 			$model=$this->loadModel($id);

@@ -68,6 +68,7 @@ class SemanaController extends Controller
 	 */
 	public function actionCreate()
 	{
+		$this->vigencia();
 		$datos=$this->dameInfoUsuario();
 		$model=new Semana;
 
@@ -97,6 +98,7 @@ class SemanaController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+		$this->vigencia();
 		$this->dameInfoUsuario();
 		$model=$this->loadModel($id);
 		$model_materiales=Materiales::model()->findAllByAttributes(array('semana_id'=>$model->id));
@@ -127,6 +129,7 @@ class SemanaController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+		$this->vigencia();
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
