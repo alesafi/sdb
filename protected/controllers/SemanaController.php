@@ -69,7 +69,7 @@ class SemanaController extends Controller
 	public function actionCreate()
 	{
 		$this->vigencia();
-		$datos=$this->dameInfoUsuario();
+		$this->verificaLogin();
 		$model=new Semana;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -99,7 +99,7 @@ class SemanaController extends Controller
 	public function actionUpdate($id)
 	{
 		$this->vigencia();
-		$this->dameInfoUsuario();
+		$this->verificaLogin();
 		$model=$this->loadModel($id);
 		$model_materiales=Materiales::model()->findAllByAttributes(array('semana_id'=>$model->id));
 
@@ -130,6 +130,7 @@ class SemanaController extends Controller
 	public function actionDelete($id)
 	{
 		$this->vigencia();
+		$this->verificaLogin();
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
@@ -142,7 +143,7 @@ class SemanaController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$this->dameInfoUsuario();
+		$this->verificaLogin();
 		$dataProvider=new CActiveDataProvider('Semana', array('criteria' => array ('condition'=>'usuarios_id='.Yii::app()->user->id_usuario." AND cual_semana='".Yii::app()->params->cual_semana."'")));
 		$this->render('index',array(
 				'dataProvider'=>$dataProvider,
@@ -154,6 +155,7 @@ class SemanaController extends Controller
 	 */
 	public function actionAdmin()
 	{
+		$this->verificaLogin();
 		$model=new Semana('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Semana']))
@@ -288,8 +290,9 @@ class SemanaController extends Controller
 	{
 		if (!Yii::app()->user->isGuest)
 		{
+			// Solo pueden modificar el usuario root, cgalindo o medios, o el dueño del contenido
 			$rol = $this->dameInfoUsuario();
-			if ($rol['id'] == "4" || $rol['id'] == "3" || ($usuario_semana == Yii::app()->user->id_usuario))
+			if ($rol['id'] == "3" || $rol['id'] == "6" || $rol['id'] == "7" || ($usuario_semana == Yii::app()->user->id_usuario))
 				return true;
 			else
 				return false;

@@ -32,9 +32,7 @@ class Controller extends CController
 	}
 
 	public function dameInfoUsuario()
-	{
-		$this->verificaLogin();
-
+	{		
 		$results = Yii::app()->db->createCommand()
 		->select('r.*')
 		->from('usuarios u')
@@ -51,7 +49,7 @@ class Controller extends CController
 	 */
 	public function setIdUsuario($usuario)
 	{
-		$model = Usuarios::model()->findByAttributes(array('usuario'=>$usuario, 'cual_semana'=>Yii::app()->params->cual_semana));
+		$model = Usuarios::model()->findByAttributes(array('email'=>$usuario));
 		Yii::app()->user->setState('id_usuario', $model->id);
 	}
 
