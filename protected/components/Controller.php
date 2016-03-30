@@ -37,7 +37,7 @@ class Controller extends CController
 		->select('r.*')
 		->from('usuarios u')
 		->leftJoin('roles r', 'u.roles_id=r.id')
-		->where('u.id='.Yii::app()->user->id_usuario." AND u.cual_semana='".Yii::app()->params->cual_semana."'")
+		->where('u.id='.Yii::app()->user->id_usuario)
 		->queryRow();
 
 		return $results;

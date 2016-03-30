@@ -58,7 +58,7 @@ class SemanaController extends Controller
 		$this->render('view',array(
 				'model'=>$model,
 				'model_materiales'=>$model_materiales,
-				'puede_modificar' => $this->puedeModificar($model->usuarios_id),
+				'puede_modificar' => $this->puedeModificar($model->usuarios_id, false),
 		));
 	}
 
@@ -101,6 +101,7 @@ class SemanaController extends Controller
 		$this->vigencia();
 		$this->verificaLogin();
 		$model=$this->loadModel($id);
+		$this->puedeModificar($model->usuarios_id);
 		$model_materiales=Materiales::model()->findAllByAttributes(array('semana_id'=>$model->id));
 
 		// Uncomment the following line if AJAX validation is needed
@@ -131,7 +132,9 @@ class SemanaController extends Controller
 	{
 		$this->vigencia();
 		$this->verificaLogin();
-		$this->loadModel($id)->delete();
+		$model = $this->loadModel($id);
+		$this->puedeModificar($model->usuarios_id);
+		$model->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
@@ -286,7 +289,7 @@ class SemanaController extends Controller
 		mail($to, $subject, $msj, $header);
 	}
 
-	private function puedeModificar($usuario_semana)
+	private function puedeModificar($usuario_semana, $con_redirect = true)
 	{
 		if (!Yii::app()->user->isGuest)
 		{
@@ -294,9 +297,18 @@ class SemanaController extends Controller
 			$rol = $this->dameInfoUsuario();
 			if ($rol['id'] == "3" || $rol['id'] == "6" || $rol['id'] == "7" || ($usuario_semana == Yii::app()->user->id_usuario))
 				return true;
+			else {
+				if ($con_redirect)
+					throw new CHttpException(NULL,"Lo sentimos, no tienes permiso para realizar esta acción.");
+				else
+					return false;
+			}
+		
+		} else {
+			if ($con_redirect)
+				throw new CHttpException(NULL,"Lo sentimos, no tienes permiso para realizar esta acción.");
 			else
 				return false;
-		} else
-			return false;
+		}
 	}
 }
