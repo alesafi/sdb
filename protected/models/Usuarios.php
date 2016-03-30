@@ -5,7 +5,6 @@
  *
  * The followings are the available columns in table 'usuarios':
  * @property integer $id
- * @property string $usuario
  * @property string $email
  * @property string $passwd
  * @property string $nombre
@@ -46,14 +45,14 @@ class Usuarios extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-				array('usuario, email, passwd, nombre, apellido', 'required'),
+				array('email, passwd, nombre, apellido', 'required'),
 				array('roles_id', 'numerical', 'integerOnly'=>true),
-				array('usuario, email, passwd, nombre, apellido', 'length', 'max'=>255),
+				array('email, passwd, nombre, apellido', 'length', 'max'=>255),
 				//valida el email
 				//array('email','email'),
 				// The following rule is used by search().
 				// Please remove those attributes that should not be searched.
-				array('id, usuario, email, passwd, nombre, apellido, fec_alta, fec_act, roles_id', 'safe', 'on'=>'search'),
+				array('id, email, passwd, nombre, apellido, fec_alta, fec_act, roles_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,7 +75,6 @@ class Usuarios extends CActiveRecord
 	{
 		return array(
 				'id' => 'Id',
-				'usuario' => 'Usuario',
 				'email' => 'Correo',
 				'passwd' => 'Contraseña',
 				'nombre' => 'Nombre (s)',
@@ -95,31 +93,17 @@ class Usuarios extends CActiveRecord
 	{
 		if (!$this->solo_passwd)
 		{
-			if (!empty($this->usuario))
-			{
-				$usuarios = Usuarios::findAllByAttributes(array('usuario'=>$this->usuario));
-
-				foreach ($usuarios as $usuario)
-				{
-					if (isset($usuario->id) && $usuario->cual_semana == Yii::app()->params->cual_semana)
-					{
-						$this->addError('usuario', 'El usuario '.$this->usuario.' ya existe, por favor elige otro');
-						return false;
-					}
-				}
-			}
-
 			if (!empty($this->email)) 
 			{
 				if ($this->validaCorreo($this->email))
 				{
-					$emails = Usuarios::findAllByAttributes(array('email'=>$this->email));
+					$emails = Usuarios::findAllByAttributes(array('email'=>$this->email, 'cual_semana' => Yii::app()->params->cual_semana));
 				
 					foreach ($emails as $email)
 					{
-						if (isset($email->id) && $email->cual_semana == Yii::app()->params->cual_semana) 
+						if (isset($email->id)) 
 						{
-							$this->addError('email', 'El correo '.$this->email.' ya existe, y esta vinculado con el usuario: '.$email->usuario.", si no recuerdas tu usuario/contrase&ntilde;a sigue el siguiente <a href=\"".Yii::app()->request->baseUrl."/index.php?r=site/recupera\">enlace</a>");
+							$this->addError('email', 'El correo '.$this->email." ya existe en nuestra base, si no recuerdas tu correo/contrase&ntilde;a sigue el siguiente <a href=\"".Yii::app()->request->baseUrl."/index.php?r=site/recupera\">enlace</a>");
 							return false;
 						}
 					}
@@ -146,7 +130,6 @@ class Usuarios extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('usuario',$this->usuario,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('passwd',$this->passwd,true);
 		$criteria->compare('nombre',$this->nombre,true);

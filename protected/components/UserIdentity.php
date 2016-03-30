@@ -46,6 +46,6 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function validaLogin($usr)
 	{
-		return  Usuarios::model()->findByAttributes(array('email'=>$usr));
+		return  Usuarios::model()->findByAttributes(array('email'=>$usr, 'cual_semana' => Yii::app()->params->cual_semana));
 	}
 }

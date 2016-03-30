@@ -32,12 +32,12 @@ class UsuariosController extends Controller
 						'actions'=>array('create'),
 						'users'=>array('*'),
 				),
-				array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				/*array('allow', // allow authenticated user to perform 'create' and 'update' actions
 						'actions'=>array('view', 'update'),
 						'users'=>array('@'),
-				),
+				),*/
 				array('allow', // allow admin user to perform 'admin' and 'delete' actions
-						'actions'=>array('index','view','admin','delete'),
+						'actions'=>array('index','update','view','admin','delete'),
 						'users'=>array('calonso'),
 				),
 				array('deny',  // deny all users
@@ -191,9 +191,8 @@ class UsuariosController extends Controller
 	private function enviaMail ($model)
 	{
 		$nombre_ap = '<b>Nombre: </b>'.$model->nombre.' '.$model->apellido.'<br>';
-		$usuario = '<b>Usuario: </b>'.$model->usuario.'<br>';
 		$email = '<b>Correo: </b>'.$model->email.'<br>';
-		$msj = $nombre_ap.$usuario.$email;
+		$msj = $nombre_ap.$email;
 		$subject = "Nueva cuenta";
 		$to = 'sdb@conabio.gob.mx';
 		$header  = "MIME-Version: 1.0\r\n";
