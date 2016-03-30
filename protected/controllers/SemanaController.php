@@ -233,20 +233,26 @@ class SemanaController extends Controller
 	{
 		switch ((int) substr($fecha, 8, 2))
 		{
+			case 16:
+				return 'Lunes 16 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case 17:
+				return 'Martes 17 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case 18:
+				return 'Miércoles 18 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case 19:
+				return 'Jueves 19 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				break;
 			case 20:
-				return 'Miércoles 20 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Viernes 20 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 21:
-				return 'Jueves 21 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Sábado 21 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			case 22:
-				return 'Viernes 22 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 23:
-				return 'Sábado 23 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
-				break;
-			case 24:
-				return 'Domingo 24 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
+				return 'Domingo 22 de Mayo de 2015 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			default:
 				return 'Fecha incorrecta, favor de verificar';

@@ -83,7 +83,7 @@ class Usuarios extends CActiveRecord
 				'fec_alta' => 'Fecha registro',
 				'fec_act' => 'Fecha ultima actualización',
 				'roles_id' => 'Roles',
-				'difusion' => '¿Cómo te enteraste del concurso?',
+				'difusion' => '¿Cómo te enteraste de la Semana de la Diversidad Biológica?',
 		);
 	}
 
