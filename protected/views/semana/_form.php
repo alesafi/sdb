@@ -4,6 +4,13 @@
 /* @var $form CActiveForm */
 ?>
 
+<style>
+.errorSummary, .errorMessage
+{
+	color: red;	
+}
+</style>
+
 <script type="text/javascript">
 	$(document).ready(function (){
 		$('#actividad').change(function (){
@@ -98,11 +105,11 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-16',
+						'minDate'=>'2016-05-17',
 						'maxDate'=>'2016-05-22',
 				),
 				'htmlOptions'=>array(
-					'style'=>'height:20px;',
+					//'style'=>'height:20px;',
 					//'disabled'=>true
 				),
 		)
@@ -129,11 +136,11 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-16',
+						'minDate'=>'2016-05-17',
 						'maxDate'=>'2016-05-22',
 				),
 				'htmlOptions'=>array(
-					'style'=>'height:20px',
+					//'style'=>'height:20px',
 				),
 		)
 );

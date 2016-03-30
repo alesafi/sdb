@@ -157,13 +157,13 @@ class Semana extends CActiveRecord
 
 		if (!empty($this->fecha_ini) && !empty($this->fecha_fin))
 		{
-			if (!preg_match("/^2016-05-(1[7-9]|2[1-2]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_ini))
+			if (!preg_match("/^2016-05-(1[7-9]|2[0-2]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_ini))
 			{
 				$this->addError('fecha_ini', 'La fecha de inicio es incorrecta, por favor selecciona la fecha en el calendario que se despliega.');
 				$valido = false;
 			}
 
-			if (!preg_match("/^2016-05-(1[7-9]|2[1-2]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_fin))
+			if (!preg_match("/^2016-05-(1[7-9]|2[0-2]) (0[6-9]|1[0-9]|2[0-2]):[[:digit:]][[:digit:]]$/",$this->fecha_fin))
 			{
 				$this->addError('fecha_fin', 'La fecha de término es incorrecta, por favor selecciona la fecha en el calendario que se despliega.');
 				$valido = false;
