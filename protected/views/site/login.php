@@ -22,6 +22,8 @@ if (isset($_GET['situacion']))
 <p>Para crear, actualizar o borrar un evento es necesario <?php 
 			echo CHtml::link('registrarse.',array('/usuarios/create'), array('style'=>'color:#009BB7'));
 			?></p>
+			<p><strong>NOTA:</strong> Es necesario crear un nuevo registro para poder participar, inclusive si ya haz participado en 
+			anteriores Semanas de la Diversidad Biológica.</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -33,7 +35,7 @@ if (isset($_GET['situacion']))
 )); ?>
 
 	<div>
-		<?php echo $form->labelEx($model,'usuario'); ?><br>
+		<?php echo $form->labelEx($model,'Correo'); ?><br>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>

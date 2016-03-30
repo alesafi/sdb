@@ -12,6 +12,7 @@
  * @property string $fec_alta
  * @property string $fec_act
  * @property integer $roles_id
+ * @property string $dufusion
  *
  * The followings are the available model relations:
  * @property Roles $roles
@@ -45,14 +46,14 @@ class Usuarios extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-				array('email, passwd, nombre, apellido', 'required'),
+				array('email, passwd, nombre, apellido, difusion', 'required'),
 				array('roles_id', 'numerical', 'integerOnly'=>true),
-				array('email, passwd, nombre, apellido', 'length', 'max'=>255),
+				array('email, passwd, nombre, apellido, difusion', 'length', 'max'=>255),
 				//valida el email
 				//array('email','email'),
 				// The following rule is used by search().
 				// Please remove those attributes that should not be searched.
-				array('id, email, passwd, nombre, apellido, fec_alta, fec_act, roles_id', 'safe', 'on'=>'search'),
+				array('id, email, passwd, nombre, apellido, difusion, fec_alta, fec_act, roles_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -82,6 +83,7 @@ class Usuarios extends CActiveRecord
 				'fec_alta' => 'Fecha registro',
 				'fec_act' => 'Fecha ultima actualización',
 				'roles_id' => 'Roles',
+				'difusion' => '¿Cómo te enteraste del concurso?',
 		);
 	}
 
@@ -137,6 +139,7 @@ class Usuarios extends CActiveRecord
 		$criteria->compare('fec_alta',$this->fec_alta,true);
 		$criteria->compare('fec_act',$this->fec_act,true);
 		$criteria->compare('roles_id',$this->roles_id);
+		$criteria->compare('difusion',$this->difusion,true);
 
 		return new CActiveDataProvider($this, array(
 				'criteria'=>$criteria,
@@ -166,5 +169,17 @@ class Usuarios extends CActiveRecord
 		$cabeceras = "Content-type: text/html; charset=utf-8"."\r\n";
 		$cabeceras.= "From: noreply@conabio.gob.mx"."\r\n";
 		mail($para, $titulo, $mensaje, $cabeceras);
+	}
+	
+	public static function difusiones()
+	{
+		return array
+		(
+				'Redes sociales' => 'Redes sociales',
+				'Medios impresos' => 'Medios impresos',
+				'Radio' => 'Radio',
+				'Televisión' => 'Televisión',
+				'Otros' => 'Otros'
+		);
 	}
 }

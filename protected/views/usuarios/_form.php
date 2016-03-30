@@ -49,6 +49,12 @@
 		<?php echo $form->error($model,'apellido'); ?>
 	</div>
 	<br>
+	<div>
+		<?php echo $form->labelEx($model,'difusion'); ?>
+		<?php echo $form->dropDownList($model, 'difusion', Usuarios::difusiones(), array('prompt'=>'---Selecciona---','class' => 'form-control')); ?>
+		<?php echo $form->error($model,'difusion'); ?>
+	</div>
+	<br>
 	<div align="right">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear registro' : 'Guardar cambios'); ?>
 	</div>
