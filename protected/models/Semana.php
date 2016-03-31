@@ -139,6 +139,7 @@ class Semana extends CActiveRecord
 		$criteria->compare('fecha_ini',$this->fecha_ini,true);
 		$criteria->compare('fecha_fin',$this->fecha_fin,true);
 		$criteria->compare('estado_id',$this->estado_id);
+		$criteria->order = 'fecha_ini, id ASC';
 
 		return new CActiveDataProvider($this, array(
 				'criteria'=>$criteria, 'pagination'=>array('pageSize'=>100),
