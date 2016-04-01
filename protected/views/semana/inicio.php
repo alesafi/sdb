@@ -5,7 +5,7 @@
 </p>
 <p>  Desde 2011 hasta el 2020 se ha designado la <strong>d&eacute;cada de la diversidad biol&oacute;gica</strong>. El prop&oacute;sito de la d&eacute;cada es  aumentar las actividades de difusi&oacute;n para que todos conozcamos la situaci&oacute;n de  la diversidad biol&oacute;gica y participemos en su manejo sustentable, restauraci&oacute;n y  conservaci&oacute;n.<br>
   <br>
-  Cada&nbsp;22 de mayo&nbsp;se celebra el d&iacute;a de la diversidad biol&oacute;gica. Este 2016 celebraremos con el tema <strong>"Biodiversidad es bienestar"</strong>. En la 13º reunión del Convenio de Diversidad Biológica (COP 13) en diciembre de 2016 en Cancún, México se dialogará sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. <strong>¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad?</strong><br><br>
+  Cada&nbsp;22 de mayo&nbsp;se celebra el d&iacute;a de la diversidad biol&oacute;gica. Este 2016 celebraremos con el tema <strong>"Biodiversidad es bienestar"</strong>. En la <a href="http://www.mexicop13.bio/" target="_blank">13º reunión del Convenio de Diversidad Biológica (COP 13)</a> en diciembre de 2016 en Cancún, México se dialogará sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. <strong>¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad?</strong><br><br>
   
   Organiza alguna conferencia o charla para el público general sobre uno o más sitios seleccionados en tu región o estado. Organiza un evento que ayude al público a reflexionar sobre la naturaleza de algún sitio especial.
   <br><br>
