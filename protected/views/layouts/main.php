@@ -92,6 +92,9 @@ function MM_swapImage() { //v3.0
                         <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/mat_ninos"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_mninos.png" name="ninos" width="90" height="127" id="ninos" onMouseOver="MM_swapImage('ninos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_mninos.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
                         
 						<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/estadisticas"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_estadisticas.png" name="estadisticas" width="90" height="127" id="estadisticas" onMouseOver="MM_swapImage('estadisticas &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','estadisticas','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_estadisticas.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+                        
+                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/aliados"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_aliados.png" name="aliados" width="90" height="127" id="aliados" onMouseOver="MM_swapImage('aliados &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','aliados','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_aliados.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+                        
                         </p>
 						<?php if (!Yii::app()->user->isGuest) { ?>
 							<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/index">Ver tus eventos</a>

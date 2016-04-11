@@ -1,3 +1,5 @@
+<h1>Estadísticas</h1>
+
 <script type="text/javascript">
 var barras = <?php echo $estadisticas['barras']; ?>;
 </script>

@@ -29,7 +29,7 @@ class SemanaController extends Controller
 	{
 		return array(
 				array('allow',  // allow all users to perform 'index' and 'view' actions
-						'actions'=>array('view', 'admin', 'inicio', 'materiales', 'mat_ninos', 'estadisticas'),
+						'actions'=>array('view', 'admin', 'inicio', 'materiales', 'mat_ninos', 'aliados', 'estadisticas'),
 						'users'=>array('*'),
 				),
 				array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -176,6 +176,16 @@ class SemanaController extends Controller
 	{
 		$this->render('inicio');
 	}
+	
+	
+	/**
+	 * Pagina de Aliados
+	 */
+	public function actionAliados()
+	{
+		$this->render('aliados');
+	}
+	
 	
 	/**
 	 * Pagian de Materiales
