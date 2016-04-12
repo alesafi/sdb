@@ -180,6 +180,8 @@
 	.align-right {
 		text-align: right;
 	}
+	
+	
 
 /* Section/Article */
 
@@ -232,6 +234,10 @@
 	}
 	
 	.tit_materiales {
+		color: #C60;
+	}
+	
+	.subtit_materiales {
 		color: #516710;
 	}
 	
@@ -550,6 +556,18 @@
 
 	dl {
 		margin: 0 0 2em 0;
+	}
+	
+	
+	#logosc {
+	padding: 30px;
+	text-align: center;
+	}
+	
+	#logosc li {
+    display: inline;
+    list-style-type: none;
+	padding: 30px;
 	}
 
 /* Table */
