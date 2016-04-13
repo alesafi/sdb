@@ -18,8 +18,16 @@
                                 
                                 <p><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_audio.png"/> Audios</span></p>
                                 <p>
-                                <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/promo_6SDB.wav" target="_blank">Cápsula promocional de la 6a. Semana de la Diversidad Biológica</a></strong>
+                                <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/6SDB_20seg.wav" target="_blank">Cápsula promocional (20")</a></strong><br>
+                                
+                                <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/6SDB_30seg.wav" target="_blank">Cápsula promocional (30")</a></strong><br><br>
+                                
+                               <span class="subtit_materiales">Cápsulas de Patrimonio Natural de México</span><br>
+                               <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/36313697&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                                
                                 </p>
+                                
+                                
                                 
                                 
                                 
