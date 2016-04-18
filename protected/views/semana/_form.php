@@ -105,7 +105,7 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-09',
+						'minDate'=>'2016-04-28',
 						'maxDate'=>'2016-05-22',
 				),
 				'htmlOptions'=>array(
@@ -135,7 +135,7 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-09',
+						'minDate'=>'2016-04-28',
 						'maxDate'=>'2016-05-22',
 				),
 				'htmlOptions'=>array(
