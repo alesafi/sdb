@@ -6,9 +6,13 @@
 
 <li><a href="http://www.mexico.discovery.com/?x-country=MX&redirect-session=MX" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_discovery.png" alt="Discovery Channel"></a></li>
 
+<li><a href="http://www.reforestamosmexico.org" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_reforestamos.png" alt="Reforestamos México"></a></li>
+
 <li><a href="http://www.nikon.com.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_nikon.png" alt="Nikon"></a></li>
 
 <li><a href="http://www.fundacionacir.org.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_facir.png" alt="Fundación Acir"></a></li>
+
+<li><a href="http://acuariomichin.com" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_amichin.png" alt="Acuario Michin"></a></li>
 
 <li><a href="http://www.cronicaambiental.com.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_cronica.png" alt="Crónica ambiental"></a></li>
 

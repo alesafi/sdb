@@ -38,26 +38,27 @@
                                 <p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos</p>
                                 <p>
                                 <iframe width="200" height="113" src="https://www.youtube.com/embed/aRjSxNLzwOs?rel=0" frameborder="0" allowfullscreen></iframe><br>
-                                <span class="piesImg"><strong>Promocional<br>
-                                </strong><span class="conabio">Conabio</span></span>
+                                <span class="piesImg"><strong>Promocional</strong> | <span class="conabio">Conabio</span></span>
                                 </p>
                                 
                                 <p>
                                 <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNRCFBpoPEsXptvw22nSQ3p5" frameborder="0" allowfullscreen></iframe><br>
-                                <span class="piesImg"><strong>Serie BIOS, Naturaleza y sociedad<br>
-                                </strong><span class="conabio">Conabio</span></span>
+                                <span class="piesImg"><strong>Serie BIOS, Naturaleza y sociedad</strong> | <span class="conabio">Conabio</span></span>
+                                </p>
+                                
+                                <p>
+                                <iframe width="200" height="113" src="https://www.youtube.com/embed/TKAGeQG3m4s?rel=0" frameborder="0" allowfullscreen></iframe><br>
+                                <span class="piesImg"><strong>COP 13 de Biodiversidad</strong> | <span class="conabio">Conabio</span></span>
                                 </p>
                                 
                                 <p>
                                 <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNQv7NSPwbaARfIIveV0Mx6C" frameborder="0" allowfullscreen></iframe><br>
-                                <span class="piesImg"><strong>Serie Hábitat<br>
-                                </strong>Pronatura México A.C.</span>
+                                <span class="piesImg"><strong>Serie Hábitat</strong> | Pronatura México A.C.</span>
                                 </p>
                                 
                                 <p>
                                 <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
-                                <span class="piesImg"><strong>Serie Consumo Responsable<br />
-                                </strong><span class="conabio">Conabio</span></span>
+                                <span class="piesImg"><strong>Serie Consumo Responsable</strong> | <span class="conabio">Conabio</span></span>
                                 </p>
                                   
 								</td>
