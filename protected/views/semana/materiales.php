@@ -63,7 +63,9 @@
                                   
 								</td>
 
-                      	        <td width="35%" valign="top"><p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Logotipo</p>
+                      	        <td width="35%" valign="top">
+                                
+                                <p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Logotipo</p>
 
                       	          <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.png" width="200" height="69"><br>
 
@@ -82,8 +84,13 @@
                                   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_1200_628.jpg" width="200" height="105"><br>
 
                    	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_1200_628.jpg" target="_blank">1200 x 628 px</a></span></p>
+                                  
+                                  
+                                  <hr>
+                                  <p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> <a href="http://www.biodiversidad.gob.mx/Difusion/exposiciones.html" target="_blank" style="color: #C60;">Exposiciones</a></p>
+                                  
+                                  <p>Si te interesa tener una exposición en préstamo contáctanos <a href="mailto:bancoima@xolo.conabio.gob.mx">bancoima@xolo.conabio.gob.mx</a>.</p>
 
-                      	          <p><span style="color:#C60"><br>
 
                    	              <!--Banners para sitios web<br>
 
