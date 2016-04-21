@@ -26,6 +26,8 @@
 
 <li><a href="http://www.mexicopelagico.org/#sinopsis" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_mexpelagico.png" alt="México Pelágico"></a></li>
 
+<li><a href="http://www.imer.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_imer.png" alt="IMER"></a></li>
+
 
 
 
