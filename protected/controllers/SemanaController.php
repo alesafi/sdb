@@ -349,6 +349,9 @@ class SemanaController extends Controller
 			case '05-29':
 				return 'Domingo 29 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
+			case '05-30':
+				return 'Lunes 30 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
 			default:
 				return 'Fecha incorrecta, favor de verificar';
 				break;
