@@ -12,8 +12,6 @@
 
 <li><a href="http://www.fundacionacir.org.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_facir.png" alt="Fundación Acir"></a></li>
 
-<li><a href="http://acuariomichin.com" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_amichin.png" alt="Acuario Michin"></a></li>
-
 <li><a href="http://www.cronicaambiental.com.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_cronica.png" alt="Crónica ambiental"></a></li>
 
 <li><a href="http://www.canal22.org.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_canal22.png" alt="Canal 22"></a></li>

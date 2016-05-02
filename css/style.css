@@ -129,8 +129,9 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
-		margin: 2em 0;
+		border-bottom: solid 5px #C60;
+		width: 100%;
+		-webkit-margin-before: 0;
 	}
 
 		hr.major {
@@ -182,7 +183,6 @@
 	}
 	
 	
-
 /* Section/Article */
 
 	section.special, article.special {
@@ -1107,4 +1107,6 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+	
+
 	

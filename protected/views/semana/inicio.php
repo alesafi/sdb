@@ -1,9 +1,14 @@
 <p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>6&ordf; Semana de la Diversidad Biol&oacute;gica</strong>,  durante el per&iacute;odo del <strong>17 al 22 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Biodiversidad es bienestar.</strong></p>
-<p align="center">
-  <iframe width="350" height="197" src="https://www.youtube.com/embed/aRjSxNLzwOs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-<!--<a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa_5sdb_01.jpg" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa_5sdb_peq.png" width="200" height="197" /></a>-->
+<p>&nbsp;</p>
+<p>
+	<div style="width:50%; float:left; display:inline-block; text-align:center;"><iframe width="350" height="197" src="https://www.youtube.com/embed/aRjSxNLzwOs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    <div style="width:50%; float:left; display:inline-block; text-align:center;"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa.png" width="200" height="260" alt=""/></a><br>
+    <a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank">Ver programa</a></div>
 </p>
-<p>  Desde 2011 hasta el 2020 se ha designado la <strong>d&eacute;cada de la diversidad biol&oacute;gica</strong>. El prop&oacute;sito de la d&eacute;cada es  aumentar las actividades de difusi&oacute;n para que todos conozcamos la situaci&oacute;n de  la diversidad biol&oacute;gica y participemos en su manejo sustentable, restauraci&oacute;n y  conservaci&oacute;n.<br>
+
+
+<p>&nbsp;</p>
+<p>Desde 2011 hasta el 2020 se ha designado la <strong>d&eacute;cada de la diversidad biol&oacute;gica</strong>. El prop&oacute;sito de la d&eacute;cada es  aumentar las actividades de difusi&oacute;n para que todos conozcamos la situaci&oacute;n de  la diversidad biol&oacute;gica y participemos en su manejo sustentable, restauraci&oacute;n y conservaci&oacute;n.<br>
   <br>
   Cada&nbsp;22 de mayo&nbsp;se celebra el d&iacute;a de la diversidad biol&oacute;gica. Este 2016 celebraremos con el tema <strong>"Biodiversidad es bienestar"</strong>. En la <a href="http://www.mexicop13.bio/" target="_blank">13º reunión del Convenio de Diversidad Biológica (COP 13)</a> en diciembre de 2016 en Cancún, México se dialogará sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. <strong>¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad?</strong><br><br>
   
