@@ -80,7 +80,7 @@ class SemanaController extends Controller
 			//print_r($_POST);
 			$model->attributes=$_POST['Semana'];
 			if($model->save()) {
-				$this->enviaMail($model);
+				//$this->enviaMail($model);
 				$this->redirect(array('view','id'=>$model->id));
 			}
 		}
