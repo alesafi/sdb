@@ -4,8 +4,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
-	<head>
+<html><head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -49,7 +48,7 @@ function MM_swapImage() { //v3.0
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>CONABIO | Difusi&oacute;n</title>
+<title>6a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
 
 
 <noscript>
