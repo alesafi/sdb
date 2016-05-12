@@ -59,6 +59,9 @@ $( "#accordion" ).accordion({
 <a href="http://conabio.inaturalist.org/people/heliographyst" target="_blank">Biól. Roberto Arreola Alemón</a><br>
 <a href="http://conabio.inaturalist.org/people/elizatorres" target="_blank">Biól. Elizabeth Torres Bahena</a><br>
 <a href="https://www.linkedin.com/in/astrid-domínguez-guerrero-a9833498" target="_blank">D.G. Astrid Domínguez Guerrero</a><br><br>
+
+<span class="tit_materiales">Grupo musical invitado</span><br>
+<a href="https://www.facebook.com/fechascasaverdecolectivo" target="_blank">Casa Verde Colectivo</a>
 </div>
 
 
