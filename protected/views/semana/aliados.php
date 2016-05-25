@@ -26,6 +26,8 @@
 
 <li><a href="http://www.imer.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_imer.png" alt="IMER"></a></li>
 
+<li><a href="http://www.radiotvycine.chiapas.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_radioch.png" alt="Sistema Chiapaneco de Radio, Televisión y Cinematografía"></a></li>
+
 
 
 
