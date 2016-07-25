@@ -80,7 +80,7 @@ class SemanaController extends Controller
 			//print_r($_POST);
 			$model->attributes=$_POST['Semana'];
 			if($model->save()) {
-				$this->enviaMail($model);
+				//$this->enviaMail($model);
 				$this->redirect(array('view','id'=>$model->id));
 			}
 		}
@@ -249,49 +249,108 @@ class SemanaController extends Controller
 
 	public static function fechaEvento($fecha)
 	{
-		switch ((int) substr($fecha, 8, 2))
+		$mes_dia = substr($fecha, 5, 5);
+		
+		switch ($mes_dia)
 		{
-			case 9:
+			case '04-28':
+				return 'Jueves 28 de Abril de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '04-29':
+				return 'Viernes 29 de Abril de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '04-30':
+				return 'Sábado 30 de Abril de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-01':
+				return 'Domingo 1 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-02':
+				return 'Lunes 2 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-03':
+				return 'Martes 3 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-04':
+				return 'Miércoles 4 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-05':
+				return 'Jueves 5 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-06':
+				return 'Viernes 6 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-07':
+				return 'Sábado 7 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-08':
+				return 'Domingo 8 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-09':
 				return 'Lunes 9 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 10:
+			case '05-10':
 				return 'Martes 10 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 11:
+			case '05-11':
 				return 'Miércoles 11 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 12:
+			case '05-12':
 				return 'Jueves 12 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 13:
+			case '05-13':
 				return 'Viernes 13 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 14:
+			case '05-14':
 				return 'Sábado 14 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 15:
+			case '05-15':
 				return 'Domingo 15 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 16:
+			case '05-16':
 				return 'Lunes 16 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 17:
+			case '05-17':
 				return 'Martes 17 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 18:
+			case '05-18':
 				return 'Miércoles 18 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 19:
+			case '05-19':
 				return 'Jueves 19 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 20:
+			case '05-20':
 				return 'Viernes 20 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 21:
+			case '05-21':
 				return 'Sábado 21 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
-			case 22:
+			case '05-22':
 				return 'Domingo 22 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-23':
+				return 'Lunes 23 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-24':
+				return 'Martes 24 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-25':
+				return 'Miércoles 25 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-26':
+				return 'Jueves 26 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-27':
+				return 'Viernes 27 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-28':
+				return 'Sábado 28 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-29':
+				return 'Domingo 29 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
+				break;
+			case '05-30':
+				return 'Lunes 30 de Mayo de 2016 a las '.substr($fecha, 11, 5).' horas.';
 				break;
 			default:
 				return 'Fecha incorrecta, favor de verificar';

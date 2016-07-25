@@ -105,8 +105,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-09',
-						'maxDate'=>'2016-05-22',
+						'minDate'=>'2016-04-28',
+						'maxDate'=>'2016-05-30',
 				),
 				'htmlOptions'=>array(
 					//'disabled'=>true
@@ -135,8 +135,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2016-05-09',
-						'maxDate'=>'2016-05-22',
+						'minDate'=>'2016-04-28',
+						'maxDate'=>'2016-05-30',
 				),
 				'htmlOptions'=>array(
 					//'style'=>'height:20px',

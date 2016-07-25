@@ -1,9 +1,7 @@
 <p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>6&ordf; Semana de la Diversidad Biol&oacute;gica</strong>,  durante el per&iacute;odo del <strong>17 al 22 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Biodiversidad es bienestar.</strong></p>
 <p>&nbsp;</p>
 <p>
-	<div style="width:50%; float:left; display:inline-block; text-align:center;"><iframe width="350" height="197" src="https://www.youtube.com/embed/aRjSxNLzwOs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-    <div style="width:50%; float:left; display:inline-block; text-align:center;"><a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa.png" width="200" height="260" alt=""/></a><br>
-    <a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank">Ver programa</a></div>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/aRjSxNLzwOs?list=PLLAcoRHqCmNTniXVC3FNQLOpeUMA2T-Zw" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
