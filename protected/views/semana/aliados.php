@@ -18,7 +18,8 @@
 
 <li><a href="http://www.milenio.com" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_milenio.png" alt="Milenio"></a></li>
 
-<li><a href="http://www.bibliotecavasconcelos.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logBVasconcelos.png" alt="Biblioteca Vasconcelos"></a></li>
+
+<li><a href="http://www.radioaventureros.com.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_radioav.png" alt="Biblioteca Vasconcelos"></a></li>
 
 <li><a href="http://www.cultura.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo64_secultura.png" alt="Secretaría de Cultura"></a></li>
 
