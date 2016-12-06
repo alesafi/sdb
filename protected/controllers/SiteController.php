@@ -142,7 +142,7 @@ class SiteController extends Controller
 			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo'], 'cual_semana'=>Yii::app()->params->cual_semana));
 			if (isset($usuario->id))
 			{
-				$usuario->send_mail();
+				//$usuario->send_mail();
 				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo esta en proces de enviarse.");
 			}
 			else
