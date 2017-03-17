@@ -18,7 +18,7 @@ $( "#accordion" ).accordion({
 
 <h1>Ponentes</h1><br>
 
-<div style="width: 50%; display:inline-block; float:left;">
+<div style="width: 50%; display:none; float:left;">
 <span class="tit_materiales">Biodiversidad es bienestar</span><br>
 <a href="http://web.ecologia.unam.mx/personal/personal_perfil.php?var1=Dr.&var2=José_A.&var3=Sarukhán&var4=Kermez" target="_blank">Dr. José A. Sarukhán Kermez</a><br>
 <a href="https://www.researchgate.net/profile/Hesiquio_Benitez-Diaz" target="_blank">Biól. Hesiquio Benítez Díaz</a><br>
@@ -48,7 +48,7 @@ $( "#accordion" ).accordion({
 </div>
 
 
-<div style="width: 50%; display:inline-block; float:left;">
+<div style="width: 50%; display:none; float:left;">
 <span class="tit_materiales">Turismo y manejo forestal</span><br>
 <a href="http://www.puma.unam.mx/diplomado/index.php/cuerpo-docente/1-cuerpo-docente/20-pedro-alvarez-icaza" target="_blank">Mtro. Pedro Álvarez Icaza</a><br>
 <a href="http://www.ceiba.org.mx/quienes-somos/miembros/name/alfredo-arellano-guillermo/" target="_blank">Biól. Alfredo Arellano Guillermo</a><br>

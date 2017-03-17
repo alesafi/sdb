@@ -48,13 +48,13 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #008D36 !important;
+			color: #3E2819 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #008D36;
-		font-weight: 400;
+		color: #829440 !important;
+		font-weight: bold;
 	}
 
 	em, i {
@@ -86,7 +86,7 @@
 		/*font-size: 2em;*/
 		line-height: 1.5em;
 		font-size: 1.7em;
-		color: #006633 !important;
+		color: #829440 !important;
 	}
 
 	h2 {
@@ -218,17 +218,17 @@
 	header.major h2 {
 		font-family:Georgia, "Times New Roman", Times, serif;
 		font-size: 2em;
-		color: #008D36;
+		color: #3E2819;
 	}
 	
 	.verde {
-		color: #006633 !important;
+		color: #829440 !important;
 	}
 	
 	.slogan {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif !important;
 	font-style: italic;
-	color: #008D36;
+	color: #3E2819;
 	font-size: 1.5em;
 	line-height: 1.5em;
 	}

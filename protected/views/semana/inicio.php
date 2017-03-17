@@ -1,4 +1,4 @@
-<p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>6&ordf; Semana de la Diversidad Biol&oacute;gica</strong>,  durante el per&iacute;odo del <strong>17 al 22 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Biodiversidad es bienestar.</strong></p>
+<p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>7&ordf; Semana de la Diversidad Biol&oacute;gica</strong>, durante el per&iacute;odo del <strong>22 al 27 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Turismo sostenible.</strong></p>
 <p>&nbsp;</p>
 <p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/aRjSxNLzwOs?list=PLLAcoRHqCmNTniXVC3FNQLOpeUMA2T-Zw" frameborder="0" allowfullscreen></iframe>
@@ -6,14 +6,25 @@
 
 
 <p>&nbsp;</p>
-<p>Desde 2011 hasta el 2020 se ha designado la <strong>d&eacute;cada de la diversidad biol&oacute;gica</strong>. El prop&oacute;sito de la d&eacute;cada es  aumentar las actividades de difusi&oacute;n para que todos conozcamos la situaci&oacute;n de  la diversidad biol&oacute;gica y participemos en su manejo sustentable, restauraci&oacute;n y conservaci&oacute;n.<br>
-  <br>
-  Cada&nbsp;22 de mayo&nbsp;se celebra el d&iacute;a de la diversidad biol&oacute;gica. Este 2016 celebraremos con el tema <strong>"Biodiversidad es bienestar"</strong>. En la <a href="http://www.mexicop13.bio/" target="_blank">13º reunión del Convenio de Diversidad Biológica (COP 13)</a> en diciembre de 2016 en Cancún, México se dialogará sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. <strong>¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad?</strong><br><br>
+<p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br>
+<br>
+Cada 22 de mayo se celebra el día de la diversidad biológica. Este 2017 celebraremos con el tema "Turismo sostenible". El año pasado en diciembre pasado en la <a href="http://cop13.mx" target="_blank">13º Conferencia de las Naciones Unidas sobre Biodiversidad (COP 13)</a> celebrada en Cancún, México se dialogó sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. ¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad? Este año nos concentraremos en turismo sostenible.<br><br>
   
-  Organiza alguna conferencia o charla para el público general sobre uno o más sitios seleccionados en tu región o estado. Organiza un evento que ayude al público a reflexionar sobre la naturaleza de algún sitio especial.
-  <br><br>
+Organiza alguna conferencia o charla para el público general sobre uno o más sitios seleccionados en tu región o estado. Organiza un evento que ayude al público a reflexionar sobre la naturaleza de algún sitio especial.<br><br>
+
 Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;benos a:&nbsp;<a href="mailto:sdb@conabio.gob.mx">sdb@conabio.gob.mx</a></p>
-                          <p><a href="http://www.conabio.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logConabio.png" width="178" height="59" /></a> <a href="http://www.bibliotecavasconcelos.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logBVasconcelos.png" width="162" height="59" /></a> <a href="http://www.un.org/es/events/biodiversityday/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logos_DIntDivBiol.png" width="147" height="59" /></a> <a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a></p>
+
+<p>
+	   <a href="http://www.conabio.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logConabio.png" width="178" height="59" /></a>
+
+	   <a href="http://www.bibliotecavasconcelos.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logBVasconcelos.png" width="162" height="59" /></a>
+
+	   <a href="https://www.cbd.int/2011-2020/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_2011_2020.png" width="147" height="59" /></a>
+	   
+	   <a href="http://www.tourism4development2017.org" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_aits.png" width="106" height="59" /></a>
+
+	   <a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a>
+</p>
                         
 </section>
 
