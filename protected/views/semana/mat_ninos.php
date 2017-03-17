@@ -6,14 +6,14 @@
                     	  <table width="90%" border="0">
                       	      <tr>
                       	        <td width="34%"><p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos</p>
-                      	          <p>
+                      	          <!--<p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/QDqxOGL-zGA?rel=0" frameborder="0" allowfullscreen></iframe><br>
                                       <span class="piesImg"><strong>De sol a sol (campo)</strong> | <span class="conabio">Conabio</span></span>
                                   </p>
                                   <p>
                                   <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
                                   <span class="piesImg"><strong>Serie Consumo Responsable</strong> | <span class="conabio">Conabio</span></span>
-                                  </p>
+                                  </p>-->
                                   <!--<p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
                                       <span class="piesImg"><strong>Serie Consumo Responsable<br />
