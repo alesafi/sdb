@@ -48,7 +48,7 @@ function MM_swapImage() { //v3.0
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>6a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
+<title>7a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
 
 
 <noscript>
