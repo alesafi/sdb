@@ -45,6 +45,19 @@
   </p>
   
   <p>Si te interesa tener una exposición en préstamo contáctanos <a href="mailto:bancoima@xolo.conabio.gob.mx">bancoima@xolo.conabio.gob.mx</a>.</p>
+  
+  
+  <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> <a href="http://www.biodiversidad.gob.mx/Difusion/exposiciones.html" target="_blank" style="color: #C60;">Naturalista y turismo</a>
+  <!-- Linea --><hr/>
+  </p>
+  
+  <p>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+  <a href="http://www.naturalista.mx/pages/proyectosmexico" target="_blank">Busca proyectos en áreas protegidas de México</a><br>
+  </p>
+  
+  
+  
   </td>
 
 
@@ -53,53 +66,49 @@
   <!-- Linea --><hr/>
   </p>
   
-  <!--<p class="subtit_materiales">Biodiversidad</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/bios/" target="_blank">Bios | Naturaleza y Sociedad</a>
-  </p>
+<p><span class="subtit_materiales">Turismo sustentable</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://cf.cdn.unwto.org/sites/all/files/docpdf/roadmap-international-year-2017-en.pdf" target="_blank">Día internacional de la Diversidad Biológica (22 de mayo) | 2017 Año Internacional del Turismo Sostenible para el Desarrollo</a><br>
+	
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://sustentur.com.mx/" target="_blank">Sustentur</a><br>
+</p>
+ 
+ 
+<p><span class="subtit_materiales">Especial de Turismo Sustentable</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="https://issuu.com/lpverdes/docs/lpv_especial_de_turismo_sustentable" target="_blank">SEMARNAT y las Páginas Verdes</a>
+</p>
   
+<p><span class="subtit_materiales">México Natoural: Turismo en Áreas Protegidas</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://natoural.conanp.gob.mx/SNIAT_es.html" target="_blank">Comisión Nacional de Áreas Naturales Protegidas</a><br>
+</p>
   
-  <p class="subtit_materiales">Manejo forestal certificado</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/corredor/cbmm/aprovechamiento.html" target="_blank">Aprovechamiento sustentable (CBMM)</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.conafor.gob.mx:8080/documentos/docs/5/6757Padr%C3%B3n%20de%20predios%20certificados%20y%20en%20proceso%20de%20certificaci%C3%B3n%20de%20FSC%202015.PDF" target="_blank">Comunidades y ejidos certificados por su manejo forestal (FSC)</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.chicza.com/espanol/" target="_blank">Producción de chicle, Quintana Roo</a>
-  </p>
-  
-  
-  <p class="subtit_materiales">Agricultura sostenible</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.cbd.int/doc/bioday/2008/ibd-2008-booklet-es.pdf" target="_blank">La biodiversidad y la agricultura</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.youtube.com/watch?v=sv7PNW5xlvI" target="_blank">Dr. José Sarukhán: “Agricultura y biodiversidad” (video)</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/usos/maices/maiz.html" target="_blank">Maíces</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/genes/origenDiv.html" target="_blank">Origen y diversificación del maíz</a>
-  </p>
-  
-  <p class="subtit_materiales">Pesca</p>
-  <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.biodiversidad.gob.mx/usos/alimentacion/peces/" target="_blank">Peces marinos comerciales</a></p>
-  
-  
-  <p class="subtit_materiales">Pesquerías certificadas (Marine Stewardship Council)</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.msc.org/track-a-fishery/fisheries-in-the-program/certified/pacific/mexico-baja-california-red-rock-lobster/mexico-baja-california-red-rock-lobster" target="_blank">Langosta Roja en Baja California</a><br>   
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.msc.org/track-a-fishery/fisheries-in-the-program/certified/western-central-atlantic/sian_kaan_banco_chinchorro_biosphere_reserves_spiny_lobster/sian_kaan_banco_chinchorro_biosphere_reserves_spiny_lobster" target="_blank">Langosta espinosa en La Reserva de la Biosfera de Sian Ka´an</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.msc.org/track-a-fishery/fisheries-in-the-program/certified/pacific/gulf-of_california-mexico-sardine/gulf-of_california-mexico-sardine" target="_blank">Sardina Monterrey en el Golfo de California</a>
-  </p>
-  
-  <p class="subtit_materiales">Pesquerías en evaluación</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="https://www.msc.org/track-a-fishery/fisheries-in-the-program/in-assessment/pacific/gulf_of_california_mexico_thread_herring" target="_blank">Sardina crinuda, sardina crinuda machete</a>
-  </p>
-  
-  
+<p><span class="subtit_materiales">Guía de Buenas Prácticas</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="https://www.cbd.int/development/doc/cdb-guide-des-bonnes-practiques-tourisme-web-es.pdf" target="_blank">Turismo para la naturaleza y el desarrollo | Convenio sobre la Diversidad Biológica</a><br>
+</p>
+ 
+<p><span class="subtit_materiales">Conclusiones de Integración de la biodiversidad en el sector turismo</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.biodiversidad.gob.mx/region/EEB/pdf/2eneb/Conclusiones%20mainstreaming%20TURISMO.pdf" target="_blank">Segundo Encuentro Nacional sobre Estrategias de Biodiversidad (2016)</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.biodiversidad.gob.mx/pais/cien_casos/pdf/Cien%20casos.pdf" target="_blank">Patrimonio natural de México: Cien casos de Éxito</a><br>
 
-  <p class="subtit_materiales">Turismo sustentable</p>
-  <p>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.salvalacandona.net" target="_blank">Expedición Salva Lacandona</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://laotraopcion.com/" target="_blank">La otra opción, Veracruz</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://www.cdi.gob.mx/turismo/index.php?option=com_content&view=category&id=59&Itemid=61" target="_blank">Red de ecoturismo de la Sierra de Juárez de Oaxaca</a><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8"><a href="http://sierranorte.org.mx/" target="_blank">Expediciones Sierra Norte</a>
-  </p>-->
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.biodiversidad.gob.mx/corredor/cbmm/turismo.html" target="_blank">Aprovechamiento sustentable: turismo</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.greenpeace.org/mexico/es/Campanas/Oceanos-y-costas/Que-proponemos/Turismo-sustentable/" target="_blank">Turismo sustentable Greenpeace México</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.biodiversidad.gob.mx/corredor/cbmm/DOC/costa_yucatan_desarrollo_turistico.pdf" target="_blank">La costa de Yucatán en la perspectiva del desarrollo turístico</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://redturismosustentable.org/" target="_blank">RED de Turismo Sustentable y Desarrollo Social, A.C.</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.atlasturistico.beta.sectur.gob.mx/AtlasTuristico/bienvenido.do" target="_blank">Atlas Turístico de México</a><br>
+</p>
+  
+  
   </td>
 
   </tr>
@@ -129,30 +138,32 @@
   <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos
   <!-- Linea --><hr/></p>
   
-  <!--<p>
-  <iframe width="200" height="113" src="https://www.youtube.com/embed/aRjSxNLzwOs?rel=0" frameborder="0" allowfullscreen></iframe><br>
+  <p>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/U1imNvjy-fA?rel=0" frameborder="0" allowfullscreen></iframe><br>
   <span class="piesImg"><strong>Promocional</strong> | <span class="conabio">Conabio</span></span>
   </p>
   
+  <p>
+  <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
+  <span class="piesImg"><strong>Serie Consumo Responsable</strong> | <span class="conabio">Conabio</span></span>
+  </p>
+
   <p>
   <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNRCFBpoPEsXptvw22nSQ3p5" frameborder="0" allowfullscreen></iframe><br>
   <span class="piesImg"><strong>Serie BIOS, Naturaleza y sociedad</strong> | <span class="conabio">Conabio</span></span>
   </p>
   
   <p>
-  <iframe width="200" height="113" src="https://www.youtube.com/embed/TKAGeQG3m4s?rel=0" frameborder="0" allowfullscreen></iframe><br>
-  <span class="piesImg"><strong>COP 13 de Biodiversidad</strong> | <span class="conabio">Conabio</span></span>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/BDxR-PKfuJ0?rel=0" frameborder="0" allowfullscreen></iframe><br>
+  <span class="piesImg"><strong>Perspectiva 13. Turismo sustentable en México</strong> | Pronatura México A.C.</span>
   </p>
   
   <p>
-  <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNQv7NSPwbaARfIIveV0Mx6C" frameborder="0" allowfullscreen></iframe><br>
-  <span class="piesImg"><strong>Serie Hábitat</strong> | Pronatura México A.C.</span>
+  <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNTwnTS23tGkkcX5hKA5ag58" frameborder="0" allowfullscreen></iframe><br>
+  <span class="piesImg"><strong>Patrimonios Naturales de la Humanidad</strong> | <span class="conabio">Conabio</span></span>
   </p>
   
-  <p>
-  <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
-  <span class="piesImg"><strong>Serie Consumo Responsable</strong> | <span class="conabio">Conabio</span></span>
-  </p>-->
+  
   
   
   </td>
