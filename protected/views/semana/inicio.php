@@ -1,7 +1,7 @@
 <p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>7&ordf; Semana de la Diversidad Biol&oacute;gica</strong>, durante el per&iacute;odo del <strong>22 al 27 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Turismo sostenible.</strong></p>
 <p>&nbsp;</p>
 <p>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/U1imNvjy-fA?list=PLLAcoRHqCmNSMix3b4PCMmtJR7A7P2jsR" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/xQbGdflWHw4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
