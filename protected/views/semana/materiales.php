@@ -16,6 +16,8 @@
   <p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Medios</span>
   <!-- Linea --><hr/>
   </p>
+  
+  <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp225_7sdb_sumate.pdf" target="_blank">Boletín de prensa</a></p>
 
   <!--<p>
   <a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa.png" width="200" height="260" alt=""/></a><br>
@@ -24,19 +26,22 @@
   
   </td>
   <td width="35%" rowspan="2" valign="top" style="text-align: center">
-  <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Logotipo
+  <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Promocionales
   <!-- Linea --><hr/>
   </p>
   <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" width="200" height="69"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" target="_blank">PNG</a></span></p>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Logotipo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" target="_blank">PNG</a></span></p>
   <p><br>
-  <span class="subtit_materiales">Promocional</span><br><br>
-  <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_carta.jpg" width="200" height="155"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_carta.jpg" target="_blank">tamaño carta</a></span></p>
-  <p><br>-->
-  <span class="subtit_materiales">Redes sociales</span><br><br>
-  <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_1200_628.jpg" width="200" height="105"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_1200_628.jpg" target="_blank">1200 x 628 px</a></span>--></p>
+  <span class="subtit_materiales">Promocional</span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x400.jpg" width="200" height="133"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x400.jpg" target="_blank">600 x 400 px</a></span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x200.jpg" target="_blank">600 x 200 px</a></span>
+  </p>
+  <p><br>
+  <span class="subtit_materiales">Redes sociales</span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" width="200" height="74"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" target="_blank">Facebook</a></span><br><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_twitter.jpg" target="_blank">Twitter</a></span>
+  </p>
 
 
 
@@ -124,9 +129,9 @@
   </p>
 
   <p>
-  <!--<strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/6SDB_20seg.wav" target="_blank">Cápsula promocional (20")</a></strong><br>
+  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot7SDB.wav" target="_blank">Cápsula promocional (wav)</a></strong><br>
   
-  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/6SDB_30seg.wav" target="_blank">Cápsula promocional (30")</a></strong><br><br>-->
+  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot7SDB.mp3" target="_blank">Cápsula promocional (mp3)</a></strong><br><br>
   
  <span class="subtit_materiales">Cápsulas de Patrimonio Natural de México</span><br>
  <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/36313697&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
@@ -139,8 +144,10 @@
   <!-- Linea --><hr/></p>
   
   <p>
-  <iframe width="200" height="113" src="https://www.youtube.com/embed/U1imNvjy-fA?rel=0" frameborder="0" allowfullscreen></iframe><br>
-  <span class="piesImg"><strong>Promocional</strong> | <span class="conabio">Conabio</span></span>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/xQbGdflWHw4?rel=0" frameborder="0" allowfullscreen></iframe><br>
+  <span class="piesImg"><strong>Promocional</strong> | <span class="conabio">Conabio</span></span><br>
+  
+  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/video/spot7SDB_1280x720.zip" target="_blank">Video promocional (mp4)</a></strong>
   </p>
   
   <p>
