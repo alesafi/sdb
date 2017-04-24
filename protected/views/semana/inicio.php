@@ -1,11 +1,16 @@
 <p>La Comisi&oacute;n Nacional para el Conocimiento y Uso de la  Biodiversidad <span class="conabio">Conabio</span> te invita a participar activamente en la&nbsp;<strong>7&ordf; Semana de la Diversidad Biol&oacute;gica</strong>, durante el per&iacute;odo del <strong>22 al 27 de mayo </strong>del a&ntilde;o en curso,  realizando <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin">actividades de divulgaci&oacute;n</a> con el tema&nbsp;<strong>Turismo sostenible.</strong></p>
-<p>&nbsp;</p>
+
+<center>
+<h4><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=usuarios/create">¡Súmate y participa desde tu estado!</a> | 
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/create">Publica y comparte tus actividades</a></h4>
+<br>
+</center>
+
 <p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/xQbGdflWHw4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
-<p>&nbsp;</p>
 <p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br>
 <br>
 Cada 22 de mayo se celebra el día de la diversidad biológica. Este 2017 celebraremos con el tema "Turismo sostenible". El año pasado en diciembre pasado en la <a href="http://cop13.mx" target="_blank">13º Conferencia de las Naciones Unidas sobre Biodiversidad (COP 13)</a> celebrada en Cancún, México se dialogó sobre la integración de la biodiversidad en actividades productivas como agricultura, manejo forestal, pesca y turismo. ¿Cómo desarrollar estas actividades y a la vez conservar nuestra biodiversidad? Este año nos concentraremos en turismo sostenible.<br><br>

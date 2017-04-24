@@ -75,7 +75,7 @@ function MM_swapImage() { //v3.0
 						  <h6 align="right"><a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;<a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Difusi&oacute;n</a>&nbsp;- Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b></h6>
 							<h2>&nbsp;</h2>
 							<h2 class="verde">7a. Semana de la Diversidad Biol&oacute;gica</h2>
-                            <h3 class="slogan">Turismo sostenible</h3>
+                            <h3 class="slogan">Turismo sostenible: Al viajar, deja tu huella verde</h3>
                             <h3 style="font-variant: small-caps"> </h3>
 					  </header>
 						<p style="text-align:center"><br>

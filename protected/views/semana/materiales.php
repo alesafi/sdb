@@ -71,6 +71,12 @@
   <!-- Linea --><hr/>
   </p>
   
+<p><span class="subtit_materiales">Modelos de manejo y conservación</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
+
+</p>
+
 <p><span class="subtit_materiales">Turismo sustentable</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 <a href="http://cf.cdn.unwto.org/sites/all/files/docpdf/roadmap-international-year-2017-en.pdf" target="_blank">Día internacional de la Diversidad Biológica (22 de mayo) | 2017 Año Internacional del Turismo Sostenible para el Desarrollo</a><br>
