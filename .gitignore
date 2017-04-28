@@ -9,3 +9,4 @@ themes/classic/views/
 .settings/
 protected/config/main.php
 protected/data/*
+protected/config/main.php_ixmati
