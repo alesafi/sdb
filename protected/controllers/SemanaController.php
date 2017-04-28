@@ -246,35 +246,88 @@ class SemanaController extends Controller
 			Yii::app()->end();
 		}
 	}
-
-	public static function fechaEvento($fecha)
-	{
-		$mes_dia = substr($fecha, 5, 5);
+	
+	public static function fechaEvento($fecha) {
+		$dia = date ( "j", strtotime ( $fecha ) );
+		$semana = date ( "l", strtotime ( $fecha ) );
+		$mes = date ( "F", strtotime ( $fecha ) );
+		$hora_minuto = date ( "H:i", strtotime ( $fecha ) );
+		$anio = date ( "Y", strtotime ( $fecha ) );
+		echo Yii::trace(CVarDumper::dumpAsString('Prueba: '.$dia,'vardump'));
 		
-		switch ($mes_dia)
-		{
-			case '05-22':
-				return 'Lunes 22 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+		switch ($mes) {
+			case 'January' :
+				$mes = 'Enero';
 				break;
-			case '05-23':
-				return 'Martes 23 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+			case 'February' :
+				$mes = 'Febrero';
 				break;
-			case '05-24':
-				return 'Miércoles 24 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+			case 'March' :
+				$mes = 'Marzo';
 				break;
-			case '05-25':
-				return 'Jueves 25 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+			
+			case 'April' :
+				$mes = 'Abril';
 				break;
-			case '05-26':
-				return 'Viernes 26 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+			
+			case 'May' :
+				$mes = 'Mayo';
 				break;
-			case '05-27':
-				return 'Sábado 27 de Mayo de 2017 a las '.substr($fecha, 11, 5).' horas.';
+			
+			case 'June' :
+				$mes = 'Junio';
 				break;
-			default:
-				return 'Fecha incorrecta, favor de verificar';
+			
+			case 'July' :
+				$mes = 'Julio';
+				break;
+			
+			case 'August' :
+				$mes = 'Agosto';
+				break;
+			
+			case 'September' :
+				$mes = 'Septiembre';
+				break;
+			
+			case 'October' :
+				$mes = 'Octubre';
+				break;
+			
+			case 'November' :
+				$mes = 'Noviembre';
+				break;
+			
+			case 'December' :
+				$mes = 'Diciembre';
 				break;
 		}
+		
+		switch ($semana) {
+			case 'Monday' :
+				$semana = 'Lunes';
+				break;
+			case 'Tuesday' :
+				$semana = 'Martes';
+				break;
+			case 'Wednesday' :
+				$semana = 'Miércoles';
+				break;
+			case 'Thrusday' :
+				$semana = 'Jueves';
+				break;
+			case 'Friday' :
+				$semana = 'Viernes';
+				break;
+			case 'Saturday' :
+				$semana = 'Sábado';
+				break;
+			case 'Sunday' :
+				$semana = 'Domingo';
+				break;
+		}
+		
+		return $semana.' '.$dia.' de '.$mes.' de '.$anio.' a las '.$hora_minuto.' hrs.';
 	}
 
 	/**

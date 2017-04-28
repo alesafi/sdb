@@ -121,9 +121,36 @@ class Controller extends CController
 	public function vigencia()
 	{
 		$fecha = date("YmdHis");
-		if ($fecha < Yii::app()->params->fecha_termino)
-			return true;		
+		if ($fecha > Yii::app()->params->fecha_termino_sdb)
+			throw new CHttpException(NULL,"El tiempo para publicar tus actividades ha terminado, la fecha límite fue: ".$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_termino_sdb));
+		else if ($fecha < Yii::app()->params->fecha_inicio_sdb)
+			throw new CHttpException(NULL,"El tiempo para publicar tus actividades aún no ha iniciado, comienza el: ".$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_inicio_sdb));
 		else
-			throw new CHttpException(NULL,"El tiempo para publicar tus eventos ha terminado.");
+			return true;
+	}
+	
+	public static function formatoFecha($formato, $fecha = null)
+	{
+		if (empty($fecha))
+			$fecha = Yii::app()->params->fecha_termino;
+			
+		$anio = substr($fecha,0,4);
+		$mes = substr($fecha,4,2);
+		$dia = substr($fecha,6,2);
+		
+		switch ($formato)
+		{
+			case 'aaaa-mm-dd':		
+				$fecha = $anio.'-'.$mes.'-'.$dia;
+				break;
+			case 'aaaa-mm':
+				$fecha = $anio.'-'.$mes;
+				break;
+			default:
+				$fecha = '0000-00-00';
+				break;
+		}
+		
+		return $fecha;
 	}
 }

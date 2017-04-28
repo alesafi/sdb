@@ -105,8 +105,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2017-05-22',
-						'maxDate'=>'2017-05-27',
+						'minDate'=>$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_inicio),
+						'maxDate'=>$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_termino),
 				),
 				'htmlOptions'=>array(
 					//'disabled'=>true
@@ -135,8 +135,8 @@
 						//'timeFormat' => 'hh:mm',
 						'hourMin'=>6,
 						'hourMax'=>22,
-						'minDate'=>'2017-05-22',
-						'maxDate'=>'2017-05-27',
+						'minDate'=>$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_inicio),
+						'maxDate'=>$this->formatoFecha('aaaa-mm-dd', Yii::app()->params->fecha_termino),
 				),
 				'htmlOptions'=>array(
 					//'style'=>'height:20px',
