@@ -121,6 +121,11 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'calonso@conabio.gob.mx',
 		'cual_semana'=>'#',
-		'fecha_termino'=>'20150101000000'
+		// Las fechas entre las cuales la plataforma será visible para registrarse y subir actividades
+		'fecha_inicio_sdb'=>'20170427115900',
+		'fecha_termino_sdb'=>'20170531235900',
+		// Las fechas entre las cuales una actvidad puede organizarse 
+		'fecha_inicio'=>'20170501000000',
+		'fecha_termino'=>'20170531235900'
 		),
 );
