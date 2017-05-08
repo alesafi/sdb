@@ -313,7 +313,7 @@ class SemanaController extends Controller
 			case 'Wednesday' :
 				$semana = 'Miércoles';
 				break;
-			case 'Thrusday' :
+			case 'Thursday' :
 				$semana = 'Jueves';
 				break;
 			case 'Friday' :
