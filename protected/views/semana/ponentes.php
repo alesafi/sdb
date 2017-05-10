@@ -18,38 +18,30 @@ $( "#accordion" ).accordion({
 
 <h1>Ponentes</h1><br>
 
-<div style="width: 50%; display:none; float:left;">
-<span class="tit_materiales">Biodiversidad es bienestar</span><br>
-<a href="http://web.ecologia.unam.mx/personal/personal_perfil.php?var1=Dr.&var2=José_A.&var3=Sarukhán&var4=Kermez" target="_blank">Dr. José A. Sarukhán Kermez</a><br>
-<a href="https://www.researchgate.net/profile/Hesiquio_Benitez-Diaz" target="_blank">Biól. Hesiquio Benítez Díaz</a><br>
-<a href="http://www.grandesmaestros.unam.mx/dr-alfredo-lopez-austin/" target="_blank">Dr. Alfredo López Austin</a><br>
-<a href="http://nestorgarciacanclini.net/index.php/semblanza" target="_blank">Dr. Néstor García Canclini</a><br>
-<a href="http://maestriaeditorial.xoc.uam.mx/index.php?option=com_content&view=article&id=242:dgoldin&catid=39:coordinadores&Itemid=91" target="_blank">Ma. Daniel Goldin Halfon</a><br><br>
-
-<span class="tit_materiales">Fotografía de naturaleza</span><br>
-<a href="https://www.linkedin.com/in/ivana-fernandez-stohanzlova-351899106" target="_blank">Ivana Fernández Stohanzlova</a><br>
-<a href="http://www.sladedesign.com.au/lead/component/comprofiler/userprofile/cpigueron" target="_blank">Celia Pigueron Wirz</a><br>
-<a href="https://twitter.com/letatdeschoses" target="_blank">Lic. Claudia Muzzi</a><br>
-<a href="http://luisjaviersandoval.photoshelter.com/#!/about" target="_blank">Biól. Luis Javier Sandoval</a><br>
-<a href="http://www.fulvioeccardi.com/" target="_blank">Biól. Fulvio Eccardi</a><br>
-<a href="http://jaguarnegro.mx/web/?page_id=90#.Vw_w-JMrLUI" target="_blank">Biól. Jorge Douglas Brandon Pliego</a><br>
-<a href="https://mx.linkedin.com/in/julio-jes%C3%BAs-meneses-92435726" target="_blank">Julio Meneses</a><br>
-<a href="http://mixfm.mx/locutores/inaki-manero/" target="_blank">Iñaki Manero</a><br><br>
-
-
-<span class="tit_materiales">Agricultura y pesca</span><br>
-<a href="https://es.wikipedia.org/wiki/Guillermo_Haro_Bélchez" target="_blank">Lic. Guillermo Haro Bélchez</a><br>
-<a href="http://www.uccs.mx/expertos/agricultura_alimentacion/alejandro-espinosa-calderon.html" target="_blank">Dr. Alejandro Espinosa Calderón</a><br>
-<a href="https://www.youtube.com/watch?v=hHgkl80g57k" target="_blank">Dr. Pablo Arenas Fuentes</a><br>
-<a href="http://www.literatura.bellasartes.gob.mx/acervos/index.php/catalogo-biobibliografico/1424?showall=1" target="_blank">Victor Ronquillo</a><br>
-<a href="http://www.imer.mx/reactor/author/leonardoferrera/" target="_blank">Leonardo Ferrera</a><br>
-<!--<a href="https://es.wikipedia.org/wiki/Karla_Iberia_Sánchez" target="_blank">Karla Iberia Sánchez</a><br>-->
-<a href="https://www.youtube.com/watch?v=rlu1E7PgLzs" target="_blank">Dr. Teobaldo Eguiluz Piedra</a><br><br>
+<div style="width: 100%; float:left;">
+<!--<span class="tit_materiales">Biodiversidad es bienestar</span><br>-->
+Alejandro García / <a href="http://oncetv-ipn.net/fciencia/" target="_blank">Reportero de Ciencia Canal Once</a><br>
+Lucía Ruiz Bustos / <a href="https://adventuremexico.travel/organizaciones/conanp/" target="_blank">Comisión Nacional de Áreas Protegidas (<span class="conabio">Conanp</span>)</a><br>
+Claudia Valeria Sánchez / <a href="http://www.rita.com.mx/" target="_blank">Red Indígena de Turismo de México</a><br>
+Julia Carabias Lilo / <a href="http://naturamexicana.org.mx/" target="_blank">Natura Mexicana</a><br>
+<a href="https://www.facebook.com/alonsopatadeperrovera/?pnref=story" target="_blank">Alonso Vera Cantú</a> / Pata de Perro<br>
+<a href="http://biografia.cine.hispavista.com/n90320-erik-estrada" target="_blank">Erick Estrada</a> / Actor y productor<br>
+<a href="http://ib.unam.mx/directorio/194" target="_blank">Luis Zambrano</a> / Instituto de Biología UNAM<br>
+<a href="http://www.sedema.cdmx.gob.mx/secretaria/estructura/22" target="_blank">Luis Fueyo</a> / Comisión de Recursos Naturales de la Ciudad de México (<span class="conabio">Corena</span>)<br>
+Rodolfo Salinas / <a href="http://natoure.org/" target="_blank">Natoure.org</a><br>
+<a href="http://www.radioformula.com.mx/perfil.asp" target="_blank">Arturo Hernández</a> / <a href="https://www.facebook.com/Supercivicosmx/?fref=ts
+" target="_blank">Supercívicos</a><br>
+Renata Cao De la Fuente / <a href="http://www.biodiversidad.gob.mx/corredor/corredor.html" target="_blank"><span class="conabio">Conabio</span></a><br>
+<a href="https://twitter.com/ViajaBonito?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.viajabonitomx.com%2F" target="_blank">Marco Daniel Guzmán</a> / <a href="http://www.viajabonitomx.com/
+" target="_blank">Viaja Bonito</a><br>
+<a href="https://www.gob.mx/sectur/estructuras/mtra-maria-teresa-solis-trejo" target="_blank">Teresa Solís</a> / <span class="conabio">Sectur</span><br>
+Vicente Ferreyra / <a href="http://sustentur.com.mx/" target="_blank"><span class="conabio">Sustentur</span></a><br>
+<br>
 </div>
 
 
-<div style="width: 50%; display:none; float:left;">
-<span class="tit_materiales">Turismo y manejo forestal</span><br>
+<div style="width: 50%; display: none; float:left;">
+
 <a href="http://www.puma.unam.mx/diplomado/index.php/cuerpo-docente/1-cuerpo-docente/20-pedro-alvarez-icaza" target="_blank">Mtro. Pedro Álvarez Icaza</a><br>
 <a href="http://www.ceiba.org.mx/quienes-somos/miembros/name/alfredo-arellano-guillermo/" target="_blank">Biól. Alfredo Arellano Guillermo</a><br>
 <a href="http://www.conafor.gob.mx:8080/documentos/docs/7/2355CV%20Enrique%20Jardel.pdf" target="_blank">M. en C. Enrique Jardel Peláez</a><br>
@@ -59,7 +51,7 @@ $( "#accordion" ).accordion({
 <a href=" https://mx.linkedin.com/in/ra%C3%BAl-cort%C3%A9s-fern%C3%A1ndez-581a1a3b" target="_blank">Lic. Raúl Cortés</a><br><br>
 
 
-<span class="tit_materiales">Naturalista</span><br>
+
 <a href="http://conabio.inaturalist.org/people/heliographyst" target="_blank">Biól. Roberto Arreola Alemón</a><br>
 <a href="http://conabio.inaturalist.org/people/elizatorres" target="_blank">Biól. Elizabeth Torres Bahena</a><br>
 <a href="https://www.linkedin.com/in/astrid-domínguez-guerrero-a9833498" target="_blank">D.G. Astrid Domínguez Guerrero</a><br><br>
