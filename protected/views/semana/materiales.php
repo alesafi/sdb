@@ -16,13 +16,13 @@
   <p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Medios</span>
   <!-- Linea --><hr/>
   </p>
+
+  <p>
+  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br>
+  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 7a. Semana de la Diversidad Biológica</a>
+  </p>
   
   <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp225_7sdb_sumate.pdf" target="_blank">Boletín de prensa</a></p>
-
-  <!--<p>
-  <a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/programa.png" width="200" height="260" alt=""/></a><br>
-  <a href="<?php echo Yii::app()->request->baseUrl; ?>/assets/pdf/programa_6SDB.pdf" target="_blank">Programa de la 6a. Semana de la Diversidad Biológica</a>
-  </p>-->
   
   </td>
   <td width="35%" rowspan="2" valign="top" style="text-align: center">
@@ -73,7 +73,7 @@
   
 <p><span class="subtit_materiales">Modelos de manejo y conservación</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
-<a href="http://biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
+<a href="http://www.biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
 
 </p>
 

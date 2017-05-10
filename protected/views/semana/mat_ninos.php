@@ -5,7 +5,9 @@
                     	<article>
                     	  <table width="90%" border="0">
                       	      <tr>
-                      	        <td width="34%"><p class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos</p>
+                      	        <td width="35%" valign="top"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos
+                     	          <!-- Linea --><hr/>
+                     	          </p>
                       	          <p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/SiGqsh09w6w?list=PLLAcoRHqCmNQS_kDeo71yz2I1iozu8AYj" frameborder="0" allowfullscreen></iframe><br>
                                       <span class="piesImg"><strong>México Megadiverso</strong> | <span class="conabio">Conabio</span></span>
@@ -21,29 +23,26 @@
                                   </p>-->
 								</td>
 
-                      	        <td width="35%" valign="top"><p class="tit_materiales">
-                                <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Logotipo</p>
-                      	          <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.png" width="200" height="69"><br>
-                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_6sdb.png" target="_blank">PNG</a></span></p>
-                      	          <p><span style="color:#C60"><br>
-                   	              Promocional<br>
-                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_28_14.jpg" width="200" height="100"><br>
-                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/promocional_28_14.jpg" target="_blank">28 x 14 cm</a></span></p>
-                      	          <p><br>
-                      	          <span style="color:#C60"> Redes sociales<br>
-                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/rs_6aSemana-01.jpg" width="200" height="74"><br>
-                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Facebook: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/rs_6aSemana-01.jpg" target="_blank">JPG</a></span></p>
-                      	          <p><span style="color:#C60"><br>-->
-                                  
-                                  
-                   	              <!--Banners para sitios web<br>
+                      	        <td width="35%" valign="top" style="text-align: center"><p class="tit_materiales">
+									<p style="-webkit-margin-after: 0em; margin-bottom: 0em;" class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> Web
+									  <!-- Linea --><hr/>
+									</p>
 
-                   	              </span> <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/refBanner.png" width="200" height="117"><br>
-
-                   	              <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg"><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_600.png" target="_blank">600 x 352 px </a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_300.png" target="_blank">300 x 176 px</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/Banner5SDB_248.png" target="_blank">248 x 312 px</a></span><br />
-
-                      	          </p>-->
-                                  </td>
+									<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos.jpg" width="200" height="126"><br>
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+									<a href="http://www.paismaravillas.mx/megadiverso.html#" target="_blank">Viaje a México Megadiverso</a><br>
+									</p>
+                               
+                               		<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s2.jpg" width="200" height="126"><br>
+                               		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+									<a href="http://www.paismaravillas.mx/exploradores.html" target="_blank">Pequeños exploradores</a><br>
+									</p>
+                               
+                               		<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s3.jpg" width="200" height="126"><br>
+                               		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+									<a href="http://www.paismaravillas.mx/assets/pdf/cuadernodeVIAJE.pdf" target="_blank">Diario de viaje</a><br>
+									</p>
+                                </td>
 
                       	        <td width="31%">
 
