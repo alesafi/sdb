@@ -57,6 +57,7 @@
   </p>
   
   <p>
+  <a href="http://www.naturalista.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_naturalista.png" width="90%" height="auto"></a><br>
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
   <a href="http://www.naturalista.mx/pages/proyectosmexico" target="_blank">Busca proyectos en áreas protegidas de México</a><br>
   </p>
