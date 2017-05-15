@@ -21,7 +21,10 @@ Yii::app()->clientScript->registerScript('search', "
 		");
 ?>
 
-<h1>Filtra y encuentra los eventos</h1>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 7a. Semana de la Diversidad Biológica - Biblioteca Vasconcelos</a><br><br>
+
+<h1>Filtra y encuentra los eventos en tu estado</h1>
+
 <br>
 
 <?php $actividades = Semana::actividades(); ?>
