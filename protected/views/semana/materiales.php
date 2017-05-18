@@ -19,10 +19,11 @@
 
   <p>
   <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 7a. Semana de la Diversidad Biológica</a>
+  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 7a. Semana de la Diversidad Biológica</a><br><br>
   </p>
   
   <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp225_7sdb_sumate.pdf" target="_blank">Boletín de prensa</a></p>
+  <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp232_7sdb_ruedaprensa.pdf" target="_blank">2do. Boletín de prensa</a></p>
   
   </td>
   <td width="35%" rowspan="2" valign="top" style="text-align: center">
@@ -41,6 +42,11 @@
   <span class="subtit_materiales">Redes sociales</span><br>
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" width="200" height="74"><br>
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" target="_blank">Facebook</a></span><br><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_twitter.jpg" target="_blank">Twitter</a></span>
+  </p>
+  <p><br>
+  <span class="subtit_materiales">Hoja con identidad</span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam_7SDB.jpg" width="150" height="195"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam_7SDB.jpg" target="_blank">1200 x 1561 px</a></span><br></span>
   </p>
 
 
