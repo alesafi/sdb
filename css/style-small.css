@@ -75,3 +75,15 @@
 		.poptrox-popup .nav-previous:before {
 			margin-top: -1em;
 		}
+
+/* Programa y video */
+
+#programa_sdb {
+	width: 100% !important;
+	text-align: center;
+}
+
+#video_sdb {
+	width: 100% !important;
+	text-align: center;
+}
