@@ -125,6 +125,21 @@
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 <a href="http://www.atlasturistico.beta.sectur.gob.mx/AtlasTuristico/bienvenido.do" target="_blank">Atlas Turístico de México</a><br>
 </p>
+ 
+ 
+ <p><span class="subtit_materiales">Otros sitios web</span><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.walkingmexico.com/" target="_blank">Walking Mexico</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://www.rita.com.mx/" target="_blank">Red Indigena de Turismo de México (RITA)</a><br>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="https://www.facebook.com/alonsopatadeperrovera/" target="_blank">Pata de Perro</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="http://natoure.org/" target="_blank">Natoure</a><br>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<a href="https://www.facebook.com/cantodelaselvamx/" target="_blank">Canto de la Selva</a><br>
+</p>
   
   
   </td>
@@ -161,6 +176,21 @@
   <span class="piesImg"><strong>Promocional</strong> | <span class="conabio">Conabio</span></span><br>
   
   <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/video/spot7SDB_1280x720.zip" target="_blank">Video promocional (mp4)</a></strong>
+  </p>
+  
+  <p>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/mDUsC0te_Gc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br />
+  <span class="piesImg"><strong>Turismo</strong> | <span class="conabio">Conabio</span></span>
+  </p>
+  
+  <p>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/wtUAiCusOho?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br />
+  <span class="piesImg"><strong>Turista</strong> | <span class="conabio">Conabio</span></span>
+  </p>
+  
+  <p>
+  <iframe width="200" height="113" src="https://www.youtube.com/embed/bGy6_sq-guE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br />
+  <span class="piesImg"><strong>Anfitrión</strong> | <span class="conabio">Conabio</span></span>
   </p>
   
   <p>
