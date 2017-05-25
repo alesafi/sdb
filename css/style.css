@@ -249,6 +249,30 @@
 		font-weight: bold;
 	}
 
+
+
+	.total {
+		width: 100%;
+		margin: 0px auto;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+	.sesenta {
+		width: 69%;
+		display: inline-block;
+		text-align: right;
+		padding-left: 23px;
+		vertical-align: top;
+	}
+
+	.treinta {
+		width: 30%;
+		display: inline-block;
+	}
+	
+
+
 /* Box */
 
 	.box {
@@ -1109,4 +1133,4 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
-	
+
