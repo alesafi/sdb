@@ -7,6 +7,27 @@
 <section id="two">
 <div class="row">
   <article>
+  
+  <div class="total">
+  	<div class="treinta">
+		<p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Programa</span>
+		<!-- Linea -->
+		<hr/>
+		</p>
+		<p>
+		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br><br>
+		</p>
+  	</div>
+  	<div class="sesenta">
+  		<p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Lista de reproducción</span>
+		<!-- Linea -->
+		<hr/>
+		</p>
+		<iframe width="100%" height="260" src="https://www.youtube.com/embed/mDUsC0te_Gc?list=PLLAcoRHqCmNSMix3b4PCMmtJR7A7P2jsR" frameborder="0" allowfullscreen></iframe>
+  	</div>
+  	
+  	
+  </div>
   <table width="90%" border="0">
   
   <tr>
@@ -15,11 +36,6 @@
   
   <p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Medios</span>
   <!-- Linea --><hr/>
-  </p>
-
-  <p>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 7a. Semana de la Diversidad Biológica</a><br><br>
   </p>
   
   <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp225_7sdb_sumate.pdf" target="_blank">Boletín de prensa</a></p>
