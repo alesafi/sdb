@@ -48,7 +48,7 @@ function MM_swapImage() { //v3.0
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>7a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
+<title>8a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
 
 
 <noscript>
@@ -72,10 +72,10 @@ function MM_swapImage() { //v3.0
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-						  <h6 align="right"><a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;<a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Difusi&oacute;n</a>&nbsp;- Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b></h6>
+						  <h6 align="right"><a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b></h6>
 							<h2>&nbsp;</h2>
-							<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h2 class="verde">7a. Semana de la Diversidad Biol&oacute;gica</h2></a>
-                            <h3 class="slogan">Turismo sostenible: Al viajar, deja tu huella verde</h3>
+							<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h2 class="verde">8a. Semana de la Diversidad Biol&oacute;gica</h2></a>
+                            <h3 class="slogan">Historias de &eacute;xito, acciones para la biodiversidad</h3>
                             <h3 style="font-variant: small-caps"> </h3>
 					  </header>
 						<p style="text-align:center"><br>
