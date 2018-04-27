@@ -75,7 +75,7 @@ function MM_swapImage() { //v3.0
 						  <h6 align="right"><a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b></h6>
 							<h2>&nbsp;</h2>
 							<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h2 class="verde">8a. Semana de la Diversidad Biol&oacute;gica</h2></a>
-                            <h3 class="slogan">Historias de &eacute;xito, acciones para la biodiversidad</h3>
+                            <h3 class="slogan">Historias de &eacute;xito: acciones por la naturaleza</h3>
                             <h3 style="font-variant: small-caps"> </h3>
 					  </header>
 						<p style="text-align:center"><br>

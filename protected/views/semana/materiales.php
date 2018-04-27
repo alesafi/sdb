@@ -5,24 +5,24 @@
 <!-- Two -->
 
 <section id="two">
-<div class="row">
+<div class="row" style="display: none">
   <article>
   
   <div class="total">
   	<div class="treinta">
-		<p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Programa</span>
+		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> <span class="tit_materiales">Programa</span>
 		<!-- Linea -->
 		<hr/>
-		</p>
+
 		<p>
 		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br><br>
 		</p>
   	</div>
   	<div class="sesenta">
-  		<p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Lista de reproducción</span>
+  		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Lista de reproducción</span>
 		<!-- Linea -->
 		<hr/>
-		</p>
+
 		<iframe width="100%" height="260" src="https://www.youtube.com/embed/mDUsC0te_Gc?list=PLLAcoRHqCmNSMix3b4PCMmtJR7A7P2jsR" frameborder="0" allowfullscreen></iframe>
   	</div>
   	
@@ -32,20 +32,19 @@
   
   <tr>
 
-  <td width="34%" bgcolor="#E1E0E0" style="text-align: center">
+  <td width="34%" bgcolor="#E1E0E0">
   
-  <p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> Medios</span>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> <span class="tit_materiales">Medios</span>
   <!-- Linea --><hr/>
-  </p>
   
   <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp225_7sdb_sumate.pdf" target="_blank">Boletín de prensa</a></p>
   <p><a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/pdf/bp232_7sdb_ruedaprensa.pdf" target="_blank">2do. Boletín de prensa</a></p>
   
   </td>
-  <td width="35%" rowspan="2" valign="top" style="text-align: center">
-  <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> Promocionales
+  <td width="35%" rowspan="2" valign="top">
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_foto.png" width="25" height="22" /> <span class="tit_materiales">Promocionales</span>
   <!-- Linea --><hr/>
-  </p>
+
   <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" width="200" height="69"><br>
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Logotipo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" target="_blank">PNG</a></span></p>
   <p><br>
@@ -163,14 +162,11 @@
   </tr>
 
 
-  <tr style="text-align: center">
+  <tr>
   <td>
   
-  
-  
-  <p style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><span style="color:#C60"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_audio.png"/> Audios</span>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_audio.png"/> <span class="tit_materiales">Audios</span>
   <!-- Linea --><hr/>
-  </p>
 
   <p>
   <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot7SDB.wav" target="_blank">Cápsula promocional (wav)</a></strong><br>
@@ -184,8 +180,8 @@
 
   
   
-  <p class="tit_materiales" style="text-align:left; -webkit-margin-after: 0em; margin-bottom: 0em;"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos
-  <!-- Linea --><hr/></p>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Videos</span>
+  <!-- Linea --><hr/>
   
   <p>
   <iframe width="200" height="113" src="https://www.youtube.com/embed/xQbGdflWHw4?rel=0" frameborder="0" allowfullscreen></iframe><br>

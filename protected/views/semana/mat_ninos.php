@@ -5,10 +5,11 @@
                     	<article>
                     	  <table width="90%" border="0">
                       	      <tr>
-                      	        <td width="35%" valign="top"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> Videos
+                      	        <td width="35%" valign="top">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> <span class="tit_materiales"> Videos</span>
                      	          <!-- Linea --><hr/>
-                     	          </p>
-                      	          <p>
+
+                      	          <!--<p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/SiGqsh09w6w?list=PLLAcoRHqCmNQS_kDeo71yz2I1iozu8AYj" frameborder="0" allowfullscreen></iframe><br>
                                       <span class="piesImg"><strong>México Megadiverso</strong> | <span class="conabio">Conabio</span></span>
                                   </p>
@@ -16,19 +17,18 @@
                                   <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
                                   <span class="piesImg"><strong>Serie Consumo Responsable</strong> | <span class="conabio">Conabio</span></span>
                                   </p>
-                                  <!--<p>
+                                  <p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&amp" frameborder="0" allowfullscreen></iframe><br />
                                       <span class="piesImg"><strong>Serie Consumo Responsable<br />
                                       </strong><span class="conabio">Conabio</span></span>
                                   </p>-->
 								</td>
 
-                      	        <td width="35%" valign="top" style="text-align: center"><p class="tit_materiales">
-									<p style="-webkit-margin-after: 0em; margin-bottom: 0em;" class="tit_materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> Web
+                      	        <td width="35%" valign="top">
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 									  <!-- Linea --><hr/>
-									</p>
 
-									<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos.jpg" width="200" height="126"><br>
+									<!--<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos.jpg" width="200" height="126"><br>
 									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 									<a href="http://www.paismaravillas.mx/megadiverso.html#" target="_blank">Viaje a México Megadiverso</a><br>
 									</p>
@@ -41,7 +41,7 @@
                                		<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s3.jpg" width="200" height="126"><br>
                                		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 									<a href="http://www.paismaravillas.mx/assets/pdf/cuadernodeVIAJE.pdf" target="_blank">Diario de viaje</a><br>
-									</p>
+									</p>-->
                                 </td>
 
                       	        <td width="31%">
