@@ -49,7 +49,7 @@ class Controller extends CController
 	 */
 	public function setIdUsuario($usuario)
 	{
-		$model = Usuarios::model()->findByAttributes(array('email'=>$usuario, 'cual_semana'=>Yii::app()->params->cual_semana));
+		$model = Usuarios::model()->findByAttributes(array('email'=>$usuario), array('order' => 'cual_semana DESC'), array('limit' => 1));
 		Yii::app()->user->setState('id_usuario', $model->id);
 	}
 

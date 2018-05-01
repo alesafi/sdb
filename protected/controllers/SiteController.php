@@ -139,7 +139,7 @@ class SiteController extends Controller
 		
 		if(isset($_GET['correo']) &&$_GET['correo'] != "")
 		{
-			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo'], 'cual_semana'=>Yii::app()->params->cual_semana));
+			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo']), array('order' => 'cual_semana DESC'), array('limit' => 1));
 			if (isset($usuario->id))
 			{
 				//$usuario->send_mail();
@@ -163,7 +163,7 @@ class SiteController extends Controller
 			$usuario = Usuarios::model()->findByPk($_GET['id']);
 			if ($usuario == NULL)
 				throw new CHttpException(404,'Hubo un error en la petición.');
-			elseif ($usuario->fec_alta == urldecode($_GET['fec_alta']) && $usuario->cual_semana == Yii::app()->params->cual_semana)
+			elseif ($usuario->fec_alta == urldecode($_GET['fec_alta']))
 				$this->render('reset', array('usuario'=>$usuario));
 			else
 				throw new CHttpException(404,'Hubo un error en la petición.');
@@ -183,7 +183,7 @@ class SiteController extends Controller
 			$usuario = Usuarios::model()->findByPk($_GET['id']);
 			if ($usuario == NULL)
 				throw new CHttpException(404,'Hubo un error en la petición.');
-			elseif ($usuario->fec_alta == $_GET['fec_alta'] && $usuario->cual_semana == Yii::app()->params->cual_semana)
+			elseif ($usuario->fec_alta == $_GET['fec_alta'])
 			{
 				$usuario->passwd = $_GET['passwd'];
 				$usuario->solo_passwd = true;

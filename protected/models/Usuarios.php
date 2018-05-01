@@ -99,7 +99,7 @@ class Usuarios extends CActiveRecord
 			{
 				if ($this->validaCorreo($this->email))
 				{
-					$emails = Usuarios::findAllByAttributes(array('email'=>$this->email, 'cual_semana' => Yii::app()->params->cual_semana));
+					$emails = Usuarios::findAllByAttributes(array('email'=>$this->email), array('order' => 'cual_semana DESC'), array('limit' => 1));
 				
 					foreach ($emails as $email)
 					{
@@ -162,7 +162,7 @@ class Usuarios extends CActiveRecord
 		$imagen.= "<img	src=\"".Yii::app()->request->baseUrl.'/imagenes/aplicacion/SDB_2015/Imagenes/bg.jpg'."\" width=\"707\">";
 		$imagen.= "</td></tr></tbody></table>";
 		$para = $this->email.", sbd@conabio.gob.mx";
-		$titulo = "5a. Semana de la Diversidad Biol&oacute;gica";
+		$titulo = "8a. Semana de la Diversidad Biol&oacute;gica";
 		$mensaje = $imagen."<br><br>".$this->nombre.' '.$this->apellido.",";
 		$mensaje.= "<br><br>Para poder poner una nueva contrase&ntilde;a sigue el siguiente ";
 		$mensaje.= "<a href=\"".Yii::app()->createAbsoluteUrl('site/reset')."&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
