@@ -1,8 +1,8 @@
 <h1>Registro</h1>
 <p><i>El registro es únicamente para poder publicar tus eventos.</i> <a href="#actividades">Actividades con las que puedes participar</a>.<br />
 </p>
-<p><strong>NOTA:</strong> Es necesario crear un nuevo registro para poder participar, inclusive si ya haz participado en 
-			anteriores Semanas de la Diversidad Biológica.</p>
+<p><strong>NOTA:</strong> Si ya te habias registrado en algúna otra Semana de la Diversidad Biológica, 
+			no es necesario crear un nuevo registro. En caso de no recordar tus credenciales sigue los pasos para recuperar tu contrseña.</p>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 <br />

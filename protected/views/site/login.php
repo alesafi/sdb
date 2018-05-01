@@ -22,8 +22,8 @@ if (isset($_GET['situacion']))
 <p>Para crear, actualizar o borrar un evento es necesario <?php 
 			echo CHtml::link('registrarse.',array('/usuarios/create'), array('style'=>'color:#009BB7'));
 			?></p>
-			<p><strong>NOTA:</strong> Es necesario crear un nuevo registro para poder participar, inclusive si ya haz participado en 
-			anteriores Semanas de la Diversidad Biológica.</p>
+			<p><strong>NOTA:</strong> Si ya te habias registrado en algúna otra Semana de la Diversidad Biológica, 
+			no es necesario crear un nuevo registro. En caso de no recordar tus credenciales sigue los pasos para recuperar tu contrseña.</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
