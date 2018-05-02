@@ -45,7 +45,7 @@ Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;beno
 
 <!--<a href="http://www.tourism4development2017.org" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_aits.png" width="106" height="59" /></a>-->
 
-<a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a>
+<!--<a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a>-->
 </p>
                         
 </section>
