@@ -47,19 +47,19 @@
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Logotipo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.pdf" target="_blank">PDF</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logotipo_sdb.png" target="_blank">PNG</a></span></p>
   <p><br>
   <span class="subtit_materiales">Promocional</span><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x400.jpg" width="200" height="133"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x400.jpg" target="_blank">600 x 400 px</a></span><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_600x200.jpg" target="_blank">600 x 200 px</a></span>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/600x400.jpg" width="200" height="133"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/600x400.jpg" target="_blank">600 x 400 px</a></span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/600x200.jpg" target="_blank">600 x 200 px</a></span>
   </p>
   <p><br>
   <span class="subtit_materiales">Redes sociales</span><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" width="200" height="74"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_facebook.jpg" target="_blank">Facebook</a></span><br><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/banner_twitter.jpg" target="_blank">Twitter</a></span>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/facebook.jpg" width="200" height="74"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/facebook.jpg" target="_blank">Facebook</a></span><br><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/twitter.jpg" target="_blank">Twitter</a></span>
   </p>
   <p><br>
   <span class="subtit_materiales">Hoja con identidad</span><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam_7SDB.jpg" width="150" height="195"><br>
-  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam_7SDB.jpg" target="_blank">1200 x 1561 px</a></span><br></span>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam.jpg" width="150" height="195"><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23"> <span class="piesImg">Archivo: <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/hojam.jpg" target="_blank">1200 x 1561 px</a></span><br></span>
   </p>
 
 
