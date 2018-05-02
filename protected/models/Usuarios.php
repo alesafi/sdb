@@ -89,9 +89,9 @@ class Usuarios extends CActiveRecord
 
 	/**
 	 * (non-PHPdoc)
-	 * @see CModel::afterValidate()
+	 * @see CModel::beforeValidate()
 	 */
-	public function afterValidate()
+	public function beforeValidate()
 	{
 		if (!$this->solo_passwd)
 		{
@@ -105,7 +105,7 @@ class Usuarios extends CActiveRecord
 					{
 						if (isset($email->id)) 
 						{
-							$this->addError('email', 'El correo '.$this->email." ya existe en nuestra base, si no recuerdas tu correo/contrase&ntilde;a sigue el siguiente <a href=\"".Yii::app()->request->baseUrl."/index.php?r=site/recupera\">enlace</a>");
+							$this->addError('email', 'El correo '.$this->email." ya existe en nuestra base, si no recuerdas tu contrase&ntilde;a sigue el siguiente <a href=\"".Yii::app()->request->baseUrl."/index.php?r=site/recupera\">enlace</a>");
 							return false;
 						}
 					}
@@ -114,10 +114,13 @@ class Usuarios extends CActiveRecord
 					return false;
 				}
 			}
-			return parent::afterValidate();
+			return parent::beforeValidate();
 			
-		} else
-			return parent::afterValidate();
+		} else {
+			if (empty($this->difusion))
+				$this->difusion = 'ND';
+			return parent::beforeValidate();
+		}
 	}
 
 	/**

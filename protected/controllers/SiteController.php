@@ -142,8 +142,8 @@ class SiteController extends Controller
 			$usuario = Usuarios::model()->findByAttributes(array('email'=>$_GET['correo']), array('order' => 'cual_semana DESC'), array('limit' => 1));
 			if (isset($usuario->id))
 			{
-				//$usuario->send_mail();
-				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo esta en proces de enviarse.");
+				$usuario->send_mail();
+				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo esta en proceso de enviarse.");
 			}
 			else
 				$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=El correo proporcionado no se encuentra registrado.");	
@@ -182,7 +182,7 @@ class SiteController extends Controller
 		{
 			$usuario = Usuarios::model()->findByPk($_GET['id']);
 			if ($usuario == NULL)
-				throw new CHttpException(404,'Hubo un error en la petición.');
+				throw new CHttpException(404,'Hubo un error en la petición, el usuario no se encuentra definido');
 			elseif ($usuario->fec_alta == $_GET['fec_alta'])
 			{
 				$usuario->passwd = $_GET['passwd'];
@@ -191,10 +191,10 @@ class SiteController extends Controller
 				if ($usuario->save())
 					$this->redirect(Yii::app()->request->baseUrl."/index.php?r=site/login&situacion=Tu contraseña ha sido cambiada con exito. Ahora puedes ingresar");
 				else
-					throw new CHttpException(404,'Hubo un error en la petición.');
+					throw new CHttpException(404,'Hubo un error en la petición, al intentar guardar tu contraseña');
 			} else
-				throw new CHttpException(404,'Hubo un error en la petición.');
+				throw new CHttpException(404,'Hubo un error en la petición, enlace incorrecto');
 		} else
-			throw new CHttpException(404,'Hubo un error en la petición.');
+			throw new CHttpException(404,'Hubo un error en la petición, parámetros incorrectos');
 	}
 }
