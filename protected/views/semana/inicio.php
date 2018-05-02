@@ -7,13 +7,13 @@
 </center>
 
 <!--<div style="display: inline-block; width: 35%; float: left" id="programa_sdb">
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a<br>
 <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Programa de la 8a. Semana de la Diversidad Biológica</a><br><br>
 </div>-->
   
-<!--<div style="display: inline-block; width: 65%; float: left" id="video_sdb">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/xQbGdflWHw4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
-</div>-->
+<div style="display: inline-block; width: 100%; float: left" id="video_sdb">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhM4n-Jl-nw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
+</div>
 
 <p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br>
 <br>
@@ -45,7 +45,7 @@ Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;beno
 
 <!--<a href="http://www.tourism4development2017.org" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_aits.png" width="106" height="59" /></a>-->
 
-<a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a>
+<!--<a href="http://www.cuauhtemoc.cdmx.gob.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logo_delcuauhtemoc.png" width="243" height="59" /></a>-->
 </p>
                         
 </section>
