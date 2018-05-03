@@ -8,7 +8,12 @@
                       	        <td width="35%" valign="top">
 									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> <span class="tit_materiales"> Videos</span>
                      	          <!-- Linea --><hr/>
-
+								
+									<p><!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos.jpg" width="200" height="126"><br>-->
+									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+									<a href="http://www.videoteconecta.com/ninos.html" target="_blank">Videoconecta</a><br>
+									</p>
+									
                       	          <!--<p>
                                       <iframe width="200" height="126" src="https://www.youtube.com/embed/SiGqsh09w6w?list=PLLAcoRHqCmNQS_kDeo71yz2I1iozu8AYj" frameborder="0" allowfullscreen></iframe><br>
                                       <span class="piesImg"><strong>México Megadiverso</strong> | <span class="conabio">Conabio</span></span>
@@ -28,12 +33,9 @@
 									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 									  <!-- Linea --><hr/>
 
-									<!--<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos.jpg" width="200" height="126"><br>
-									<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
-									<a href="http://www.paismaravillas.mx/megadiverso.html#" target="_blank">Viaje a México Megadiverso</a><br>
-									</p>
+									
                                
-                               		<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s2.jpg" width="200" height="126"><br>
+                               		<!--<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s2.jpg" width="200" height="126"><br>
                                		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 									<a href="http://www.paismaravillas.mx/exploradores.html" target="_blank">Pequeños exploradores</a><br>
 									</p>
