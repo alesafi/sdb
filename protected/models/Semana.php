@@ -22,6 +22,7 @@
  * @property string $cadena
  * @property integer $usuarios_id
  * @property integer $estado_id
+ * @property integer $importante
  *
  * The followings are the available model relations:
  * @property Usuarios $usuarios
@@ -66,7 +67,7 @@ class Semana extends CActiveRecord
 		// will receive user inputs.
 		return array(
 				array('institucion, direccion, actividad, descripcion, fecha_ini, fecha_fin, usuarios_id, estado_id', 'required'),
-				array('usuarios_id, estado_id', 'numerical', 'integerOnly'=>true),
+				array('usuarios_id, estado_id, importante', 'numerical', 'integerOnly'=>true),
 				array('institucion, actividad, otra_actividad, fecha_ini, fecha_fin, logo, url', 'length', 'max'=>255),
 				array('direccion, descripcion, informes', 'safe'),
 				//set empty values to null
@@ -114,6 +115,7 @@ class Semana extends CActiveRecord
 				'estado_id' => 'Estado',
 				'fec_alta'=>'Fecha de creación del evento',
 				'fec_act'=>'Fecha de última modificación del evento',
+				'importante' => '¿Es un evento importante?',
 				//materiales
 				'material1' => 'Material 1',
 				'material2' => 'Material 2',
@@ -139,7 +141,7 @@ class Semana extends CActiveRecord
 		$criteria->compare('fecha_ini',$this->fecha_ini,true);
 		$criteria->compare('fecha_fin',$this->fecha_fin,true);
 		$criteria->compare('estado_id',$this->estado_id);
-		$criteria->order = 'fecha_ini, id ASC';
+		$criteria->order = 'importante DESC, fecha_ini ASC, id ASC';
 
 		return new CActiveDataProvider($this, array(
 				'criteria'=>$criteria, 'pagination'=>array('pageSize'=>100),
