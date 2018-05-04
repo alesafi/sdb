@@ -8,12 +8,12 @@
 <div class="row" >
   <article>
   
-  <div class="total" style="display: none">
+  <div class="total">
   	<div class="treinta">
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> <span class="tit_materiales">Programa</span>
 		<!-- Linea --><hr/>
 
-		<p>
+		<p style="display: none">
 		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br><br>
 		</p>
   	</div>
@@ -21,7 +21,7 @@
   		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Lista de reproducción</span>
 		<!-- Linea --><hr/>
 
-		<iframe width="100%" height="260" src="https://www.youtube.com/embed/mDUsC0te_Gc?list=PLLAcoRHqCmNSMix3b4PCMmtJR7A7P2jsR" frameborder="0" allowfullscreen></iframe>
+		<iframe width="100%" height="260" src="https://www.youtube.com/embed/UIHVFVO126Y?list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J" frameborder="0" allowfullscreen></iframe>
   	</div>
   </div>
 	  
