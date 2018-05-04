@@ -12,7 +12,7 @@
 </div>-->
   
 <div style="display: inline-block; width: 100%; float: left" id="video_sdb">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhM4n-Jl-nw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/UIHVFVO126Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
 </div>
 
 <p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br>
@@ -35,6 +35,10 @@ Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;beno
 	<li>Conocimiento</li>
 </ol>
 </p>
+
+<div style="display: inline-block; width: 100%; float: left" id="video_sdb">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhM4n-Jl-nw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
+</div>
 
 <p>
 <a href="http://www.conabio.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/logConabio.png" width="178" height="59" /></a>
