@@ -13,8 +13,8 @@
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/ic_documento.png"/> <span class="tit_materiales">Programa</span>
 		<!-- Linea --><hr/>
 
-		<p style="display: none">
-		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br><br>
+		<p style="display:">
+		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br><br>
 		</p>
   	</div>
   	<div class="sesenta">
@@ -101,11 +101,11 @@
 <a href="http://www.biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
 </p>
 
-<!--<p><span class="subtit_materiales">Turismo sustentable</span><br>
+<p><span class="subtit_materiales">Conoce las especies que viven en tu municipio</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
-<a href="http://cf.cdn.unwto.org/sites/all/files/docpdf/roadmap-international-year-2017-en.pdf" target="_blank">Día internacional de la Diversidad Biológica (22 de mayo) | 2017 Año Internacional del Turismo Sostenible para el Desarrollo</a><br>
+<a href="http://www.enciclovida.mx/explora-por-region" target="_blank">Realiza una búsqueda por lugar en Enciclovida</a><br>
 	
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+<!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 <a href="http://sustentur.com.mx/" target="_blank">Sustentur</a><br>
 </p>
  
