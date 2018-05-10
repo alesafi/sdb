@@ -25,37 +25,51 @@ conversatorios sobre Historias de éxito: acciones por la naturaleza con:</span>
 
 <span class="tit_materiales">Moderadores</span><br>
 
-<!--- Alejandro García / <a href="http://oncetv-ipn.net/fciencia/" target="_blank">Reportero de Ciencia Canal Once</a><br>
-- <a href="http://biografia.cine.hispavista.com/n90320-erik-estrada" target="_blank">Erick Estrada</a> / Actor y productor<br>
-- <a href="https://twitter.com/ViajaBonito?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.viajabonitomx.com%2F" target="_blank">Marco Daniel Guzmán</a> / <a href="http://www.viajabonitomx.com/
-" target="_blank">Viaja Bonito</a><br><br>-->
+- Karla Iberia Sánchez<br>
+- Miguel Bárcena<br>
+- Iván Carrillo<br>
+- Iñaki Manero
+<br><br>
 
 
 <span class="tit_materiales">Ponentes</span><br>
 
-<!--- Lucía Ruiz Bustos / <a href="https://adventuremexico.travel/organizaciones/conanp/" target="_blank">Comisión Nacional de Áreas Protegidas (<span class="conabio">Conanp</span>)</a><br>
-- Claudia Valeria Sánchez / <a href="http://www.rita.com.mx/" target="_blank">Red Indígena de Turismo de México</a><br>
-- Julia Carabias Lilo / <a href="http://naturamexicana.org.mx/" target="_blank">Natura Mexicana</a><br>
-- <a href="https://www.facebook.com/alonsopatadeperrovera/?pnref=story" target="_blank">Alonso Vera Cantú</a> / Pata de Perro<br>
-- <a href="http://ib.unam.mx/directorio/194" target="_blank">Luis Zambrano</a> / Instituto de Biología UNAM<br>
-- <a href="http://www.sedema.cdmx.gob.mx/secretaria/estructura/22" target="_blank">Luis Fueyo</a> / Comisión de Recursos Naturales de la Ciudad de México (<span class="conabio">Corena</span>)<br>
-- Rodolfo Salinas / <a href="http://natoure.org/" target="_blank">Natoure.org</a><br>
-- <a href="http://www.radioformula.com.mx/perfil.asp" target="_blank">Arturo Hernández</a> / <a href="https://www.facebook.com/Supercivicosmx/?fref=ts" target="_blank">Supercívicos</a><br>
-- Renata Cao De la Fuente / <a href="http://www.biodiversidad.gob.mx/corredor/corredor.html" target="_blank"><span class="conabio">Conabio</span></a><br>
-- <a href="https://www.gob.mx/sectur/estructuras/mtra-maria-teresa-solis-trejo" target="_blank">Teresa Solís</a> / <span class="conabio">Sectur</span><br>
-- Vicente Ferreyra / <a href="http://sustentur.com.mx/" target="_blank"><span class="conabio">Sustentur</span></a>--><br>
-<br>
-<br>
+
+- Adriana Lebrija / <span class="conabio">Conabio</span><br>
+- Aketzalli González<br>
+- Alexander Hotmann<br>
+- Alicia Mastretta Yanes / <span class="conabio">Conabio</span><br>
+- Ana Cruz<br>
+- Carlos Galindo Leal / <span class="conabio">Conabio</span><br>
+- Claudia Lewy / directora de zoológicos de la CDMX<br>
+- Cristina Martínez Garza / Centro de Investigación en Biodiversidad y Conservación (CIByC)<br>
+- Eliane Cecon / Centro Regional de Investigaciones Multidisciplinarias (CRIM)<br>
+- Elizabeth Torres Bahena / <span class="conabio">Conabio</span><br>
+- Emmanuel Rivera / <span class="conabio">Conabio</span><br>
+- Hesiquio Benítez Díaz / <span class="conabio">Conabio</span><br>
+- Idalia Rojas
+- Ignacio March Mifsut / <span class="conabio">Conanp</span><br>
+- José Bernal Stoopen<br>
+- María José Espinosa Rivero / COBI<br>
+- Moisés Méndez Toribio / Centro Regional de Investigaciones Multidisciplinarias (CRIM)<br>
+- Pedro Álvarez Icaza Longoria / <span class="conabio">Conabio</span><br>
+- Paola Mosig / <span class="conabio">Conabio</span><br>
+- Rainer Ressl / <span class="conabio">Conabio</span><br>
+- Roberto Arreola Alemón / <span class="conabio">Conabio</span><br>
+- Roberto Cerda / Restore Coral<br>
+- Wolke Tobon / <span class="conabio">Conabio</span><br>
+	
+<br><br>
 
 </div>
 
 
-<div style="width: 50%; display: ; text-align: center; float:left; display: none">
+<div style="width: 50%; display: ; text-align: center; float:left; display:">
 
 <p>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" width="200" height="260" alt=""/></a><br>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/calendario_7SDB.jpg" target="_blank">Consulta el programa de la<br>
-7a. Semana de la Diversidad Biológica</a>
+  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br>
+  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank">Consulta el programa de la<br>
+8a. Semana de la Diversidad Biológica</a>
 </p>
 </div>
 
