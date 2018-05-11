@@ -188,8 +188,16 @@
   <p>
   <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot8SDB_18.wav" target="_blank">Spot promocional 18" (wav)</a></strong><br>
   
-  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot8SDB_30.wav" target="_blank">Spot promocional 30" (wav)</a></strong><br><br>
+  <strong class="piesImg" style="color:#333"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/icdescarga_03.png" width="30" height="23" /> <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/audio/spot8SDB_30.wav" target="_blank">Spot promocional 30" (wav)</a></strong><br>
   
+	  
+  <p><span class="subtit_materiales">Resistierra | Ecología y buen vivir</span><br>
+  <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
+  <a href="https://ibero909.fm/resistierra/" target="_blank">Revista radiofónica sobre temas medioambientales.
+  </a><br><br>
+  </p>
+	  
+	  
  <span class="subtit_materiales">Cápsulas de Capital Natural de México</span><br>
  <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/42002142&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><br>
  
