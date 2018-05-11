@@ -243,6 +243,11 @@
   <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PL1917D5CDF2832326" frameborder="0" allowfullscreen></iframe><br />
   <span class="piesImg"><strong>Reserva de la Biosfera Sierra Gorda de Querétaro</strong></span>
   </p>
+
+  <p>
+  <iframe width="200" height="126" src="https://www.youtube.com/embed/videoseries?list=PLLAcoRHqCmNT7uGVB_OpD7pJ_EYRVYnWI" frameborder="0" allowfullscreen></iframe><br />
+  <span class="piesImg"><strong>Cine en el Campo</strong></span>
+  </p>
   
   
 
