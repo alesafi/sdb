@@ -55,7 +55,6 @@ conversatorios sobre Historias de éxito: acciones por la naturaleza con:</span>
 <li><a href="http://www.inecol.edu.mx/personal/index.php/ambiente-y-sustentabilidad/21-miguel-e-equihua-zamora" target="_blank">Miguel Equihua Zamora</a> / INECOL</li>
 <li><a href="https://www.linkedin.com/in/mois%C3%A9s-m%C3%A9ndez-toribio-08436551/" target="_blank">Moisés Méndez Toribio</a> / Centro Regional de Investigaciones Multidisciplinarias (CRIM)</li>
 <li><a href="https://www.gob.mx/conabio/estructuras/mtro-pedro-carlos-alvarez-icaza-longoria" target="_blank">Pedro Álvarez Icaza Longoria</a> / <span class="conabio">Conabio</span></li>
-<li><a href="https://www.gob.mx/conabio/estructuras/dr-rainer-andreas-ressl" target="_blank">Rainer Ressl</a> / <span class="conabio">Conabio</span></li>
 <li><a href="https://www.linkedin.com/in/roberto-arreola-alem%C3%B3n-a25631146/" target="_blank">Roberto Arreola Alemón</a> / <span class="conabio">Conabio</span></li>
 <li><a href="https://www.linkedin.com/in/roberto-cerda-0765115b/" target="_blank">Roberto Cerda</a> / Restore Coral</li>
 <li><a href="https://www.researchgate.net/profile/Wolke_Tobon" target="_blank">Wolke Tobon</a> / <span class="conabio">Conabio</span></li>
