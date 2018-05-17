@@ -28,7 +28,7 @@ conversatorios sobre Historias de éxito: acciones por la naturaleza con:</span>
   <li><a href="https://es.wikipedia.org/wiki/Karla_Iberia_S%C3%A1nchez" target="_blank">Karla Iberia Sánchez</a></li>
   <li><a href="https://www.facebook.com/miguelbarcenad" target="_blank">Miguel Bárcena</a></li>
   <li><a href="http://carrillazo.com/" target="_blank">Iván Carrillo</a></li>
-  <li><a href="https://mixfm.mx/mix-nacional/mix-cdmx/locutores-cdmx/inaki-manero/" target="_blank">Iñaki Manero</a></li>
+  <li>Leonardo Ferreira</li>
 </ul>
 <br><br>
 
