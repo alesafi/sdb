@@ -35,12 +35,12 @@
 
 									
                                
-                               		<!--<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s2.jpg" width="200" height="126"><br>
+                               		<p><a href="http://www.paismaravillas.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/l_mexicopm.png" width="200" height="126"></a><br>
                                		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
-									<a href="http://www.paismaravillas.mx/exploradores.html" target="_blank">Pequeños exploradores</a><br>
+									<a href="http://www.paismaravillas.mx/" target="_blank">Acompaña a Tito</a><br>
 									</p>
                                
-                               		<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s3.jpg" width="200" height="126"><br>
+                               		<!--<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/m_ninos_s3.jpg" width="200" height="126"><br>
                                		<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/1_vineta.png" width="15" height="8">
 									<a href="http://www.paismaravillas.mx/assets/pdf/cuadernodeVIAJE.pdf" target="_blank">Diario de viaje</a><br>
 									</p>-->

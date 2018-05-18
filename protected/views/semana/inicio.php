@@ -7,8 +7,8 @@
 </center>
 
 <div style="display: inline-block; width: 35%; float: left" id="programa_sdb">
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a<br>
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank">Programa de actividades</a><br><br>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a<br><br>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank">Programa de actividades en la Biblioteca Vasconcelos</a><br><br>
 </div>
   
 <div style="display: inline-block; width: 65%; float: left" id="video_sdb">

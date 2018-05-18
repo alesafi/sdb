@@ -14,7 +14,9 @@
 		<!-- Linea --><hr/>
 
 		<p style="display:">
-		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br><br>
+		<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br>
+			
+			Biblioteca Vasconcelos<br>
 		</p>
   	</div>
   	<div class="sesenta">
