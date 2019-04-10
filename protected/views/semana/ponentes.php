@@ -17,8 +17,8 @@ $( "#accordion" ).accordion({
 
 
 <!--<h1>Ponentes</h1><br>-->
-<span>Del 22 al 26 de mayo en la Biblioteca Vasconcelos, en la Ciudad de México tendremos
-conversatorios sobre Historias de éxito: acciones por la naturaleza con:</span><br><br>
+<span>Del 21 al 25 de mayo tendremos
+conversatorios sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud con:</span><br><br>
 
 
 <div style="width: 50%; float:left;">
@@ -71,7 +71,7 @@ conversatorios sobre Historias de éxito: acciones por la naturaleza con:</span>
 <p>
   <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br>
   <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank">Consulta el programa de la<br>
-8a. Semana de la Diversidad Biológica</a>
+9a. Semana de la Diversidad Biológica</a>
 </p>
 </div>
 

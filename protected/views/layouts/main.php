@@ -48,7 +48,7 @@ function MM_swapImage() { //v3.0
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>8a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
+<title>9a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
 
 
 <noscript>
@@ -59,11 +59,12 @@ function MM_swapImage() { //v3.0
 
 </head>
 
-<body id="top" onLoad="MM_preloadImages('<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titMaterialNinos_03.png','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titMateriales_03.png','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titConsultaev_03.png','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titPublica_03.png','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/titSumate_03.png')">
+<body>
 
 		<!-- Header -->
 			<header id="header">
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/imgCirculo.png" alt="" /></a>
+				<!--<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/imgCirculo.png" alt="" /></a>-->
+				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_transparente.png" alt="" /></a>
 			</header>
 
 		<!-- Main -->
@@ -71,30 +72,33 @@ function MM_swapImage() { //v3.0
 
 				<!-- One -->
 					<section id="one">
-						<header class="major">
-						  <h6 align="right"><a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b></h6>
-							<h2>&nbsp;</h2>
-							<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h2 class="verde">8a. Semana de la Diversidad Biol&oacute;gica</h2></a>
-                            <h3 class="slogan">Historias de &eacute;xito: acciones por la naturaleza</h3>
-                            <h3 style="font-variant: small-caps"> </h3>
+					  <header class="major">
+						  <h6 align="right">
+							  <a href="http://www.biodiversidad.gob.mx/index.html">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Semana de la Diversidad Biol&oacute;gica <b>| <a href="http://www.biodiversidad.gob.mx/menusup/difusion.html">Semanas anteriores</a></b>
+						  </h6>
+						  <a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h4 class="verde">Inicio</h4></a>
+							<!--<h2>&nbsp;</h2>
+							<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h2 class="verde">9a. Semana de la Diversidad Biol&oacute;gica</h2></a><br>
+                            <span class="slogan">Nuestra biodiversidad, nuestra alimentaci&oacute;n, nuestra salud</span>
+                            <h3 style="font-variant: small-caps"> </h3>-->
 					  </header>
 						<p style="text-align:center"><br>
 						<?php if (Yii::app()->user->isGuest) { ?>
-					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=usuarios/create"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_sumate.png" name="registro" width="90" height="127" id="registro" onMouseOver="MM_swapImage('registro','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_sumate.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=usuarios/create"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_sumate.png" name="registro" width="90" height="127" id="registro" onMouseOver="MM_swapImage('registro','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_sumate.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 					    <?php } ?>
-					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/create"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_publica.png" name="publica" width="90" height="127" id="publica" onMouseOver="MM_swapImage('publica','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_publica.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
+					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/create"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_publica.png" name="publica" width="90" height="127" id="publica" onMouseOver="MM_swapImage('publica','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_publica.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
                         
-					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_consulta.png" name="eventos" width="90" height="127" id="eventos" onMouseOver="MM_swapImage('eventos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_consulta.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
+					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/admin"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_consulta.png" name="eventos" width="90" height="127" id="eventos" onMouseOver="MM_swapImage('eventos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_consulta.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
                         
-					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_materiales.png" name="materiales" width="90" height="127" id="materiales" onMouseOver="MM_swapImage('materiales','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_materiales.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+					    <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/materiales"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_materiales.png" name="materiales" width="90" height="127" id="materiales" onMouseOver="MM_swapImage('materiales','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_materiales.png',1)" onMouseOut="MM_swapImgRestore()"></a>
                         
-                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/mat_ninos"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_mninos.png" name="ninos" width="90" height="127" id="ninos" onMouseOver="MM_swapImage('ninos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_mninos.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
+                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/mat_ninos"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_mninos.png" name="ninos" width="90" height="127" id="ninos" onMouseOver="MM_swapImage('ninos','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_mninos.png',1)" onMouseOut="MM_swapImgRestore()"></a> 
                         
-						<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/estadisticas"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_estadisticas.png" name="estadisticas" width="90" height="127" id="estadisticas" onMouseOver="MM_swapImage('estadisticas &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','estadisticas','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_estadisticas.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+						<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/estadisticas"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_estadisticas.png" name="estadisticas" width="90" height="127" id="estadisticas" onMouseOver="MM_swapImage('estadisticas &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','estadisticas','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_estadisticas.png',1)" onMouseOut="MM_swapImgRestore()"></a>
                         
-                        <!--<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/aliados"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_aliados.png" name="aliados" width="90" height="127" id="aliados" onMouseOver="MM_swapImage('aliados &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','aliados','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_aliados.png',1)" onMouseOut="MM_swapImgRestore()"></a>-->
+                        <!--<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/aliados"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_aliados.png" name="aliados" width="90" height="127" id="aliados" onMouseOver="MM_swapImage('aliados &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','aliados','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_aliados.png',1)" onMouseOut="MM_swapImgRestore()"></a>-->
                         
-                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/ponentes"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn_ponentes.png" name="ponentes" width="90" height="127" id="ponentes" onMouseOver="MM_swapImage('ponentes &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','ponentes','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/aplicacion/SDB_2015/Imagenes/btn2_ponentes.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/ponentes"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_ponentes.png" name="ponentes" width="90" height="127" id="ponentes" onMouseOver="MM_swapImage('ponentes &lt;img&gt;','','/Imagenes/titEstadisticas_03.png','ponentes','','<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn2_ponentes.png',1)" onMouseOut="MM_swapImgRestore()"></a>
                         
                         </p>
 						<?php if (!Yii::app()->user->isGuest) { ?>
