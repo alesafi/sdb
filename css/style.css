@@ -59,6 +59,18 @@
 			text-decoration: none;
 		}
 
+#aagro a {
+	color: #004c31 !important;
+}
+
+#aganaderia a {
+	color: #77541b !important;
+}
+
+#apesca a {
+	color: #224984 !important;
+}
+
 	strong, b {
 		color: var(--mainColor) !important;
 		font-weight: bold;
