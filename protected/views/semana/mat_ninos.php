@@ -10,7 +10,6 @@
 		<li><a href="http://www.paismaravillas.mx/explora.html#golfo" target="_blank">Golfo y Caribe</a></li> 
 	    <li><a href="http://www.paismaravillas.mx/consumo_videos.html" target="_blank">País de las Maravillas</a></li>
 	    <li><a href="http://www.paismaravillas.mx/explora.html#campo">Campo</a></li>
-	    <br>
 	</ul>
 		
 		

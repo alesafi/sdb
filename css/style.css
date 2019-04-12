@@ -71,6 +71,18 @@
 	color: #224984 !important;
 }
 
+#aagro hr {
+	border-bottom: solid 5px #004c31;
+}
+
+#aganaderia hr {
+	border-bottom: solid 5px #77541b;
+}
+
+#apesca hr {
+	border-bottom: solid 5px #224984;
+}
+
 	strong, b {
 		color: var(--mainColor) !important;
 		font-weight: bold;
