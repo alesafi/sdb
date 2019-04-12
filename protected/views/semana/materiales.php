@@ -1,7 +1,8 @@
 <h1>Materiales</h1>
-
+<br>
   
-	<h4>Agrobiodiversidad</h4><br>
+<div id="aagro">
+	<h3>Agrobiodiversidad</h3><br>
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
 	<ul>
@@ -23,7 +24,7 @@
 	    <li><a href="https://es.wikipedia.org/wiki/Alimento" target="_blank">Alimento</a></li>
 	    <li><a href="https://es.wikipedia.org/wiki/Soberanía_alimentaria" target="_blank">Soberanía alimentaria</a></li>
 	    <li><a href="https://www.gob.mx/sader" target="_blank">SADER</a> | Secretaría de Agricultura y Desarrollo Rural</li>
-	    <li><a href="http://www.fao.org/home/es/" target="_blank">FAO</a> | Organización de las NU para la Alimentación y la Agricultura</li><br>
+	    <li><a href="http://www.fao.org/home/es/" target="_blank">FAO</a> | Organización de las NU para la Alimentación y la Agricultura</li>
 	</ul>
 		
 		
@@ -53,7 +54,7 @@
 	    <li><a href="https://www.youtube.com/watch?v=F67SrnppQBo" target="_blank">Our future of food depends on biodiversity</a></li>
 	    <li><a href="https://www.youtube.com/watch?time_continue=5&v=el-Z5tgyQXY" target="_blank">Imagine a world without bees (FAO)</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=RzNh0TP2Y84" target="_blank">Biodiversidad mexicana: seguridad y soberanía alimentaria / UAM</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=z1EREeBaMKo" target="_blank">Climate Change Effects- Know How Climate Change is Making Our Food Less Nutritious?</a></li><br>
+	    <li><a href="https://www.youtube.com/watch?v=z1EREeBaMKo" target="_blank">Climate Change Effects- Know How Climate Change is Making Our Food Less Nutritious?</a></li>
 	</ul>
 
 		
@@ -98,19 +99,19 @@
 	<a href="http://bioteca.biodiversidad.gob.mx/janium-bin/janium_zui.pl?jzd=/janium/Documentos/ETAPA06/AP/6225/Mieles.jzd&fn=6225" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/cartel_mielesp.jpg" width="174" height="178" /></a>
 
 	<br><br><br>
-
+</div>
 	<!-- Fin de Agrobiodiversidad -->
 
 	
 
 
-	<h4>Ganadería</h4><br>
+<div id="aganaderia">
+	<h3>Ganadería</h3><br>
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
 	<ul>
 		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/gef/pdf/2.2-6-plan-trabajo-reconversion-ganadera.pdf" target="_blank">Reconversión ganadera como estrategia para el manejo integral de especies exóticas invasoras y ferales en la Reserva de la Biosfera Marismas Nacionales Nayarit. 2015</a></li>
 		<li><a href="https://ganaderiasustentable.mx/" target="_blank">Ganadería Sustentable</a></li>
-		<br>
 	</ul>
 		
 		
@@ -121,7 +122,6 @@
 		<li><a href="https://www.youtube.com/watch?v=JZwZzEefJVM" target="_blank">Danadería sustentable</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=iQLbhqJzQCA" target="_blank">anadería sustentable</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=VtxLuZJqnRM" target="_blank">Ganadería Sustentable en la Encrucijada, Chiapas</a></li>
-	    <br>
 	</ul>
 
 		
@@ -132,16 +132,17 @@
 		<li><a href="http://www.fao.org/fileadmin/templates/nr/documents/CGRFA/Newsletter_and_leaflets/Leaflet_SoWBFA_s.pdf" target="_blank">La biodiversidad para la alimentación y la agricultura. Comisión de Recursos Genéticos para la Alimentación y la Agricultura. FAO.</a></li>
 		<li>Connecting Global Priorities: Biodiversity and Human Health. A state of knowledge review. 2015 WHO / CBD</li>
 		<li><a href="https://xolo.conabio.gob.mx/service/home/~/?auth=co&loc=es&id=135904&part=2" target="_blank">Experiencias ganaderas, agrícolas y forestales en la conservación de los recursos naturales</a></li>
-		
 	</ul>
 	 
 	<br><br>
 	 <!-- Fin de Ganadería -->
+</div>
 
 
 
 
-	<h4>Pesca</h4><br>
+<div id="apesca">
+	<h3>Pesca</h3><br>
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
 	<ul>
@@ -153,7 +154,6 @@
 		<li><a href="https://smartfish.mx/" target="_blank">Smartfish</a></li>
 		<li><a href="https://www.gob.mx/inapesca/" target="_blank">Instituto Nacional de Pesca y Acuacultura INAPESCA</a></li>
 		<li><a href="https://www.worldfishcenter.org/food-and-agriculture-organization-united-nations" target="_blank">WorldFish</a></li>
-		<br>
 	</ul>
 		
 		
@@ -174,7 +174,6 @@
 		<li><a href="https://www.youtube.com/watch?v=c2Nv8gxq_b4" target="_blank">PESCAMAR 2017. CONAPESCA</a></li>
 		<li><a href="https://www.youtube.com/watch?v=SivFI2Rlqx4" target="_blank">La pesca y la acuacultura en México. CONAPESCA 2016</a></li>
 		<li><a href="https://www.youtube.com/watch?v=-84xvihzbro" target="_blank">D Todo – Mercado de Mariscos. Canal Once</a></li>
-	    <br>
 	</ul>
 
 		
@@ -182,10 +181,9 @@
 	<!-- Linea --><hr/>	
 	<ul>
 		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv121art1.pdf" target="_blank">Pesca sustentable</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv95art1.pdf" target="_blank">esquería de camarón</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv95art1.pdf" target="_blank">Pesquería de camarón</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv93art3.pdf" target="_blank">Servicios ambientales en áreas marinas y costeras</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv91art1.pdf" target="_blank">a curvina golfina</a></li>
-		
+		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv91art1.pdf" target="_blank">La curvina golfina</a></li>
 	</ul>
 	
 
@@ -198,6 +196,7 @@
 
 
 	 <!-- Fin de Pesca -->
+</div>
 
 
 
