@@ -181,9 +181,9 @@
 	<!-- Linea --><hr/>	
 	<ul>
 		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv121art1.pdf" target="_blank">Pesca sustentable</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv95art1.pdf" target="_blank">esquería de camarón</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv95art1.pdf" target="_blank">Pesquería de camarón</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv93art3.pdf" target="_blank">Servicios ambientales en áreas marinas y costeras</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv91art1.pdf" target="_blank">a curvina golfina</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv91art1.pdf" target="_blank">La curvina golfina</a></li>
 	</ul>
 	
 
