@@ -18,10 +18,12 @@ $( "#accordion" ).accordion({
 
 <!--<h1>Ponentes</h1><br>-->
 <span>Del 21 al 25 de mayo tendremos
-conversatorios sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud con:</span><br><br>
+conversatorios sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud.<br>
+<br>
+Próximamente los publicaremos</span><br><br>
 
 
-<div style="width: 50%; float:left;">
+<div style="width: 50%; float:left; display: none;">
 
 <span class="tit_materiales">Moderadores</span><br>
 <ul>
@@ -66,7 +68,7 @@ conversatorios sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud
 </div>
 
 
-<div style="width: 50%; display: ; text-align: center; float:left; display:">
+<div style="width: 50%; display: ; text-align: center; float:left; display:none;">
 
 <p>
   <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a><br>
