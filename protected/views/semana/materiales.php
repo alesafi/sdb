@@ -21,7 +21,7 @@
 	    
 	    <li><a href="https://es.wikipedia.org/wiki/Agrobiodiversidad" target="_blank">Agrobiodiversidad</a></li>
 		<li><a href="https://es.wikipedia.org/wiki/Agricultura_ecológica_y_biodiversidad" target="_blank">Agricultura ecológica y biodiversidad</a></li>
-	    <li><a href="https://es.wikipedia.org/wiki/Alimento" target="_blank">Alimento</a></li>
+	    <li><a href="https://es.wikipedia.org/wiki/Alimento" target="_blank">Concepto de alimento</a></li>
 	    <li><a href="https://es.wikipedia.org/wiki/Soberanía_alimentaria" target="_blank">Soberanía alimentaria</a></li>
 	    <li><a href="https://www.gob.mx/sader" target="_blank">SADER</a> | Secretaría de Agricultura y Desarrollo Rural</li>
 	    <li><a href="http://www.fao.org/home/es/" target="_blank">FAO</a> | Organización de las NU para la Alimentación y la Agricultura</li>
@@ -110,7 +110,7 @@
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
 	<ul>
-		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/gef/pdf/2.2-6-plan-trabajo-reconversion-ganadera.pdf" target="_blank">Reconversión ganadera como estrategia para el manejo integral de especies exóticas invasoras y ferales en la Reserva de la Biosfera Marismas Nacionales Nayarit. 2015</a></li>
+		
 		<li><a href="https://ganaderiasustentable.mx/" target="_blank">Ganadería Sustentable</a></li>
 	</ul>
 		
@@ -119,15 +119,16 @@
 	<!-- Linea --><hr/>	
 	<ul>
 		<li><a href="https://www.youtube.com/watch?v=pNzaqpXnxB4" target="_blank">Un simple queso, la gran solución a la ganadería en Chiapas</a></li>
-		<li><a href="https://www.youtube.com/watch?v=JZwZzEefJVM" target="_blank">Danadería sustentable</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=iQLbhqJzQCA" target="_blank">anadería sustentable</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=VtxLuZJqnRM" target="_blank">Ganadería Sustentable en la Encrucijada, Chiapas</a></li>
+		<li><a href="https://www.youtube.com/watch?v=JZwZzEefJVM" target="_blank">The Nature Conservancy</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=iQLbhqJzQCA" target="_blank">UANL Sustentable</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=VtxLuZJqnRM" target="_blank">La Encrucijada, Chiapas | CONANP</a></li>
 	</ul>
 
 		
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_documento.png" width="25" height="22" /> <span class="tit_materiales">Publicaciones</span>
 	<!-- Linea --><hr/>	
 	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/gef/pdf/2.2-6-plan-trabajo-reconversion-ganadera.pdf" target="_blank">Reconversión ganadera como estrategia para el manejo integral de especies exóticas invasoras y ferales en la Reserva de la Biosfera Marismas Nacionales Nayarit. 2015</a></li>
 		<li><a href="https://apps.who.int/iris/bitstream/handle/10665/174012/9789241508537_eng.pdf;jsessionid=3B4D4A465B5BFF2383EAED60D30129DA?sequence=1" target="_blank">Ganadería sustentable en el Golfo de México, Publisher: Instituto de Ecología, A.C., pp.13-15. 2018.</a></li>
 		<li><a href="http://www.fao.org/fileadmin/templates/nr/documents/CGRFA/Newsletter_and_leaflets/Leaflet_SoWBFA_s.pdf" target="_blank">La biodiversidad para la alimentación y la agricultura. Comisión de Recursos Genéticos para la Alimentación y la Agricultura. FAO.</a></li>
 		<li>Connecting Global Priorities: Biodiversity and Human Health. A state of knowledge review. 2015 WHO / CBD</li>
