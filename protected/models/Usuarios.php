@@ -17,7 +17,8 @@
  * The followings are the available model relations:
  * @property Roles $roles
  */
-class Usuarios extends CActiveRecord
+class
+Usuarios extends CActiveRecord
 {
 	public $solo_passwd = false;
 	/**
@@ -168,7 +169,7 @@ class Usuarios extends CActiveRecord
 		$titulo = "9a. Semana de la Diversidad Biol&oacute;gica";
 		$mensaje = $imagen."<br><br>".$this->nombre.' '.$this->apellido.",";
 		$mensaje.= "<br><br>Para poder poner una nueva contrase&ntilde;a sigue el siguiente ";
-		$mensaje.= "<a href=\"".Yii::app()->createAbsoluteUrl('site/reset')."&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
+		$mensaje.= "<a href=\"https://www.biodiversidad.gob.mx/SDB/index.php?r=site/reset&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
 		$cabeceras = "Content-type: text/html; charset=utf-8"."\r\n";
 		$cabeceras.= "From: noreply@conabio.gob.mx"."\r\n";
 		mail($para, $titulo, $mensaje, $cabeceras);
