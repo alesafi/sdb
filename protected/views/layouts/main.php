@@ -44,8 +44,8 @@ function MM_swapImage() { //v3.0
 <!-- blueprint CSS framework -->
 
 
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
 <title>9a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
