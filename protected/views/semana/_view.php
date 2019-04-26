@@ -26,6 +26,8 @@
 				</h3>
 				<b><?php echo CHtml::encode($data->getAttributeLabel('actividad')); ?>:</b>
 				<?php echo CHtml::encode($data->actividad == "0" ? $data->otra_actividad : Semana::actividades($data->actividad)); ?>
+                <br /><b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
+                <?php echo CHtml::encode($data->descripcion); ?>
 				<br /> <b><?php echo CHtml::encode($data->getAttributeLabel('direccion')); ?>:</b>
 				<?php echo CHtml::encode($data->direccion); ?>
 				<br /> <b><?php echo CHtml::encode($data->getAttributeLabel('estado')); ?>:</b>
