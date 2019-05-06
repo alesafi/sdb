@@ -17,14 +17,14 @@ $( "#accordion" ).accordion({
 
 
 <!--<h1>Ponentes</h1><br>-->
-<span>Del 21 al 25 de mayo tendremos actividades sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud. <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank">Consulta el programa de la 9a. Semana de la Diversidad Biológica</a>
+<span>Del 21 al 25 de mayo tendremos actividades sobre Nuestra biodiversidad, nuestra alimentación, nuestra salud. <a href="http://www.biodiversidad.gob.mx/SDB/imagenes/pagina/programa_9SDB_carta.jpg" target="_blank">Consulta el programa de la 9a. Semana de la Diversidad Biológica</a>
 </span><br><br>
 
 
 <div style="width: 100%; display: ; text-align: center; float:left; display:;">
 
 <p>
-  <a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" width="100%" alt=""/></a><br>
+  <a href="http://www.biodiversidad.gob.mx/SDB/imagenes/pagina/programa_9SDB_carta.jpg" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/programa_9SDB_carta.jpg" width="100%" alt=""/></a><br>
   
 </p>
 </div>
