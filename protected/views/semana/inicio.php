@@ -7,8 +7,8 @@
 </center>-->
 
 <div style="display: inline-block; width: 35%; float: left; display:" id="programa_sdb"><br>
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" width="200" height="155" alt=""/></a<br><br>
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank">Programa en la Librería<br>
+<a href="http://www.biodiversidad.gob.mx/SDB/imagenes/pagina/programa_9SDB_carta.jpg" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/programa_9SDB_carta.jpg" width="200" height="155" alt=""/></a<br><br>
+<a href="http://www.biodiversidad.gob.mx/SDB/imagenes/pagina/programa_9SDB_carta.jpg" target="_blank">Programa en la Librería<br>
 Rosario Castellanos</a><br><br>
 </div>
   
