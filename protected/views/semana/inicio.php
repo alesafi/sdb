@@ -6,23 +6,20 @@
 <br>
 </center>-->
 
-<div style="display: inline-block; width: 35%; float: left; display: none" id="programa_sdb">
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" width="200" height="155" alt=""/></a<br><br>
-<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_8SDB_carta.jpg" target="_blank">Programa de actividades en el Antiguo Colegio de San Ildefonso</a><br><br>
+<div style="display: inline-block; width: 35%; float: left; display:" id="programa_sdb"><br>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank"><img src="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" width="200" height="155" alt=""/></a<br><br>
+<a href="http://www.biodiversidad.gob.mx/Difusion/news/images/programa_9SDB_carta.jpg" target="_blank">Programa en la Librería<br>
+Rosario Castellanos</a><br><br>
 </div>
   
 <div style="display: inline-block; width: 65%; float: left; display: none" id="video_sdb">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/UIHVFVO126Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
 </div>
 
-<p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br>
-<br>
-Cada 22 de mayo se celebra el día de la diversidad biológica. Este 2019 celebraremos con el tema <span class="slogan">"Nuestra biodiversidad, nuestra alimentación, nuestra salud"</span>.<br><br>
+<p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.<br><br>
+ Cada 22 de mayo se celebra el día de la diversidad biológica, este 2019 celebraremos con el tema <span class="slogan">"Nuestra biodiversidad, nuestra alimentación, nuestra salud"</span>.<br><br>
 
-Organiza alguna conferencia o charla para el público general sobre uno o más sitios seleccionados en tu región o estado. Organiza un evento que ayude al público a reflexionar sobre la naturaleza de algún sitio especial.<br><br>
-
-
-Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;benos a:&nbsp;<a href="mailto:sdb@conabio.gob.mx">sdb@conabio.gob.mx</a>
+Organiza alguna conferencia o charla para el público general sobre biodiversidad, alimentación y salud o un evento que ayude al público a reflexionar sobre cómo la biodiversidad repercute en nuestra alimentación y salud.<br> Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;benos a:&nbsp;<a href="mailto:sdb@conabio.gob.mx">sdb@conabio.gob.mx</a>
 </p>
 
 <!--<p><h4 class="verde">Historias de éxito</h4> 
@@ -43,10 +40,11 @@ Si tienes alguna duda o requieres m&aacute;s informaci&oacute;n escr&iacute;beno
 
 <center>
 <p>
-<a href="http://www.conabio.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_semarnat_conabio.png" width="407" height="59" /></a>&nbsp;&nbsp;
+<a href="http://www.conabio.gob.mx/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_conabio.png" width="178" height="59" /></a>&nbsp;&nbsp;
 
-
-<a href="https://www.cbd.int/2011-2020/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_2011_2020.png" width="147" height="59" /></a>
+<a href="https://www.cbd.int/2011-2020/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_2011_2020.png" width="147" height="59" /></a>&nbsp;&nbsp;
+	
+<a href="https://fondodeculturaeconomica.com/RedLibrerias.aspx?id_lib=4" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_libreriarc.png" width="229" height="128" /></a>
 
 </p>
 </center>
