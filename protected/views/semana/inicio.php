@@ -32,11 +32,11 @@ Organiza alguna conferencia o charla para el público general sobre biodiversida
 	<li>Comunicación</li>
 	<li>Conocimiento</li>
 </ol>
-</p>
+</p>-->
 
-<div style="display: inline-block; width: 100%; float: left" id="video_sdb">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhM4n-Jl-nw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
-</div>-->
+<div style="display: inline-block; width: 90%; float: left" id="video_sdb">
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/tg55eKqZ_WQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
+</div>
 
 <center>
 <p>
