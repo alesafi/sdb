@@ -49,6 +49,7 @@ function MM_swapImage() { //v3.0
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
 <title>9a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
+<meta property="og:image" content="www.biodiversidad.gob.mx/SDB/imagenes/pagina/9SDB.jpg" />
 
 
 <noscript>
