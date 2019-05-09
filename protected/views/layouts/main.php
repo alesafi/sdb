@@ -64,8 +64,8 @@ function MM_swapImage() { //v3.0
 
 		<!-- Header -->
 			<header id="header">
-				<!--<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/imgCirculo.png" alt="" /></a>-->
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_transparente.png" alt="" /></a>
+				<!--<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/imgCirculo.png" alt="" /></a>
+				<a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/btn_transparente.png" alt="" /></a>-->
 			</header>
 
 		<!-- Main -->
