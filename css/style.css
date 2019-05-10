@@ -935,10 +935,10 @@ a:hover {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 40%;
 		max-width: 55em;
 		padding: 2em;
-		width: calc(100% - 35%);
+		width: calc(100% - 40%);
 	}
 
 		#main > section {
