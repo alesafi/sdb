@@ -30,6 +30,8 @@ Rosario Castellanos</a><br><br>
 <a href="https://www.cbd.int/2011-2020/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_2011_2020.png" width="147" height="59" /></a>&nbsp;&nbsp;
 	
 <a href="https://fondodeculturaeconomica.com/RedLibrerias.aspx?id_lib=4" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_libreriarc.png" width="229" height="128" /></a>
+	
+<a href="https://www.cbd.int/idb/2019/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_DIDB.jpg" width="150" height="84" /></a>
 
 </center>
                         
