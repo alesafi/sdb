@@ -25,6 +25,7 @@
 	    <li><a href="https://es.wikipedia.org/wiki/Soberanía_alimentaria" target="_blank">Soberanía alimentaria</a></li>
 	    <li><a href="https://www.gob.mx/sader" target="_blank">SADER</a> | Secretaría de Agricultura y Desarrollo Rural</li>
 	    <li><a href="http://www.fao.org/home/es/" target="_blank">FAO</a> | Organización de las NU para la Alimentación y la Agricultura</li>
+		<li><a href="https://www.cbd.int/idb/2019/" target="_blank">Día Internacional de la Diversidad Biológica</a></li>
 	</ul>
 		
 		
