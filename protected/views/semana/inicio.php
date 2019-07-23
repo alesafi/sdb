@@ -13,9 +13,14 @@ Rosario Castellanos</a><br><br>
 </div>
   
 <div style="display: inline-block; width: 65%; float: left" id="video_sdb">
-<iframe width="90%" height="315" src="https://www.youtube.com/embed/tg55eKqZ_WQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
-</div>
+<!--<iframe width="90%" height="315" src="https://www.youtube.com/embed/tg55eKqZ_WQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>-->
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Lista de reproducción</span>
+<!-- Linea --><hr/>
 
+<iframe width="100%" height="260" src="https://www.youtube.com/embed/tg55eKqZ_WQ?list=PLLAcoRHqCmNQqFpmvI0-jvk-8xF7WaXoZ" frameborder="0" allowfullscreen></iframe>	
+	
+</div>
+<br>
 <p>La década de la diversidad biológica de 2011 a 2020 tiene el propósito de aumentar las actividades de difusión para que todos conozcamos la situación de la diversidad biológica y participemos en su manejo sustentable, restauración y conservación.</p>
 
 <p>Cada 22 de mayo se celebra el día de la diversidad biológica, este 2019 celebraremos con el tema <span class="slogan">"Nuestra biodiversidad, nuestra alimentación, nuestra salud"</span>.</p>
