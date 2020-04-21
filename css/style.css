@@ -9,8 +9,8 @@
 */
 
 :root {
-	--mainColor: #af7e30;
-	--subColor: #cc9a17;
+	--mainColor: #632766;
+	--subColor: #8C288B;
 }
 
 /* Basic */
@@ -54,9 +54,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
 	border-bottom-color: transparent;
-	color: #3E2819 !important;
+	color: #410144 !important;
 	text-decoration: none;
 }
 
