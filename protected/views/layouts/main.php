@@ -49,7 +49,7 @@ function MM_swapImage() { //v3.0
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>10° Mayo: mes de la naturaleza mexicana | Biodiversidad Mexicana | CONABIO</title>
+<title>Mayo: mes de la naturaleza mexicana | Biodiversidad Mexicana | CONABIO</title>
 <meta property="og:image" content="https://www.biodiversidad.gob.mx/SDB/imagenes/pagina/10-mayo-mes-naturaleza-mexicana.jpg"/>
 
 
