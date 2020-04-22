@@ -84,7 +84,7 @@ Usuarios extends CActiveRecord
 				'fec_alta' => 'Fecha registro',
 				'fec_act' => 'Fecha ultima actualización',
 				'roles_id' => 'Roles',
-				'difusion' => '¿Cómo te enteraste de la Semana de la Diversidad Biológica?',
+				'difusion' => '¿Cómo te enteraste de Mayo: mes de la naturaleza mexicana?',
 		);
 	}
 

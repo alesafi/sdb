@@ -17,7 +17,7 @@
 
 <center>
 <h4><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=usuarios/create">¡Súmate y participa desde tu estado!</a> | 
-<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/create">Publica y comparte tus actividades</a></h4>
+<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=semana/create">Publica y comparte tus actividades virtuales</a></h4>
 <br>
 </center>
 
