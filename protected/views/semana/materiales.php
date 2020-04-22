@@ -2,14 +2,15 @@
 <br>
   
 <div id="aagro">
-	<h3>Agrobiodiversidad</h3><br>
+	<!--<h3>Agrobiodiversidad</h3><br>-->
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
 	<ul>
-		<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/agrobiodiversidad.html" target="_blank">Agrobiodiversidad</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/genes/centrosOrigen/centrosOrig.html" target="_blank">Centros de origen</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/usos/alimentacion/milpa.html" target="_blank">La milpa</a></li> 
-	    <li><a href="https://www.biodiversidad.gob.mx/usos/alimentos.html" target="_blank">Alimentos</a></li>
+		<li><a href="https://www.iucn.org/node/28778" target="_blank">¿Qué son las soluciones basadas en la naturaleza?</a></li>
+		<li><a href="https://www.fondosdeagua.org/es/los-fondos-de-agua/los-fda-como-solucion/" target="_blank">Fondos de Agua</a></li>
+		<li><a href="https://www.fundacionaquae.org/ocho-principios-las-soluciones-basadas-la-naturaleza-sbn/" target="_blank">Soluciones basadas en la naturaleza | Fundación Aquae</a></li> 
+	    <li><a href="https://www.biodiversidad.gob.mx/usos/alimentos.html" target="_blank">Soluciones basadas en la naturaleza | Blog del Banco Interamericano de Desarrollo</a></li>
+		<!--
 	    <li><a href="https://www.biodiversidad.gob.mx/usos/maices/maiz.html">Maíces</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/calabaza.html">calabazas</a> y <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/calabaza.html">chilacayote</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/frijol.html">frijol</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/jitomate.html">jitomate</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/tomate.html">tomate</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/chile.html">chiles</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/amaranto.html">amaranto</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/quelites.html">quelites</a>, girasol, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/cacao.html">cacao</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/aguacate.html">aguacate</a>, <a href="https://www.biodiversidad.gob.mx/usos/nopales/nopales.html">nopales</a>, <a href="https://www.biodiversidad.gob.mx/usos/mieles/mieles.html">mieles</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/vainilla.html">vainilla</a>, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/chicle.html">chicle</a>, <a href="https://www.biodiversidad.gob.mx/usos/mezcales/mezcales.html">magueyes</a>, <a href="https://www.biodiversidad.gob.mx/corredor/SPSB/caficultura.html">café</a>, hongos, frutos nativos, moluscos, crustáceos, insectos, <a href="https://www.biodiversidad.gob.mx/usos/alimentacion/peces/">peces</a>, anfibios, reptiles, aves y mamíferos.
 	    </li>
 	    <li><a href="https://www.biodiversidad.gob.mx/usos/cocinaTradicional.html" target="_blank">La cocina tradicional mexicana</a></li>
@@ -25,21 +26,22 @@
 	    <li><a href="https://es.wikipedia.org/wiki/Soberanía_alimentaria" target="_blank">Soberanía alimentaria</a></li>
 	    <li><a href="https://www.gob.mx/sader" target="_blank">SADER</a> | Secretaría de Agricultura y Desarrollo Rural</li>
 	    <li><a href="http://www.fao.org/home/es/" target="_blank">FAO</a> | Organización de las NU para la Alimentación y la Agricultura</li>
-		<li><a href="https://www.cbd.int/idb/2019/" target="_blank">Día Internacional de la Diversidad Biológica</a></li>
+		<li><a href="https://www.cbd.int/idb/2019/" target="_blank">Día Internacional de la Diversidad Biológica</a></li>-->
 	</ul>
 		
 		
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Videos</span>
 	<!-- Linea --><hr/>	
 	<ul>
-		<li><a href="https://www.youtube.com/watch?v=UzH-0wlh354&t=18s" target="_blank">Biodiversidad y agricultura</a></li>
-		<li><a href="https://www.youtube.com/watch?v=LQ0Rprhec6w" target="_blank">De raíces mexicanas</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=RqvC4KS6F88&list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J" target="_blank">Agrobiodiversidad</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=W7kb1dKxc6k&index=19&list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J" target="_blank">Agrobiodiversidad</a></li>
-	    <li><a href="https://www.youtube.com/playlist?list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz" target="_blank">Serie Agrobiodiversidad</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=ql6bXGNA4I4&list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J&index=20" target="_blank">Guardianes de las semillas, Yucatán</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=tNcTC9ll8HY&index=21&list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J" target="_blank">Chinampayolo, Xochimilco</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=HPMG7Q_PolQ&list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz&index=2&t=0s" target="_blank">Mujeres que amasan la vida</a></li>
+		<li><a href="https://www.youtube.com/watch?v=6t4NcWNrptQ" target="_blank">Soluciones basadas en la naturaleza (IUCN)</a></li>
+		<li><a href="https://www.youtube.com/watch?v=JzBxu2J0SIU" target="_blank">UICN: Portavoz de soluciones basadas en la naturaleza</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=vzfbEU890Sg" target="_blank">Fondo Verde: Curso 2. Soluciones basadas en la naturaleza</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=9yUsp0mNfHQ" target="_blank">ANEAS de México. Soluciones para el agua basadas en la naturaleza</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=j4IAD8mPaPg">IUCN Panel del Rïo Doce. Un enfoque con soluciones basadas en la naturaleza a escala del paisaje</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=Sz0jma-_SVI" target="_blank">PreCOP25: Soluciones basadas en la naturaleza</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=e8YxZATAiDE" target="_blank">Think Nature</a></li>
+		
+<!--	    <li><a href="https://www.youtube.com/watch?v=HPMG7Q_PolQ&list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz&index=2&t=0s" target="_blank">Mujeres que amasan la vida</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=E3cZ3pwSNUM&list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz&index=3" target="_blank">La calabaza y su aprovechamiento en la Sierra Tarahumara</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=hYSiFBNZz2I&list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz&index=4" target="_blank">Los chacales.... maíz en la Sierra Tarahumara</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=j9BumBiSPZ0&index=5&list=PLLAcoRHqCmNQPUlZ044JRI_P8-rup8TWz" target="_blank">El pinole y el esquiate en la Sierra Tarahumara</a></li>
@@ -55,16 +57,18 @@
 	    <li><a href="https://www.youtube.com/watch?v=F67SrnppQBo" target="_blank">Our future of food depends on biodiversity</a></li>
 	    <li><a href="https://www.youtube.com/watch?time_continue=5&v=el-Z5tgyQXY" target="_blank">Imagine a world without bees (FAO)</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=RzNh0TP2Y84" target="_blank">Biodiversidad mexicana: seguridad y soberanía alimentaria / UAM</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=z1EREeBaMKo" target="_blank">Climate Change Effects- Know How Climate Change is Making Our Food Less Nutritious?</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=z1EREeBaMKo" target="_blank">Climate Change Effects- Know How Climate Change is Making Our Food Less Nutritious?</a></li>-->
 	</ul>
 
 		
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_documento.png" width="25" height="22" /> <span class="tit_materiales">Publicaciones</span>
 	<!-- Linea --><hr/>	
 	<ul>
-		<li><a href="https://www.thelancet.com/commissions/EAT" target="_blank">Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems. 2019.</a></li>
-		<li><a href="https://www.bu.edu/sph/files/2012/12/Chivian_and_Bernstein_2010_How_our_Health_Depends_on_Biodiversity.pdf" target="_blank">Biodiversity Change and Human Health: From Ecosystem Services to Spread of Disease. Eric Chivian and Berstein 2008.</a></li>
-		<li><a href="http://www.fao.org/3/CA3129EN/CA3129EN.pdf" target="_blank">FAO’s State of the World’s Biodiversity for Food and Agriculture report (PDF)</a></li>
+		<li><a href="http://www.conama.org/conama/download/files/conama2018/GTs%202018/10_final.pdf">Fundación CONAMA: Soluciones basadas en la naturaleza</a></li>
+		<!--<li><a href="" target="_blank">Soluciones basadas en la naturaleza para fortalecer la resiliencia costera</a></li>-->
+		<li><a href="http://revistasenlinea.saber.ucab.edu.ve/temas/index.php/tekhne/article/view/3450" target="_blank">Biomimética: herramientas de diseño inspiradas en la naturaleza</a></li>
+		
+		<!--
 		<li><a href="http://bioteca.biodiversidad.gob.mx/janium-bin/sumario.pl?Id=20190222132945#" target="_blank">Biodiversity Change and Human Health: From Ecosystem Services to Spread of Disease. Osvaldo E. Sala, Laura A. Meyerson y Camille Parmesan. 2009.Alimentos sustentables a la carta.</a></li>
 		<li><a href="http://bioteca.biodiversidad.gob.mx/janium-bin/sumario.pl?Id=20190222132945#" target="_blank">Preservar la vida: de cómo nuestra salud depende de la biodiversidad</a></li>
 		<li><a href="http://www.conabio.gob.mx/web/pdf/otras/bien_comer_2018.pdf" target="_blank">Canastas regionales</a></li>
@@ -81,7 +85,7 @@
 		<li><a href="https://www.biodiversidad.gob.mx/Difusion/SDB/2016/imagenes/usuarios/semana/materiales/664/2016-05-15_09-46-05_Resumen-6ta-biodiversidad.pdf" target="_blank">Pérdida de biodiversidad y su impacto en la salud humana</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/corredor/SPSB/pdf/08-nutricion-mineral-manejo-agroecologico-enfermedades-cafe.pdf" target="_blank">Nutrición mineral en el manejo agroecológico de enfermedades del café</a></li>
 		<li><a href="http://bioteca.biodiversidad.gob.mx/janium/Documentos/7014.pdf" target="_blank">Insectos comestibles: ¿una dieta para el futuro?</a></li>
-		<li><a href="http://www.fao.org/3/a-i6602s.pdf" target="_blank">Agricultura sostenible y biodiversidad. Un vínculo indisociable. FAO 2018</a></li>
+		<li><a href="http://www.fao.org/3/a-i6602s.pdf" target="_blank">Agricultura sostenible y biodiversidad. Un vínculo indisociable. FAO 2018</a></li>-->
 	</ul>
 		
 		
@@ -106,7 +110,7 @@
 	
 
 
-<div id="aganaderia">
+<div id="aganaderia" style="display: none">
 	<h3>Ganadería</h3><br>
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
@@ -143,7 +147,7 @@
 
 
 
-<div id="apesca">
+<div id="apesca" style="display: none">
 	<h3>Pesca</h3><br>
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>

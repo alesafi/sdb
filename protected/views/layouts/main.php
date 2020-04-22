@@ -50,7 +50,7 @@ function MM_swapImage() { //v3.0
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
 <title>Mayo: mes de la naturaleza mexicana | Biodiversidad Mexicana | CONABIO</title>
-<meta property="og:image" content="https://www.biodiversidad.gob.mx/SDB/imagenes/pagina/10-mayo-mes-naturaleza-mexicana.jpg"/>
+<meta property="og:image" content="https://www.biodiversidad.gob.mx/media/1/inicio/images/eventos/anuncio-mayo-mes-naturaleza-mexicana.jpg"/>
 
 
 <noscript>
