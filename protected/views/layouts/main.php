@@ -49,8 +49,8 @@ function MM_swapImage() { //v3.0
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 <script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<title>9a. Semana de la Diversidad Biol&oacute;gica  | Biodiversidad Mexicana | CONABIO</title>
-<meta property="og:image" content="https://www.biodiversidad.gob.mx/SDB/imagenes/pagina/9SDB.jpg"/>
+<title>10° Mayo: mes de la naturaleza mexicana | Biodiversidad Mexicana | CONABIO</title>
+<meta property="og:image" content="https://www.biodiversidad.gob.mx/SDB/imagenes/pagina/10-mayo-mes-naturaleza-mexicana.jpg"/>
 
 
 <noscript>
@@ -76,7 +76,7 @@ function MM_swapImage() { //v3.0
 	<section id="one">
 	  <header class="major">
 		  <h6 align="right">
-			  <a href="https://www.biodiversidad.gob.mx" target="_blank">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Semana de la Diversidad Biol&oacute;gica <b>| <a href="https://www.biodiversidad.gob.mx/cienciaciudadana/SDB" target="_blank">Semanas anteriores</a></b>
+			  <a href="https://www.biodiversidad.gob.mx" target="_blank">Biodiversidad Mexicana</a>&nbsp;-&nbsp;Mayo: mes de la naturaleza mexicana <b>| <a href="https://www.biodiversidad.gob.mx/cienciaciudadana/SDB" target="_blank">Semanas anteriores</a></b>
 		  </h6>
 		  <a href="<?php echo Yii::app()->request->baseUrl; ?>" class="image avatar"><h4 class="verde">Inicio</h4></a>
 			<!--<h2>&nbsp;</h2>
