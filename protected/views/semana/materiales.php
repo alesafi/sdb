@@ -37,7 +37,7 @@
 		<li><a href="https://www.youtube.com/watch?v=JzBxu2J0SIU" target="_blank">UICN: Portavoz de soluciones basadas en la naturaleza</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=vzfbEU890Sg" target="_blank">Fondo Verde: Curso 2. Soluciones basadas en la naturaleza</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=9yUsp0mNfHQ" target="_blank">ANEAS de México. Soluciones para el agua basadas en la naturaleza</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=j4IAD8mPaPg">IUCN Panel del Rïo Doce. Un enfoque con soluciones basadas en la naturaleza a escala del paisaje</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=j4IAD8mPaPg" target="_blank">IUCN Panel del Rïo Doce. Un enfoque con soluciones basadas en la naturaleza a escala del paisaje</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=Sz0jma-_SVI" target="_blank">PreCOP25: Soluciones basadas en la naturaleza</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=e8YxZATAiDE" target="_blank">Think Nature</a></li>
 		
@@ -64,7 +64,7 @@
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_documento.png" width="25" height="22" /> <span class="tit_materiales">Publicaciones</span>
 	<!-- Linea --><hr/>	
 	<ul>
-		<li><a href="http://www.conama.org/conama/download/files/conama2018/GTs%202018/10_final.pdf">Fundación CONAMA: Soluciones basadas en la naturaleza</a></li>
+		<li><a href="http://www.conama.org/conama/download/files/conama2018/GTs%202018/10_final.pdf" target="_blank">Fundación CONAMA: Soluciones basadas en la naturaleza</a></li>
 		<!--<li><a href="" target="_blank">Soluciones basadas en la naturaleza para fortalecer la resiliencia costera</a></li>-->
 		<li><a href="http://revistasenlinea.saber.ucab.edu.ve/temas/index.php/tekhne/article/view/3450" target="_blank">Biomimética: herramientas de diseño inspiradas en la naturaleza</a></li>
 		
