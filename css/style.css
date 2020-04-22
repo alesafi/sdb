@@ -62,7 +62,7 @@ a:hover, a:active {
 
 
 #aagro a {
-	color: #004c31 !important;
+	color: #19699E !important;
 }
 
 #aganaderia a {
@@ -74,7 +74,7 @@ a:hover, a:active {
 }
 
 #aagro hr {
-	border-bottom: solid 5px #004c31;
+	border-bottom: solid 5px #19699E;
 }
 
 #aganaderia hr {
@@ -104,7 +104,6 @@ a:hover, a:active {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Oswald', sans-serif;
-		color: #333;
 		font-weight: 400;
 		line-height: normal;
 		margin: 0 0 em 0;
@@ -162,7 +161,7 @@ a:hover, a:active {
 
 	hr {
 		border: 0;
-		border-bottom: solid 5px #cc9a17;
+		border-bottom: solid 5px #19699E;
 		width: 100%;
 		-webkit-margin-before: 0;
 	}
