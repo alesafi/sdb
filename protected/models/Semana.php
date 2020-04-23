@@ -160,7 +160,7 @@ class Semana extends CActiveRecord
 
 		if (!empty($this->fecha_ini) && !empty($this->fecha_fin))
 		{
-			if (!preg_match("/^".Controller::formatoFecha('aaaa-mm', Yii::app()->params->fecha_inicio)."-[[:digit:]][[:digit:]] [[:digit:]][[:digit:]]:[[:digit:]][[:digit:]]$/",$this->fecha_ini))
+			/*if (!preg_match("/^".Controller::formatoFecha('aaaa-mm', Yii::app()->params->fecha_inicio)."-[[:digit:]][[:digit:]] [[:digit:]][[:digit:]]:[[:digit:]][[:digit:]]$/",$this->fecha_ini))
 			{
 				$this->addError('fecha_ini', 'La fecha de inicio es incorrecta, por favor selecciona la fecha en el calendario que se despliega.'.Controller::formatoFecha('aaaa-mm', Yii::app()->params->fecha_inicio));
 				$valido = false;
@@ -170,7 +170,8 @@ class Semana extends CActiveRecord
 			{
 				$this->addError('fecha_fin', 'La fecha de término es incorrecta, por favor selecciona la fecha en el calendario que se despliega.');
 				$valido = false;
-			}
+			}*/
+			$valido = true;
 
 			if ($valido)
 			{
