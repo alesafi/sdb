@@ -82,7 +82,6 @@
 		<li><a href="http://bioteca.biodiversidad.gob.mx/janium/Documentos/6405.pdf" target="_blank">Bichos para jugar, comer y soñar. 2009.</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/pdf/talleres/SOBRE%20EXPLOTACION%20PPT%20ARENAS.pdf" target="_blank">Principales pesquerías sobreexplotadas del Golfo de México.</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv122art1.pdf" target="_blank">Biodiversitas: Suelo y Salud</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Difusion/SDB/2016/imagenes/usuarios/semana/materiales/664/2016-05-15_09-46-05_Resumen-6ta-biodiversidad.pdf" target="_blank">Pérdida de biodiversidad y su impacto en la salud humana</a></li>
 		<li><a href="https://www.biodiversidad.gob.mx/corredor/SPSB/pdf/08-nutricion-mineral-manejo-agroecologico-enfermedades-cafe.pdf" target="_blank">Nutrición mineral en el manejo agroecológico de enfermedades del café</a></li>
 		<li><a href="http://bioteca.biodiversidad.gob.mx/janium/Documentos/7014.pdf" target="_blank">Insectos comestibles: ¿una dieta para el futuro?</a></li>
 		<li><a href="http://www.fao.org/3/a-i6602s.pdf" target="_blank">Agricultura sostenible y biodiversidad. Un vínculo indisociable. FAO 2018</a></li>-->
@@ -105,106 +104,9 @@
 
 	<br><br><br>
 </div>
-	<!-- Fin de Agrobiodiversidad -->
+	<!-- Fin de Materiales -->
 
 	
-
-
-<div id="aganaderia" style="display: none">
-	<h3>Ganadería</h3><br>
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
-	<!-- Linea --><hr/>
-	<ul>
-		
-		<li><a href="https://ganaderiasustentable.mx/" target="_blank">Ganadería Sustentable</a></li>
-	</ul>
-		
-		
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Videos</span>
-	<!-- Linea --><hr/>	
-	<ul>
-		<li><a href="https://www.youtube.com/watch?v=pNzaqpXnxB4" target="_blank">Un simple queso, la gran solución a la ganadería en Chiapas</a></li>
-		<li><a href="https://www.youtube.com/watch?v=JZwZzEefJVM" target="_blank">The Nature Conservancy</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=iQLbhqJzQCA" target="_blank">UANL Sustentable</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=VtxLuZJqnRM" target="_blank">La Encrucijada, Chiapas | CONANP</a></li>
-	</ul>
-
-		
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_documento.png" width="25" height="22" /> <span class="tit_materiales">Publicaciones</span>
-	<!-- Linea --><hr/>	
-	<ul>
-		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/gef/pdf/2.2-6-plan-trabajo-reconversion-ganadera.pdf" target="_blank">Reconversión ganadera como estrategia para el manejo integral de especies exóticas invasoras y ferales en la Reserva de la Biosfera Marismas Nacionales Nayarit. 2015</a></li>
-		<li><a href="https://apps.who.int/iris/bitstream/handle/10665/174012/9789241508537_eng.pdf;jsessionid=3B4D4A465B5BFF2383EAED60D30129DA?sequence=1" target="_blank">Ganadería sustentable en el Golfo de México, Publisher: Instituto de Ecología, A.C., pp.13-15. 2018.</a></li>
-		<li><a href="http://www.fao.org/fileadmin/templates/nr/documents/CGRFA/Newsletter_and_leaflets/Leaflet_SoWBFA_s.pdf" target="_blank">La biodiversidad para la alimentación y la agricultura. Comisión de Recursos Genéticos para la Alimentación y la Agricultura. FAO.</a></li>
-		<li>Connecting Global Priorities: Biodiversity and Human Health. A state of knowledge review. 2015 WHO / CBD</li>
-		<li><a href="https://xolo.conabio.gob.mx/service/home/~/?auth=co&loc=es&id=135904&part=2" target="_blank">Experiencias ganaderas, agrícolas y forestales en la conservación de los recursos naturales</a></li>
-	</ul>
-	 
-	<br><br>
-	 <!-- Fin de Ganadería -->
-</div>
-
-
-
-
-<div id="apesca" style="display: none">
-	<h3>Pesca</h3><br>
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
-	<!-- Linea --><hr/>
-	<ul>
-		<li><a href="https://www.biodiversidad.gob.mx/usos/alimentacion/peces/" target="_blank">Peces y mariscos comerciales</a></li>
-		<li><a href="https://cobi.org.mx/" target="_blank">Comunidad y Biodiversidad A.C. (COBI)</a></li>
-		<li><a href="http://comepesca.com/" target="_blank">Consejo Mexicano de Promoción de los Productos Pesqueros y Acuícolas COMEPESCA (Pesca con futuro)</a></li>
-		<li><a href="https://mx.oceana.org/es" target="_blank">OCEANA México</a></li>
-		<li><a href="http://pescamar.mx/es/index" target="_blank">PESCAMAR Exposición de pescados y mariscos</a></li>
-		<li><a href="https://smartfish.mx/" target="_blank">Smartfish</a></li>
-		<li><a href="https://www.gob.mx/inapesca/" target="_blank">Instituto Nacional de Pesca y Acuacultura INAPESCA</a></li>
-		<li><a href="https://www.worldfishcenter.org/food-and-agriculture-organization-united-nations" target="_blank">WorldFish</a></li>
-	</ul>
-		
-		
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Videos</span>
-	<!-- Linea --><hr/>	
-	<ul>
-		<li><a href="https://www.youtube.com/watch?v=HNw5uWSRgts&list=PLLAcoRHqCmNTniXVC3FNQLOpeUMA2T-Zw&index=6" target="_blank">Bios, agricultura, pesca y biodiversidad</a></li>
-		<li><a href="https://www.youtube.com/watch?v=KFR3yCoTynI&index=3&list=PLLAcoRHqCmNQ_2syxOuBKjix-UPL71e0J" target="_blank">Pesca certificada y sustentable</a></li>
-	    <li><a href="https://www.youtube.com/watch?time_continue=1&v=rlBD49J2U4Q" target="_blank">Pesca</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=3KwHUPgOUFI&t=127s" target="_blank">Semáforo de pesca sustentable</a></li>
-		<li><a href="https://www.youtube.com/watch?v=AZcTLXVL4_A" target="_blank">Sardinas</a></li>
-		<li><a href="https://www.youtube.com/watch?time_continue=1&v=hWwB_bVh1sA" target="_blank">Langosta Chakay, pesca sustentable</a></li>
-		<li><a href="https://www.youtube.com/watch?v=2lJp2_Tf594&list=PLLAcoRHqCmNTniXVC3FNQLOpeUMA2T-Zw&index=11" target="_blank">Pesca y biodiversidad</a></li>
-		<li><a href="https://www.youtube.com/watch?v=SXP4RlgF0OE" target="_blank">Pesca y productos sustentables</a></li>
-		<li><a href="http://comepesca.com/wp-content/uploads/2019/01/COMEPESCA_MERO_LR.webm" target="_blank">COMEPESCA</a></li>
-		<li><a href="https://www.youtube.com/watch?v=-V4D77N3bZc" target="_blank">Overfishing – excerpt from Planet Ocean Movie. Planet Ocean</a></li>
-		<li><a href="https://www.youtube.com/watch?v=WNdR808jMSA" target="_blank">¿Se quedará el Océano algún día sin peces? TED-Ed</a></li>
-		<li><a href="https://www.youtube.com/watch?v=c2Nv8gxq_b4" target="_blank">PESCAMAR 2017. CONAPESCA</a></li>
-		<li><a href="https://www.youtube.com/watch?v=SivFI2Rlqx4" target="_blank">La pesca y la acuacultura en México. CONAPESCA 2016</a></li>
-		<li><a href="https://www.youtube.com/watch?v=-84xvihzbro" target="_blank">D Todo – Mercado de Mariscos. Canal Once</a></li>
-	</ul>
-
-		
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_documento.png" width="25" height="22" /> <span class="tit_materiales">Publicaciones</span>
-	<!-- Linea --><hr/>	
-	<ul>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv121art1.pdf" target="_blank">Pesca sustentable</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv95art1.pdf" target="_blank">Pesquería de camarón</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv93art3.pdf" target="_blank">Servicios ambientales en áreas marinas y costeras</a></li>
-		<li><a href="https://www.biodiversidad.gob.mx/Biodiversitas/Articulos/biodiv91art1.pdf" target="_blank">La curvina golfina</a></li>
-	</ul>
-	
-
-
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_foto.png" width="25" height="22" /> <span class="tit_materiales">Carteles</span>
-	<!-- Linea --><hr/>
-	
-	<a href="http://bioteca.biodiversidad.gob.mx/janium-bin/janium_zui.pl?jzd=/janium/Documentos/ETAPA06/AP/7390/7390.jzd&fn=7390" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/cartel_peces.jpg" width="170" height="121" /></a>
-	<a href="http://bioteca.biodiversidad.gob.mx/janium-bin/janium_zui.pl?jzd=/janium/Documentos/ETAPA06/AP/7389/7389.jzd&fn=7389" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/cartel_peces2.jpg" width="174" height="121" /></a>
-
-
-	 <!-- Fin de Pesca -->
-</div>
-
-
 
 
 
@@ -262,9 +164,9 @@
   </p>-->
   
   <!--<p>
-  <a href="http://www.naturalista.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_naturalista.png" width="90%" height="auto"></a><br>
+  <a href="https://www.naturalista.mx" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/logo_naturalista.png" width="90%" height="auto"></a><br>
   <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-  <a href="http://www.naturalista.mx/pages/proyectosmexico" target="_blank">Busca proyectos en áreas protegidas de México</a><br>
+  <a href="https://www.naturalista.mx/pages/proyectosmexico" target="_blank">Busca proyectos en áreas protegidas de México</a><br>
   </p>-->
   
   
@@ -279,17 +181,17 @@
 
 <p><span class="subtit_materiales">Naturalista</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.naturalista.mx/pages/casosdeexito" target="_blank">Casos de éxito</a><br>
+<a href="https://www.naturalista.mx/pages/casosdeexito" target="_blank">Casos de éxito</a><br>
 </p>
 
 <p><span class="subtit_materiales">Modelos de manejo y conservación</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
+<a href="https://www.biodiversidad.gob.mx/bios/" target="_blank">Bios: Naturaleza y Sociedad</a><br>
 </p>
 
 <p><span class="subtit_materiales">Conoce las especies que viven en tu municipio</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.enciclovida.mx/explora-por-region" target="_blank">Realiza una búsqueda por lugar en Enciclovida</a><br>
+<a href="http://enciclovida.mx/explora-por-region" target="_blank">Realiza una búsqueda por lugar en Enciclovida</a><br>
 	
 <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
 <a href="http://sustentur.com.mx/" target="_blank">Sustentur</a><br>
@@ -313,16 +215,16 @@
  
 <!--<p><span class="subtit_materiales">Conclusiones de Integración de la biodiversidad en el sector turismo</span><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/region/EEB/pdf/2eneb/Conclusiones%20mainstreaming%20TURISMO.pdf" target="_blank">Segundo Encuentro Nacional sobre Estrategias de Biodiversidad (2016)</a><br>
+<a href="https://www.biodiversidad.gob.mx/region/EEB/pdf/2eneb/Conclusiones%20mainstreaming%20TURISMO.pdf" target="_blank">Segundo Encuentro Nacional sobre Estrategias de Biodiversidad (2016)</a><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/pais/cien_casos/pdf/Cien%20casos.pdf" target="_blank">Patrimonio natural de México: Cien casos de Éxito</a><br>
+<a href="https://www.biodiversidad.gob.mx/pais/cien_casos/pdf/Cien%20casos.pdf" target="_blank">Patrimonio natural de México: Cien casos de Éxito</a><br>
 
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/corredor/cbmm/turismo.html" target="_blank">Aprovechamiento sustentable: turismo</a><br>
+<a href="https://www.biodiversidad.gob.mx/corredor/cbmm/turismo.html" target="_blank">Aprovechamiento sustentable: turismo</a><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
 <a href="http://www.greenpeace.org/mexico/es/Campanas/Oceanos-y-costas/Que-proponemos/Turismo-sustentable/" target="_blank">Turismo sustentable Greenpeace México</a><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/corredor/cbmm/DOC/costa_yucatan_desarrollo_turistico.pdf" target="_blank">La costa de Yucatán en la perspectiva del desarrollo turístico</a><br>
+<a href="https://www.biodiversidad.gob.mx/corredor/cbmm/DOC/costa_yucatan_desarrollo_turistico.pdf" target="_blank">La costa de Yucatán en la perspectiva del desarrollo turístico</a><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
 <a href="http://redturismosustentable.org/" target="_blank">RED de Turismo Sustentable y Desarrollo Social, A.C.</a><br>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
@@ -352,7 +254,7 @@
 </p>
 
 <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">
-<a href="http://www.biodiversidad.gob.mx/pais/cien_casos/pdf/Cien%20casos.pdf" target="_blank">Patrimonio natural de México: 100 casos de éxito</a><br>
+<a href="https://www.biodiversidad.gob.mx/pais/cien_casos/pdf/Cien%20casos.pdf" target="_blank">Patrimonio natural de México: 100 casos de éxito</a><br>
 </p>
 
 <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/1_vineta.png" width="15" height="8">

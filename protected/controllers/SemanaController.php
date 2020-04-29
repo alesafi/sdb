@@ -356,7 +356,7 @@ class SemanaController extends Controller
 		$ubicacion = '<b>Ubicacion: </b>'.$model->direccion.'<br>';
 		$fecha_inicio = '<b>Fecha de inicio: </b>'.SemanaController::fechaEvento($model->fecha_ini).'<br>';
 		$fecha_termino = '<b>Fecha de termino: </b>'.SemanaController::fechaEvento($model->fecha_fin).'<br><br>';
-		$liga = "Para más información consulta el ".CHtml::link('registro del evento', "http://biodiversidad.gob.mx/Difusion/SDB/index.php/semana/".$model->id);
+		$liga = "Para más información consulta el ".CHtml::link('registro del evento', "https://www.biodiversidad.gob.mx/mesnaturaleza/index.php/semana/".$model->id);
 		$msj = $institucion.$actividad.$descripcion.$estado.$ubicacion.$fecha_inicio.$fecha_termino.$liga;
 		$subject = 'Nuevo registro de evento';
 		$to = 'sdb@conabio.gob.mx';

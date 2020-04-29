@@ -163,13 +163,13 @@ Usuarios extends CActiveRecord
 	{
 		$imagen = "<table width=\"990\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">";
 		$imagen.= "<tbody><tr><td width=\"790\" align=\"center\" bgcolor=\"#FFFFFF\">";
-		$imagen.= "<img	src=\"".Yii::app()->request->baseUrl.'/imagenes/aplicacion/SDB_2015/Imagenes/bg.jpg'."\" width=\"707\">";
+		$imagen.= "<img	src=\"".Yii::app()->request->baseUrl.'/imagenes/pagina/10-mayo-mes-naturaleza-mexicana.jpg'."\" width=\"707\">";
 		$imagen.= "</td></tr></tbody></table>";
 		$para = $this->email.", sbd@conabio.gob.mx";
 		$titulo = "9a. Semana de la Diversidad Biol&oacute;gica";
 		$mensaje = $imagen."<br><br>".$this->nombre.' '.$this->apellido.",";
 		$mensaje.= "<br><br>Para poder poner una nueva contrase&ntilde;a sigue el siguiente ";
-		$mensaje.= "<a href=\"https://www.biodiversidad.gob.mx/SDB/index.php?r=site/reset&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
+		$mensaje.= "<a href=\"https://www.biodiversidad.gob.mx/mesnaturaleza/index.php?r=site/reset&id=".$this->id."&fec_alta=".urlencode($this->fec_alta)."\" target=\"_blank\">enlace</a>.";
 		$cabeceras = "Content-type: text/html; charset=utf-8"."\r\n";
 		$cabeceras.= "From: noreply@conabio.gob.mx"."\r\n";
 		mail($para, $titulo, $mensaje, $cabeceras);

@@ -10,8 +10,8 @@
 		<li><a href="http://www.paismaravillas.mx/recortables.html" target="_blank">Recortables</a></li> 
 	    <li><a href="https://www.biodiversidad.gob.mx/Difusion/cienciaCiudadana/aurbanos/buscar.php" target="_blank">Vecinos verdes</a></li>
 	    <li><a href="https://www.biodiversidad.gob.mx/cienciaciudadana/cantos_aves_cdmx" target="_blank">Cantos de aves de la CDMX</a></li>
-		<li><a href="http://www.naturalista.mx" target="_blank">NaturaLista</a></li>
-		<li><a href="http://www.enciclovida.mx" target="_blank">EncicloVida</a></li>
+		<li><a href="https://www.naturalista.mx" target="_blank">NaturaLista</a></li>
+		<li><a href="http://enciclovida.mx" target="_blank">EncicloVida</a></li>
 	</ul>
 		
 
