@@ -159,7 +159,7 @@
 	<br>
 	<div>
 		<?php echo $form->labelEx($model,'url'); ?>
-		<span><em>Se vinculará el evento con la URL de su página web (ej. http://www.biodiversidad.gob.mx)</em> </span><br>
+		<span><em>Se vinculará el evento con la URL de su página web (ej. https://www.biodiversidad.gob.mx)</em> </span><br>
 		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'url'); ?>
 	</div>

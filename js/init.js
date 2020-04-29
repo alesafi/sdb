@@ -21,11 +21,11 @@
 		containers: '100%',
 		breakpoints: {
 			global: { href: 'css/style.css', grid: { gutters: ['2.5em', 0] } },
-			xlarge: { media: '(max-width: 1800px)', href: 'http://172.16.3.222/sdb/css/style-xlarge.css' },
-			large: { media: '(max-width: 1280px)', href: 'http://172.16.3.222/sdb/css/style-large.css', grid: { gutters: ['2em', 0] } },
-			medium: { media: '(max-width: 980px)', href: 'http://172.16.3.222/sdb/css/style-medium.css'},
-			small: { media: '(max-width: 736px)', href: 'http://172.16.3.222/sdb/css/style-small.css', grid: { gutters: ['1.5em', 0] }, viewport: { scalable: false } },
-			xsmall: { media: '(max-width: 480px)', href: 'http://172.16.3.222/sdb/css/style-xsmall.css' }
+			xlarge: { media: '(max-width: 1800px)', href: 'https://www.biodiversidad.gob.mx/mesnaturaleza/imagenes/pagina/css/style-xlarge.css' },
+			large: { media: '(max-width: 1280px)', href: 'https://www.biodiversidad.gob.mx/mesnaturaleza/imagenes/pagina/style-large.css', grid: { gutters: ['2em', 0] } },
+			medium: { media: '(max-width: 980px)', href: 'https://www.biodiversidad.gob.mx/mesnaturaleza/imagenes/pagina/css/style-medium.css'},
+			small: { media: '(max-width: 736px)', href: 'https://www.biodiversidad.gob.mx/mesnaturaleza/imagenes/pagina/css/style-small.css', grid: { gutters: ['1.5em', 0] }, viewport: { scalable: false } },
+			xsmall: { media: '(max-width: 480px)', href: 'https://www.biodiversidad.gob.mx/mesnaturaleza/imagenes/pagina/css/style-xsmall.css' }
 		}
 	});
 
