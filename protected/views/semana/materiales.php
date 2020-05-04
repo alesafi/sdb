@@ -25,7 +25,7 @@
 	    <li><a href="https://www.youtube.com/watch?v=Sz0jma-_SVI" target="_blank">PreCOP25: Soluciones basadas en la naturaleza</a></li>
 	    <li><a href="https://www.youtube.com/watch?v=e8YxZATAiDE" target="_blank">Think Nature</a></li>
 		<li><a href="https://www.youtube.com/watch?v=WkKyYQGGfwQ" target="_blank">Kongjian Yu | Teoría y práctica de patrones estratégicos de seguridad ecológica</a></li>
-		
+		<li><a href="https://www.youtube.com/watch?v=-5N9Q8KtB5w" target="_blank">Introducción a la Permacultura (Zenit Solar)</a></li>
 	</ul>
 
 		
