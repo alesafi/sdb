@@ -16,18 +16,15 @@ $( "#accordion" ).accordion({
 </script>
 
 
-<!--<h1>Ponentes</h1><br>-->
+<h1>Charlas</h1><br>
 
 
 
-<div style="width: 100%; display: ; text-align: center; float:left; display:none;">
+<div style="width: 100%; display: ; text-align: center; float:left; display:;">
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/tg55eKqZ_WQ?list=PLLAcoRHqCmNQqFpmvI0-jvk-8xF7WaXoZ" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/TZqSBpDWnKE?list=PLLAcoRHqCmNRyzv7Sa5oDz-OqoMdpU2dc" frameborder="0" allowfullscreen></iframe>
 	<br><br><br>
-<p>
-  <a href="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/programa_9SDB_carta.jpg" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/programa_9SDB_carta.jpg" width="100%" alt=""/></a><br>
-  
-</p>
+
 </div>
 
 
