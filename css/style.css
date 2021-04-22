@@ -9,8 +9,8 @@
 */
 
 :root {
-	--mainColor: #632766;
-	--subColor: #8C288B;
+	--mainColor: #af6800;
+	--subColor: #bf4f00;
 }
 
 /* Basic */
@@ -56,13 +56,13 @@ a {
 
 a:hover, a:active {
 	border-bottom-color: transparent;
-	color: #410144 !important;
+	color: #89680c !important;
 	text-decoration: none;
 }
 
 
 #aagro a {
-	color: #19699E !important;
+	color: #9a640d !important;
 }
 
 #aganaderia a {
@@ -74,7 +74,7 @@ a:hover, a:active {
 }
 
 #aagro hr {
-	border-bottom: solid 5px #19699E;
+	border-bottom: solid 5px #ceaf3f;
 }
 
 #aganaderia hr {
@@ -161,7 +161,7 @@ a:hover, a:active {
 
 	hr {
 		border: 0;
-		border-bottom: solid 5px #19699E;
+		border-bottom: solid 5px #ceaf3f;
 		width: 100%;
 		-webkit-margin-before: 0;
 	}
