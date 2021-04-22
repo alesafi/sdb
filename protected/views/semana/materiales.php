@@ -5,27 +5,66 @@
 	<!--<h3>Agrobiodiversidad</h3><br>-->
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_web.png" width="25" height="22" /> <span class="tit_materiales">Web</span>
 	<!-- Linea --><hr/>
+	<h4>Biodiversidad</h4>
 	<ul>
-		<li><a href="https://www.iucn.org/node/28778" target="_blank">¿Qué son las soluciones basadas en la naturaleza?</a></li>
-		<li><a href="https://www.fondosdeagua.org/es/los-fondos-de-agua/los-fda-como-solucion/" target="_blank">Fondos de Agua</a></li>
-		<li><a href="https://www.fundacionaquae.org/ocho-principios-las-soluciones-basadas-la-naturaleza-sbn/" target="_blank">Soluciones basadas en la naturaleza | Fundación Aquae</a></li> 
-	    <li><a href="https://blogs.iadb.org/sostenibilidad/es/que-son-las-soluciones-basadas-en-la-naturaleza-y-por-que-son-importantes/" target="_blank">Soluciones basadas en la naturaleza | Blog del Banco Interamericano de Desarrollo</a></li>
-	
+		<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/que_hacer" target="_blank">¿Qué puedo hacer?</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/porque_conserva" target="_blank">¿Por qué conservar?</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/porque" target="_blank">¿Por qué se pierde la biodiversidad?</a></li> 	
 	</ul>
-		
-		
+		<h4>Especies invasoras</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/informate-y-participa" target="_blank">Infórmate y participa</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/estrategia" target="_blank">¿Qué se hace en México? – Estrategia Nacional de Especies Invasoras</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/especies/Invasoras/para-saber-mas" target="_blank">Materiales de difusión</a></li> 	
+	</ul>
+		<h4>Región – Estrategias Estatales de Biodiversidad</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/region/EEB/estudios" target="_blank">Estudios de Estado</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/region/EEB/estrategias" target="_blank">Estrategias para la conservación y Uso sustentable de la Biodiversidad</a></li>
+	</ul>
+	<h4>País</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/pais/enbiomex" target="_blank">Estrategia Nacional sobre Biodiversidad en México</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/pais/planeacion-para-la-conservacion" target="_blank">Planeación para la conservación y restauración de la biodiversidad</a></li>
+	</ul>
+	<h4>Diversidad Natural y cultural</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/diversidad/sistemas-productivos/turismo" target="_blank">Turismo sustentable</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/diversidad/como-se-conserva" target="_blank">¿Cómo se conserva la diversidad biológica y cultural?</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/diversidad/alimentos/consumidor-responsable" target="_blank">¡Sé un consumidor responsable!</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/diversidad/alimentos/peces" target="_blank">Peces y mariscos comerciales</a></li>
+	</ul>
+	<h4>Monitoreo</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/monitoreo/smmm/sitiosPrioritarios" target="_blank">Sitios prioritarios de Manglar</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/monitoreo/smmm/material-de-apoyo" target="_blank">Material de apoyo (difusión)</a></li>
+	</ul>
+	<h4>Ciencia ciudadana</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/cienciaciudadana/naturalista" target="_blank">Naturalista</a></li>
+		<li><a href="https://www.biodiversidad.gob.mx/cienciaciudadana/que-es" target="_blank">¿Qué es ciencia ciudadana?</a></li>
+	</ul>
+	<h4>Bios Naturaleza y Sociedad</h4>
+	<ul>
+		<li><a href="https://www.biodiversidad.gob.mx/bios/" target="_blank">¿Cuáles son los caminos para lograr un balance entre naturaleza y sociedad?</a></li>
+	</ul>
+	
+	
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_video.png" width="25" height="22" /> <span class="tit_materiales">Videos</span>
 	<!-- Linea --><hr/>	
 	<ul>
-		<li><a href="https://www.youtube.com/watch?v=6t4NcWNrptQ" target="_blank">Soluciones basadas en la naturaleza (IUCN)</a></li>
-		<li><a href="https://www.youtube.com/watch?v=JzBxu2J0SIU" target="_blank">UICN: Portavoz de soluciones basadas en la naturaleza</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=vzfbEU890Sg" target="_blank">Fondo Verde: Curso 2. Soluciones basadas en la naturaleza</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=9yUsp0mNfHQ" target="_blank">ANEAS de México. Soluciones para el agua basadas en la naturaleza</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=j4IAD8mPaPg" target="_blank">IUCN Panel del Rïo Doce. Un enfoque con soluciones basadas en la naturaleza a escala del paisaje</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=Sz0jma-_SVI" target="_blank">PreCOP25: Soluciones basadas en la naturaleza</a></li>
-	    <li><a href="https://www.youtube.com/watch?v=e8YxZATAiDE" target="_blank">Think Nature</a></li>
-		<li><a href="https://www.youtube.com/watch?v=WkKyYQGGfwQ" target="_blank">Kongjian Yu | Teoría y práctica de patrones estratégicos de seguridad ecológica</a></li>
-		<li><a href="https://www.youtube.com/watch?v=-5N9Q8KtB5w" target="_blank">Introducción a la Permacultura (Zenit Solar)</a></li>
+		<li><a href="https://www.youtube.com/watch?v=MHO3oUExoGE&feature=youtu.be" target="_blank">Consumo responsable</a></li>
+		<li><a href="https://www.youtube.com/watch?v=wtUAiCusOho&t=1s" target="_blank">Turismo responsable</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=CZCB3mHyd14" target="_blank">¿Qué puedes hacer para prevenir la entrada y dispersión de las especies exóticas invasoras?</a></li>
+	    <li><a href="https://www.youtube.com/watch?v=IaYrrQXJBxY" target="_blank">La magia de los polinizadores</a></li>
+	</ul>
+	
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/ic_audio.png" width="25" height="22" /> <span class="tit_materiales">Audios</span>
+	<!-- Linea --><hr/>	
+	<ul>
+		<li><a href="https://soundcloud.com/conabio/27-1?in=conabio/sets/c-psulas-capital-natural-de-m" target="_blank">Las ciudades y la biodiversidad</a></li>
+		<li><a href="https://soundcloud.com/conabio/28-1?in=conabio/sets/c-psulas-capital-natural-de-m" target="_blank">Instrumentos territoriales y económicos en pro de la biodiversidad ¿qué puedo hacer yo?</a></li>
+	    <li><a href="https://soundcloud.com/conabio/29-1?in=conabio/sets/c-psulas-capital-natural-de-m" target="_blank">Retos y riesgos en el uso de la biodiversidad</a></li>
 	</ul>
 
 		
