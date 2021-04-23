@@ -49,7 +49,7 @@ function MM_swapImage() { //v3.0
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 <title>Mayo: mes de la naturaleza mexicana | Biodiversidad Mexicana | CONABIO</title>
-<meta property="og:image" content="https://www.biodiversidad.gob.mx/media/1/inicio/images/eventos/mayo-mes-naturaleza-mexicana.jpg"/>
+<meta property="og:image" content="<?php echo Yii::app()->request->baseUrl; ?>/imagenes/pagina/mayo-mes-naturaleza-mexicana.jpg"/>
 
 
 <noscript>
