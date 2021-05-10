@@ -22,9 +22,9 @@ $( "#accordion" ).accordion({
 
 <div style="width: 100%; display: ; text-align: center; float:left; display:;">
 
-<iframe width="100%" height="350" src="https://www.youtube.com/watch?v=MRfV56Yb6qc&list=PLLAcoRHqCmNT8OSXvgB9viHkDkb3eBRAw" frameborder="0" allowfullscreen></iframe>
+<iframe width="650" height="368" src="https://www.youtube.com/embed/MRfV56Yb6qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<br><br><br>
-
+<iframe width="650" height="368" src="https://www.youtube.com/embed/1zRUlZtqoNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
